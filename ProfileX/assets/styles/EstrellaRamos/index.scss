@@ -226,13 +226,20 @@ header {
         text-align: justify;
     }
 
+    main,
     header {
-        width: 100%;
+        width: 95%;
         padding: .5rem;
+        max-width: 450px;
 
         section {
+            width: 85%;
+        }
+    }
+
+    header {
+        section {
             flex-direction: column;
-            max-width: 400px;
 
             img {
                 width: 140px;
@@ -248,7 +255,6 @@ header {
 
                 p {
                     font-size: 16px;
-                    text-align: justify;
                 }
             }
 
@@ -260,52 +266,67 @@ header {
         }
     }
 
-
-
-
-
-
-
-
-    .skills {
-        flex-direction: column;
-        width: 90%;
-        justify-content: space-between;
-
-        div {
-            display: flex;
-            flex-direction: column;
-            padding: 0 0px;
+    .about_me {
+        span {
+            font-size: 16px;
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-    .certifications {
+    .skills {
         display: flex;
         flex-direction: column;
         align-self: center;
         justify-content: center;
 
-        .publications {
+        div {
             display: flex;
-            flex-direction: row;
-            padding: 20px;
-            justify-content: start;
-            align-items: start;
+            flex-direction: column;
+            align-self: center;
+            justify-content: center;
+            padding: 0;
+        }
+
+        ul {
+            list-style: circle;
+            padding: 0;
+        }
+    }
+
+    .resume {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .notification {
+            width: 80%;
+            height: auto;
+
+            .notititle {
+                font-size: 20px;
+            }
+
+            .notibody {
+
+                p,
+                li {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+
+    .certifications {
+
+        .publications {
+            flex-direction: column;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
 
             img {
-                width: 60px;
-                height: 60px;
+                width: 120px;
+                height: 120px;
                 margin-right: 30px;
             }
 
