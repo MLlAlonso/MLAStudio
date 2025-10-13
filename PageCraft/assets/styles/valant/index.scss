@@ -91,6 +91,7 @@ head {
             &:hover {
                 transform: scale(1.05);
                 background-color: variables.$pink_001;
+                cursor: pointer;
             }
         }
     }
@@ -135,81 +136,172 @@ main {
         }
     }
 
-    .FAQ_item{
-        h3{
-           color: variables.$pink_001; 
+    .FAQ_item {
+        h3 {
+            color: variables.$pink_001;
         }
     }
 }
 
 /* Responsive styles */
-@media (max-width: 1024px) {
+@media (min-width: 751px) and (max-width: 1024px) {
+    html,
+    body {
+        width: 100%;
+        max-width: 1000px;
+        overflow-x: hidden;
+    }
+
+    head,
+    .header_title,
+    .header_body,
+    main {
+        width: 100%;
+        max-width: 1000px;
+        overflow-x: hidden;
+        padding: 0;
+    }
+
     .header_body {
-        flex-direction: column;
         img {
-            width: 100%;
-            max-width: 350px;
-            height: auto;
+            width: 380px;
+            height: 300px;
+            max-width: 100%;
         }
+
         .header_body_inf {
             h1 {
-                font-size: 50px;
-            }
-            h2 {
-                font-size: 22px;
+                font-size: 60px;
             }
         }
     }
-    main .services .services_list {
+
+    main {
+        section {
+            max-width: 85vw;
+            width: 85vw;
+        }
+
+        .services {
+            .services_list {
+                flex-direction: column;
+                max-width: 500px;
+                gap: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width: 601px) and (max-width: 750px) {
+
+    h2,
+    a {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .header_body {
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+
+
+        .header_body_inf {
+            padding: 2%;
+            text-align: center;
+            margin-bottom: 30px;
+
+            h1 {
+                font-size: 60px;
+            }
+        }
+    }
+
+    main {
+        max-width: 720px;
+
+        section {
+            max-width: 85%;
+        }
+
+        .services {
+            .services_list {
+                flex-direction: column;
+                max-width: 500px;
+                gap: 10px;
+            }
+        }
     }
 }
 
 @media (max-width: 600px) {
-    .header_title {
-        flex-direction: column;
-        img {
-            width: 120px;
-            height: 60px;
-        }
-        a {
-            font-size: 18px;
-            width: 100%;
-        }
-    }
-    .header_body {
-        padding-bottom: 10px;
-        .header_body_inf {
-            h1 {
-                font-size: 32px;
-            }
-            h2 {
-                font-size: 16px;
-            }
-            a {
-                font-size: 16px;
-                height: auto;
-                padding: 8px;
-            }
-        }
-    }
-    main h2 {
-        font-size: 24px;
-    }
-    main .services .services_list {
-        max-width: 100%;
-        gap: 10px;
+
+    h2,
+    a {
+        font-size: 40px;
+        text-align: center;
     }
 
-    .btn_sparks{
-        width: 80%;
-    }
-
-    .FAQ{
+    head {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .header_title {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+        img {
+            width: 300px;
+            height: 150px;
+        }
+
+        a {
+            display: none;
+        }
+    }
+
+    .header_body {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+        img {
+            width: 320px;
+            height: 260px;
+        }
+
+        .header_body_inf {
+            padding: 2%;
+            text-align: center;
+            margin-bottom: 30px;
+
+            h1 {
+                font-size: 40px;
+            }
+        }
+    }
+
+    main {
         max-width: 500px;
+
+        section {
+            max-width: 85%;
+        }
+
+        .services {
+            .services_list {
+                flex-direction: column;
+                max-width: 500px;
+                gap: 10px;
+            }
+        }
     }
 }
