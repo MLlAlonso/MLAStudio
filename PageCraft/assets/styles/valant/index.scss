@@ -1,0 +1,215 @@
+@use "../../../../assets/styles/variables.scss";
+@use "../../../../assets/styles/components/cards.scss";
+@use "../../../../assets/styles/components/buttons.scss";
+@use "../../../../assets/styles/components/elements.scss";
+
+h1,
+h2,
+a {
+    font-family: 'Baloo 2', cursive;
+    text-decoration: none;
+    color: variables.$black_000;
+}
+
+head {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_title {
+    background-color: variables.$gray_001;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+
+    img {
+        width: 200px;
+        height: 100px;
+    }
+
+    a {
+        font-size: 25px;
+
+        &:hover {
+            color: variables.$white_000;
+            transition: 0.3s;
+            background-color: variables.$pink_001;
+            width: 140px;
+            height: 40px;
+            border-radius: 20px;
+            text-align: center;
+        }
+    }
+}
+
+.header_body {
+    background-color: variables.$gray_001;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 20px;
+
+    img {
+        width: 420px;
+        height: 400px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .header_body_inf {
+        padding: 2%;
+
+        h1 {
+            font-size: 80px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        h2 {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 30px;
+            font-weight: 500;
+            margin: 0;
+            margin-bottom: 30px;
+        }
+
+        a {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            width: 100%;
+            max-width: 520px;
+            height: 100px;
+            background-color: variables.$purple_001;
+            padding: 10px;
+            border-radius: 10px;
+            color: variables.$white_000;
+
+            &:hover {
+                transform: scale(1.05);
+                background-color: variables.$pink_001;
+            }
+        }
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: variables.$gray_002;
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .services_list {
+            display: flex;
+            flex-direction: row;
+            max-width: 1300px;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            .service_card-front,
+            .service_card-back {
+                border: 1px solid variables.$gray_003;
+                min-width: 250px;
+                flex: 1 1 250px;
+            }
+
+            .service_card-front {
+                background: variables.$gray_003;
+            }
+        }
+    }
+
+    .FAQ_item{
+        h3{
+           color: variables.$pink_001; 
+        }
+    }
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .header_body {
+        flex-direction: column;
+        img {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+        }
+        .header_body_inf {
+            h1 {
+                font-size: 50px;
+            }
+            h2 {
+                font-size: 22px;
+            }
+        }
+    }
+    main .services .services_list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .header_title {
+        flex-direction: column;
+        img {
+            width: 120px;
+            height: 60px;
+        }
+        a {
+            font-size: 18px;
+            width: 100%;
+        }
+    }
+    .header_body {
+        padding-bottom: 10px;
+        .header_body_inf {
+            h1 {
+                font-size: 32px;
+            }
+            h2 {
+                font-size: 16px;
+            }
+            a {
+                font-size: 16px;
+                height: auto;
+                padding: 8px;
+            }
+        }
+    }
+    main h2 {
+        font-size: 24px;
+    }
+    main .services .services_list {
+        max-width: 100%;
+        gap: 10px;
+    }
+
+    .btn_sparks{
+        width: 80%;
+    }
+
+    .FAQ{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 500px;
+    }
+}

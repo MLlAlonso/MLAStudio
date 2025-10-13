@@ -1,0 +1,173 @@
+/*------------------------------------*\
+  #Fonts
+\*------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*------------------------------------*\
+  #Colors
+\*------------------------------------*/
+/* // Blue
+$dark_blue_000: #; */
+/*------------------------------------*\
+  #Elements
+\*------------------------------------*/
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  padding: 1rem;
+}
+main section {
+  max-width: 1300px;
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  main section {
+    max-width: 400px;
+  }
+}
+/*------------------------------------*\
+  #User Experience
+\*------------------------------------*/
+/* Ocultar barras de desplazamiento en ejes X - Y */
+body,
+html {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE y Edge */
+}
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari y Opera */
+}
+
+/*------------------------------------*\
+    #FAQ Section
+\*------------------------------------*/
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.FAQ .FAQ_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.FAQ .FAQ_title h2 {
+  font-family: "Baloo 2", cursive;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+}
+.FAQ .FAQ_title p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #C4C4C4;
+  margin: 0;
+  text-align: center;
+}
+.FAQ .FAQ_item {
+  margin-bottom: 1.25rem;
+  padding: 0 1rem;
+  text-align: justify;
+}
+.FAQ .FAQ_item h3 {
+  font-family: "Baloo 2", cursive;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 0 0.5rem 0;
+}
+.FAQ .FAQ_item p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #C4C4C4;
+  margin: 0;
+}
+
+/*------------------------------------*\
+    #Copyright Section
+\*------------------------------------*/
+.copyright {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #C4C4C4;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+.copyright a {
+  color: #009E66;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .FAQ .FAQ_title {
+    margin-bottom: 2rem;
+  }
+  .FAQ .FAQ_title h2 {
+    font-size: 2rem;
+  }
+  .FAQ .FAQ_title p {
+    font-size: 1rem;
+  }
+  .FAQ .FAQ_item {
+    padding: 0 0.5rem;
+  }
+  .FAQ .FAQ_item h3 {
+    font-size: 1.125rem;
+  }
+  .FAQ .FAQ_item p {
+    font-size: 1rem;
+  }
+  .copyright {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .FAQ .FAQ_title {
+    margin-bottom: 1.5rem;
+  }
+  .FAQ .FAQ_title h2 {
+    font-size: 1.25rem;
+  }
+  .FAQ .FAQ_title p {
+    font-size: 0.9rem;
+  }
+  .FAQ .FAQ_item {
+    padding: 0 0.25rem;
+  }
+  .FAQ .FAQ_item h3 {
+    font-size: 1rem;
+  }
+  .FAQ .FAQ_item p {
+    font-size: 0.9rem;
+  }
+  .copyright {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+}/*# sourceMappingURL=elements.css.map */

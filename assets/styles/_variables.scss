@@ -1,0 +1,114 @@
+/*------------------------------------*\
+  #Fonts
+\*------------------------------------*/
+
+//Baloo 2
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+//Work Sans
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+// Montserrat
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+// Lato
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+// Poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*------------------------------------*\
+  #Colors
+\*------------------------------------*/
+
+// White
+$white_000: #FFFFFF;
+$white_001: #D8E1E9;
+$white_002: #F9F9F9;
+$white_003: #FAFAFA;
+
+// Black
+$black_000: #000000;
+
+// Gray
+$gray_001: #E6EDF2;
+$gray_002: #EFF3F7;
+$gray_003: #E0E7EF;
+$gray_004: #C4C4C4;
+
+// Dark Gray
+$dark_gray_000: #455A64;
+
+// Dark Green
+$green_001: #232E21;
+
+// Green
+$green_001: #81C784;
+$green_002: #009E66;
+$green_003: #388E3C;
+
+// Blue
+$blue_000: #C9F0FF;
+$blue_001: #F5FDFF;
+
+/* // Blue
+$dark_blue_000: #; */
+
+// Purple
+$purple_001: #7570B3;
+
+// pink (Strong)
+$pink_001: #EC008C;
+
+// Pink
+$pink_000: #F7E1E6;
+$pink_002: #F8BBD0;
+
+// Yellow
+$yellow_001: #F4B942;
+
+/*------------------------------------*\
+  #Elements
+\*------------------------------------*/
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  padding: 1rem;
+
+  section {
+    max-width: 1300px;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+    padding: 0.5rem;
+
+    section {
+      max-width: 400px;
+    }
+  }
+}
+
+
+/*------------------------------------*\
+  #User Experience
+\*------------------------------------*/
+
+/* Ocultar barras de desplazamiento en ejes X - Y */
+body,
+html {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE y Edge */
+}
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari y Opera */
+}

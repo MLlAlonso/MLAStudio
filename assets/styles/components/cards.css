@@ -1,0 +1,213 @@
+/*------------------------------------*\
+  #Fonts
+\*------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*------------------------------------*\
+  #Colors
+\*------------------------------------*/
+/* // Blue
+$dark_blue_000: #; */
+/*------------------------------------*\
+  #Elements
+\*------------------------------------*/
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  padding: 1rem;
+}
+main section {
+  max-width: 1300px;
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  main section {
+    max-width: 400px;
+  }
+}
+/*------------------------------------*\
+  #User Experience
+\*------------------------------------*/
+/* Ocultar barras de desplazamiento en ejes X - Y */
+body,
+html {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE y Edge */
+}
+
+body::-webkit-scrollbar,
+html::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari y Opera */
+}
+
+/*------------------------------------*\
+  #Flip card
+\*------------------------------------*/
+.service_card {
+  background-color: transparent;
+  width: 250px;
+  height: 350px;
+  font-family: "Baloo 2", cursive;
+  margin: 25px;
+}
+.service_card .service_card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.service_card .service_card-inner .title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+.service_card .service_card-inner .text {
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+.service_card .service_card-inner img {
+  width: 160px;
+  height: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.service_card .service_card-inner .service_card-front,
+.service_card .service_card-inner .service_card-back {
+  box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border: 1px solid #FFFFFF;
+  border-radius: 1rem;
+}
+.service_card .service_card-inner .service_card-front {
+  background: #FFFFFF;
+  color: #000000;
+}
+.service_card .service_card-inner .service_card-back {
+  background: #FFFFFF;
+  color: #000000;
+  transform: rotateY(180deg);
+}
+
+.service_card:hover .service_card-inner {
+  transform: rotateY(180deg);
+}
+
+/*------------------------------------*\
+  #Notification Card
+\*------------------------------------*/
+.notification {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 140px;
+  isolation: isolate;
+  position: relative;
+  background: #29292c;
+  border-radius: 1rem;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
+  --color: #32a6ff;
+}
+.notification:before {
+  position: absolute;
+  content: "";
+  inset: 0.0625rem;
+  border-radius: 0.9375rem;
+  background: #18181b;
+  z-index: 2;
+}
+.notification:after {
+  position: absolute;
+  content: "";
+  width: 0.25rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--gradient);
+  transition: transform 300ms ease;
+  z-index: 4;
+}
+.notification:hover:after {
+  transform: translateX(0.15rem);
+}
+.notification:hover .notititle {
+  transform: translateX(0.15rem);
+}
+.notification:hover .notibody {
+  transform: translateX(0.25rem);
+}
+.notification:hover .notiglow {
+  opacity: 0.1;
+}
+.notification:hover .notiborderglow {
+  opacity: 0.1;
+}
+.notification .notititle {
+  color: var(--color);
+  padding: 0.65rem 0.25rem 0.4rem 1.25rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+.notification .notibody {
+  color: #99999d;
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+.notification .notiglow,
+.notification .notiborderglow {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle closest-side at center, white, transparent);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+.notification .notiglow {
+  z-index: 3;
+}
+.notification .notiborderglow {
+  z-index: 1;
+}
+
+.note {
+  color: var(--color);
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 0.9rem;
+  width: 75%;
+}/*# sourceMappingURL=cards.css.map */

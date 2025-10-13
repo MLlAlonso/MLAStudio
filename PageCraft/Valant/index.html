@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordados Valant</title>
+    <link rel="icon" href="../assets/img/Valant/icon.png">
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="../assets/styles/components/elements.css">
+    <link rel="stylesheet" href="../assets/styles/valant/index.css">
+</head>
+
+<body>
+
+    <head>
+        <section class="header_title">
+            <img src="../assets/img/Valant/logo.png" alt="Bordados Valant" id="logo">
+            <a href="">Inicio</a>
+            <a href="">Servicios</a>
+            <a href="">FAQ</a>
+            <a href="https://wa.me/5219211775772" target="_blank">Contacto</a>
+        </section>
+
+        <section class="header_body">
+            <div class="header_body_inf">
+                <h1>¡Bordados de <br> alta calidad!</h1>
+                <h2>Técnica precisa y detallada, <br> perfecta para tu marca</h2>
+                <a href="https://wa.me/5219211775772" target="_blank">Cotiza con nosotros</a>
+            </div>
+            <img src="../assets/img/Valant/bordadora.png" alt="BordadosAutomática">
+        </section>
+    </head>
+
+    <main>
+        <section class="services">
+            <h2>Nuestros Servicios</h2>
+
+            <div class="services_list">
+
+                <div class="service_card">
+                    <div class="service_card-inner">
+                        <div class="service_card-front">
+                            <img src="../assets/img/Valant/hilo.svg" alt="Bordado a maquina">
+                            <p class="title">Bordado a máquina</p>
+                        </div>
+
+                        <div class="service_card-back">
+                            <p class="text">Aplicamos bordado profesional a máquina con acabados precisos y de alta
+                                durabilidad, ideal para uniformes, gorras y textiles de calidad.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service_card">
+                    <div class="service_card-inner">
+                        <div class="service_card-front">
+                            <img src="../assets/img/Valant/bordado.svg" alt="Bordado personalizado">
+                            <p class="title">Personalizados</p>
+                        </div>
+
+                        <div class="service_card-back">
+                            <p class="text">Bordados personalizados con tu diseño o logotipo, realzando la identidad de
+                                tu marca en cada prenda.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service_card">
+                    <div class="service_card-inner">
+                        <div class="service_card-front">
+                            <img src="../assets/img/Valant/prenda.svg" alt="Cualquier prenda">
+                            <p class="title">Cualquier prenda</p>
+                        </div>
+
+                        <div class="service_card-back">
+                            <p class="text">Bordamos en playeras, camisas, overoles y más. Aceptamos desde una sola
+                                pieza hasta pedidos de gran volumen.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button onclick="saveContact()" class="btn_sparks">Guardar contacto</button>
+            <script>
+                function saveContact() {
+                    const vCardData = `
+            BEGIN:VCARD
+            VERSION:3.0
+            FN:Bordados Valant
+            TEL;TYPE=CELL:+5219211775772
+            END:VCARD
+            `.trim();
+                    const blob = new Blob([vCardData], { type: 'text/vcard' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'Bordados_Valant.vcf';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(url);
+                }
+            </script>
+
+        </section>
+
+        <section class="FAQ">
+            <div class="FAQ_title">
+                <h2>Preguntas Frecuentes</h2>
+                <p>FAQ</p>
+            </div>
+
+            <div class="FAQ_item">
+                <h3 class="FAQ_item_question">¿Qué tipo de prendas puedo personalizar con bordado?</h3>
+                <p class="FAQ_item_answer"> Bordamos en uniformes, gorras, playeras, camisas, mochilas y una gran variedad de textiles. Si cuentas con una prenda especial, puedes consultarnos para confirmar si es posible trabajar sobre ella.</p>
+            </div>
+
+            <div class="FAQ_item">
+                <h3 class="FAQ_item_question">¿Necesito llevar mi diseño o ustedes lo pueden crear?</h3>
+                <p class="FAQ_item_answer"> Solo necesitas proporcionarnos una imagen con tu diseño y nuestro equipo se encargará de transformarlo en bordado con la mejor calidad.</p>
+            </div>
+
+            <div class="FAQ_item">
+                <h3 class="FAQ_item_question">¿Cuál es el tiempo de entrega?</h3>
+                <p class="FAQ_item_answer">El tiempo de entrega depende de la cantidad de piezas y la complejidad del diseño</p>
+            </div>
+
+            <div class="FAQ_item">
+                <h3 class="FAQ_item_question">¿Tienen un pedido mínimo?</h3>
+                <p class="FAQ_item_answer"> Aceptamos pedidos desde una sola prenda hasta producciones sin límite de piezas, adaptándonos tanto a necesidades individuales como a proyectos empresariales o de gran volumen.</p>
+            </div>
+        </section>
+
+        <p class="copyright">Copyright © 2025 Bordados Valentina | Todos los derechos reservados  | Designed & built by <a href="https://mllalonso.github.io/coding-portfolio/index.html" target="_blank">[Mikkel Llaven Alonso]</a></p>
+    </main>
+</body>
+
+</html>
