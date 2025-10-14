@@ -580,7 +580,7 @@ header section #whatsapp {
   width: 100%;
 }
 .resume .notification {
-  height: 140px;
+  height: auto;
   background: #FAFAFA;
   --gradient: #F8BBD0;
   --color: #FAFAFA;
