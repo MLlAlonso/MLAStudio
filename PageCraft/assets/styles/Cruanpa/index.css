@@ -268,6 +268,118 @@ html::-webkit-scrollbar {
 }
 
 /*------------------------------------*\
+    #Contact Btn
+\*------------------------------------*/
+.contact_btn {
+  width: 250px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E6EDF2;
+  border-radius: 10px;
+  border-color: transparent;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+.contact_btn img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+.contact_btn:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/*------------------------------------*\
+    #Button sparks
+\*------------------------------------*/
+.btn_sparks {
+  padding: 1.25em 4em;
+  border-radius: 1.25em;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #7570B3;
+  transition: all 0.2s ease;
+  font-family: "Baloo 2", cursive;
+  font-weight: bold;
+  font-size: 2vw;
+  position: relative;
+  min-width: 120px;
+  min-height: 48px;
+}
+.btn_sparks:active {
+  transform: scale(0.96);
+}
+.btn_sparks:before, .btn_sparks:after {
+  position: absolute;
+  content: "";
+  width: 150%;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+  z-index: -1000;
+  background-repeat: no-repeat;
+}
+.btn_sparks:hover:before {
+  top: -70%;
+  background-image: radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 20%, #7570B3 20%, transparent 30%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7570B3 15%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+  background-position: 50% 120%;
+  animation: greentopBubbles 0.6s ease;
+}
+.btn_sparks:hover::after {
+  bottom: -70%;
+  background-image: radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7570B3 15%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+  background-position: 50% 0%;
+  animation: greenbottomBubbles 0.6s ease;
+}
+@media (max-width: 600px) {
+  .btn_sparks {
+    font-size: 1.2rem;
+    padding: 0.8em 2em;
+    border-radius: 0.8em;
+  }
+}
+@media (max-width: 400px) {
+  .btn_sparks {
+    font-size: 1rem;
+    padding: 0.6em 1.2em;
+    border-radius: 0.6em;
+  }
+}
+
+@keyframes greentopBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+  }
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+@keyframes greenbottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+  }
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+/*------------------------------------*\
     #FAQ Section
 \*------------------------------------*/
 .FAQ {
@@ -402,400 +514,328 @@ html::-webkit-scrollbar {
     font-size: 16px;
   }
 }
-/*------------------------------------*\
-    #Contact Btn
-\*------------------------------------*/
-.contact_btn {
-  width: 250px;
-  height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #E6EDF2;
-  border-radius: 10px;
-  border-color: transparent;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  margin-right: 30px;
-}
-.contact_btn img {
-  width: 3.125rem;
-  height: 3.125rem;
-}
-.contact_btn:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-}
-
-/*------------------------------------*\
-    #Button sparks
-\*------------------------------------*/
-.btn_sparks {
-  padding: 1.25em 4em;
-  border-radius: 1.25em;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  background-color: #7570B3;
-  transition: all 0.2s ease;
-  font-family: "Baloo 2", cursive;
-  font-weight: bold;
-  font-size: 2vw;
-  position: relative;
-  min-width: 120px;
-  min-height: 48px;
-}
-.btn_sparks:active {
-  transform: scale(0.96);
-}
-.btn_sparks:before, .btn_sparks:after {
-  position: absolute;
-  content: "";
-  width: 150%;
-  left: 50%;
-  height: 100%;
-  transform: translateX(-50%);
-  z-index: -1000;
-  background-repeat: no-repeat;
-}
-.btn_sparks:hover:before {
-  top: -70%;
-  background-image: radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 20%, #7570B3 20%, transparent 30%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7570B3 15%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%);
-  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
-  background-position: 50% 120%;
-  animation: greentopBubbles 0.6s ease;
-}
-.btn_sparks:hover::after {
-  bottom: -70%;
-  background-image: radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7570B3 15%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%);
-  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
-  background-position: 50% 0%;
-  animation: greenbottomBubbles 0.6s ease;
-}
-@media (max-width: 600px) {
-  .btn_sparks {
-    font-size: 1.2rem;
-    padding: 0.8em 2em;
-    border-radius: 0.8em;
-  }
-}
-@media (max-width: 400px) {
-  .btn_sparks {
-    font-size: 1rem;
-    padding: 0.6em 1.2em;
-    border-radius: 0.6em;
-  }
-}
-
-@keyframes greentopBubbles {
-  0% {
-    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
-  }
-  50% {
-    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
-  }
-  100% {
-    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
-    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-  }
-}
-@keyframes greenbottomBubbles {
-  0% {
-    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
-  }
-  50% {
-    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
-  }
-  100% {
-    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
-    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
-  }
-}
-body {
-  background-color: #F5FDFF;
-}
-
-h1,
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-}
-
-h2 {
+h1 {
   font-size: 40px;
+  font-family: lexend deca;
 }
 
-p,
-span,
-li {
-  font-family: "Lato", sans-serif;
+h2 {
+  font-size: 32px;
+  color: #161B5E;
+  font-family: lexend deca;
+  text-align: center;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: lexend deca;
+}
+
+p {
+  font-family: poppins;
   font-size: 20px;
 }
 
+/*------------------------------------*\
+    #Header styles
+\*------------------------------------*/
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #161B5E;
+  padding: 1.25rem;
+}
+header h1 {
+  margin-bottom: 0rem;
+  text-align: center;
+  color: #F9F9F9;
+}
+header h1 span {
+  color: #06BEE1;
+}
+header img {
+  width: 40vw;
+  max-width: 200px;
+  height: auto;
+}
+header p {
+  margin-bottom: 2.5rem;
+  color: #F9F9F9;
+  text-align: center;
+}
+header .header-buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+header .header-buttons .contact_btn {
+  width: 12.5rem;
+  height: 5rem;
+  background-color: #2E3192;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+header .header-buttons .contact_btn:hover {
+  background-color: #06BEE1;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+/*------------------------------------*\
+    #Main styles
+\*------------------------------------*/
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-/*------------------------------------*\
-  #Header
-\*------------------------------------*/
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
   padding: 1rem;
-  background: #FAFAFA;
+  width: 95%;
 }
-header section {
+main section {
+  width: 100%;
+}
+
+/*------------------------------------*\
+    #Services styles
+\*------------------------------------*/
+.services_list {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  max-width: 1300px;
-}
-header section img {
-  width: 180px;
-  height: 180px;
-  margin-right: 30px;
-}
-header section button {
-  background: transparent;
-  border-color: transparent;
-}
-header section .header_title {
-  display: flex;
-  flex-direction: column;
-}
-header section .header_title h1 {
-  font-size: 60px;
-  margin-bottom: -30px;
-}
-header section .header_title h2 {
-  font-weight: 500;
-  margin-bottom: -10px;
-}
-header section .header_title p {
-  font-size: 25px;
-  font-weight: 400;
-  color: #388E3C;
-}
-header section .contact_btn,
-header section button {
-  background-color: #81C784;
-  color: #FFFFFF;
-  font-family: "Lato", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-}
-header section #whatsapp {
-  background-color: #F7E1E6;
-  color: #000000;
-}
-
-/*------------------------------------*\
-  #About Me
-\*------------------------------------*/
-.about_me {
-  text-align: justify;
-}
-.about_me span {
-  color: #388E3C;
-  font-weight: bold;
-}
-
-/*------------------------------------*\
-  #Skilss
-\*------------------------------------*/
-.skills {
-  display: flex;
-  flex-direction: row;
-  align-self: start;
-  width: 100%;
-  justify-content: space-between;
-}
-.skills div {
-  display: flex;
-  flex-direction: column;
-  padding: 0 150px;
-}
-.skills ul {
-  list-style: circle;
-  padding: 0;
-}
-
-/*------------------------------------*\
-  #Resume
-\*------------------------------------*/
-.resume {
-  display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
   width: 100%;
 }
-.resume .notification {
-  height: auto;
-  background: #FAFAFA;
-  --gradient: #F8BBD0;
-  --color: #FAFAFA;
-}
-.resume .notification:before {
-  background: #F7E1E6;
-}
-.resume .notification .notititle {
-  color: #000000;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-}
-.resume .notification .notibody {
-  font-family: "Lato", sans-serif;
-  color: #99999D;
-  padding: 0 1.25rem;
-}
-.resume .notification .notibody p,
-.resume .notification .notibody li {
-  margin-bottom: 0;
-  font-size: 14px;
-}
-.resume .notification .notiglow,
-.resume .notification .notiborderglow {
-  width: 20rem;
-  height: 20rem;
-}
 
 /*------------------------------------*\
-  #Certifications
+    #Brands styles
 \*------------------------------------*/
-.certifications {
+.brand-carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.brand-carousel__track {
+  display: flex;
+  gap: 1.5rem;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.brand-card {
+  flex: 0 0 auto;
+  width: 8rem;
+  height: 8rem;
+  background: #F9F9F9;
+  border-radius: 1rem;
+  box-shadow: 0 6px 16px rgba(44, 44, 44, 0.2);
   display: flex;
   flex-direction: column;
-  align-self: center;
+  align-items: center;
   justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
-.certifications .publications {
+.brand-card:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 12px 25px rgba(44, 44, 44, 0.2);
+}
+.brand-card__logo {
+  width: 110px;
+  height: 140px;
+  background: transparent;
   display: flex;
-  flex-direction: row;
-  padding: 20px;
-  justify-content: start;
-  align-items: start;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
-.certifications .publications img {
-  width: 120px;
-  height: 120px;
-  margin-right: 30px;
+.brand-card__logo img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
-.certifications .publications .publications_body h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+.brand-card__info {
+  text-align: center;
+}
+.brand-card__name {
+  font-size: 1rem;
   font-weight: 600;
-}
-.certifications .publications .publications_body li {
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  list-style: circle;
+  color: #2C2C2C;
 }
 
+.about_us {
+  background-color: #D9D9D9;
+  padding: 1% 5%;
+  border-radius: 10px;
+}
+.about_us p {
+  text-align: center;
+}
+
+/*------------------------------------*\
+    #FAQ styles
+\*------------------------------------*/
+.FAQ .FAQ_title h2 {
+  font-family: lexend deca;
+  font-size: 1.5em;
+}
+.FAQ .FAQ_item h3 {
+  color: #161B5E;
+}
+.FAQ .FAQ_item p {
+  color: #C4C4C4;
+  font-weight: 600;
+}
+
+/*------------------------------------*\
+    #Footer styles
+\*------------------------------------*/
+footer {
+  background-color: #161B5E;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+footer img {
+  width: 20vw;
+  max-width: 115px;
+  height: auto;
+  margin: 0.5rem 1rem;
+}
+footer .contact_inf {
+  margin: 0.5rem 1rem;
+}
+footer .contact_inf h2 {
+  color: #F9F9F9;
+  font-weight: bolder;
+}
+footer .contact_inf .contact_list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+footer .contact_inf .contact_list a {
+  display: flex;
+  align-items: center;
+  color: #F9F9F9;
+  font-family: poppins;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+footer .contact_inf .contact_list a img {
+  width: 26px;
+  height: 26px;
+  margin-right: 0.5rem;
+}
+footer .contact_inf .contact_list a:hover {
+  transform: scale(1.1);
+  color: #06BEE1;
+}
+footer .contact_inf p {
+  color: #F9F9F9;
+  cursor: default;
+}
+footer .contact_inf p a {
+  text-decoration: none;
+  color: #009E66;
+}
+footer .contact_inf p a:hover {
+  cursor: url("../../img/Cruanpa/Ml.png") 0 0, pointer;
+}
+
+/*------------------------------------*\
+    #Responsive styles
+\*------------------------------------*/
+@media (min-width: 601px) and (max-width: 750px) {
+  /*------------------------------------*\
+      #Footer styles
+  \*------------------------------------*/
+  footer {
+    flex-direction: column;
+  }
+  footer .contact_inf {
+    margin: 0.5rem 1rem;
+  }
+  footer .contact_inf .contact_list {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+  }
+  footer .contact_inf .contact_list a {
+    display: flex;
+    align-items: center;
+    color: #F9F9F9;
+    font-family: poppins;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  footer .contact_inf .contact_list a img {
+    width: 26px;
+    height: 26px;
+    margin-right: 0.5rem;
+  }
+  footer .contact_inf .contact_list a:hover {
+    transform: scale(1.1);
+    color: #06BEE1;
+  }
+}
 @media (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
   h2 {
+    font-size: 24px;
+  }
+  h3 {
     font-size: 20px;
   }
   p {
-    font-size: 16px;
+    font-size: 18px;
+  }
+  /*------------------------------------*\
+      #Header styles
+  \*------------------------------------*/
+  header img {
+    width: 60vw;
+  }
+  header p {
     text-align: justify;
   }
-  main,
-  header {
-    width: 95%;
-    padding: 0.5rem;
-    max-width: 450px;
-  }
-  main section,
-  header section {
-    width: 85%;
-  }
-  header section {
+  header .header-buttons {
     flex-direction: column;
   }
-  header section img {
-    width: 140px;
-    height: 140px;
-    margin-right: 0;
+  /*------------------------------------*\
+      #Main styles
+  \*------------------------------------*/
+  main {
+    width: 92%;
   }
-  header section .header_title h1 {
-    font-size: 30px;
-    margin-bottom: -10px;
-  }
-  header section .header_title p {
-    font-size: 16px;
-  }
-  header section .contact_btn,
-  header section button {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  .about_me span {
-    font-size: 16px;
-  }
-  .skills {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
-  }
-  .skills div {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
-    padding: 0;
-  }
-  .skills ul {
-    list-style: circle;
-    padding: 0;
-  }
-  .resume {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .resume .notification {
-    width: 80%;
-    height: auto;
-  }
-  .resume .notification .notititle {
-    font-size: 20px;
-  }
-  .resume .notification .notibody p,
-  .resume .notification .notibody li {
-    font-size: 16px;
-  }
-  .certifications .publications {
-    flex-direction: column;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-  .certifications .publications img {
-    width: 120px;
-    height: 120px;
-    margin-right: 30px;
-  }
-  .certifications .publications .publications_body h3 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    font-weight: 600;
-  }
-  .certifications .publications .publications_body li {
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    list-style: circle;
+  /*------------------------------------*\
+      #Brands styles
+  \*------------------------------------*/
+  .about_us p {
+    text-align: justify;
   }
 }/*# sourceMappingURL=index.css.map */

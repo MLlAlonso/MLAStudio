@@ -6,11 +6,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /*------------------------------------*\
   #Colors
 \*------------------------------------*/
-/* // Blue
-$dark_blue_000: #; */
 /*------------------------------------*\
   #Elements
 \*------------------------------------*/
@@ -210,4 +209,60 @@ html::-webkit-scrollbar {
   text-align: center;
   font-size: 0.9rem;
   width: 75%;
+}
+
+/*------------------------------------*\
+  #Hover show Card
+\*------------------------------------*/
+.service_item {
+  max-width: 25ch;
+  text-align: center;
+  background: #F9F9F9;
+  padding: 1.5em;
+  padding-block: 1.8em;
+  border-radius: 15px;
+  border: 2px solid #C4C4C4;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s cubic-bezier(0.6, 0.4, 0, 1), transform 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  color: #161B5E;
+}
+.service_item > :not(span) {
+  transition: 0.3s cubic-bezier(0.6, 0.4, 0, 1);
+}
+.service_item > strong {
+  display: block;
+  font-size: 1.4rem;
+  letter-spacing: -0.035em;
+}
+.service_item span {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F9F9F9;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  top: 100%;
+  transition: all 0.3s cubic-bezier(0.6, 0.4, 0, 1);
+}
+.service_item:hover {
+  background: #2E3192;
+}
+.service_item:hover span {
+  top: 0;
+  font-size: 1.2em;
+}
+.service_item:hover > div,
+.service_item:hover > strong {
+  opacity: 0;
 }/*# sourceMappingURL=cards.css.map */

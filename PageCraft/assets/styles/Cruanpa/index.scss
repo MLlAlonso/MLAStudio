@@ -1,0 +1,389 @@
+@use "../../../../assets/styles/variables.scss";
+@use "../../../../assets/styles/components/cards.scss";
+@use "../../../../assets/styles/components/buttons.scss";
+@use "../../../../assets/styles/components/elements.scss";
+
+h1 {
+    font-size: 40px;
+    font-family: lexend deca;
+}
+
+h2 {
+    font-size: 32px;
+    color: variables.$dark_blue_000;
+    font-family: lexend deca;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: lexend deca;
+}
+
+p {
+    font-family: poppins;
+    font-size: 20px;
+}
+
+/*------------------------------------*\
+    #Header styles
+\*------------------------------------*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: variables.$dark_blue_000;
+    padding: 1.25rem;
+
+    h1 {
+        margin-bottom: 0rem;
+        text-align: center;
+        color: variables.$white_002;
+
+        span {
+            color: variables.$blue_002;
+        }
+    }
+
+    img {
+        width: 40vw;
+        max-width: 200px;
+        height: auto;
+    }
+
+    p {
+        margin-bottom: 2.5rem;
+        color: variables.$white_002;
+        text-align: center;
+    }
+
+    .header-buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+
+        .contact_btn {
+            width: 12.5rem;
+            height: 5rem;
+            background-color: variables.$dark_blue_001;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+
+            &:hover {
+                background-color: variables.$blue_002;
+                cursor: pointer;
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+/*------------------------------------*\
+    #Main styles
+\*------------------------------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 95%;
+
+    section {
+        width: 100%;
+    }
+}
+
+/*------------------------------------*\
+    #Services styles
+\*------------------------------------*/
+.services_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+}
+
+/*------------------------------------*\
+    #Brands styles
+\*------------------------------------*/
+
+.brand-carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2rem;
+
+    &__track {
+        display: flex;
+        gap: 1.5rem;
+        animation: scroll 20s linear infinite;
+    }
+}
+
+// Animación infinita
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.brand-card {
+    flex: 0 0 auto;
+    width: 8rem;
+    height: 8rem;
+    background: variables.$white_002;
+    border-radius: 1rem;
+    box-shadow: 0 6px 16px rgba(variables.$black_001, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-6px) scale(1.05);
+        box-shadow: 0 12px 25px rgba(variables.$black_001, 0.2);
+    }
+
+    &__logo {
+        width: 110px;
+        height: 140px;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__info {
+        text-align: center;
+    }
+
+    &__name {
+        font-size: 1rem;
+        font-weight: 600;
+        color: variables.$black_001;
+    }
+}
+
+.about_us {
+    background-color: variables.$gray_005;
+    padding: 1% 5%;
+    border-radius: 10px;
+
+    p {
+        text-align: center;
+    }
+}
+
+/*------------------------------------*\
+    #FAQ styles
+\*------------------------------------*/
+.FAQ {
+    .FAQ_title {
+        h2 {
+            font-family: lexend deca;
+            font-size: 1.5em;
+        }
+    }
+
+    .FAQ_item {
+        h3 {
+            color: variables.$dark_blue_000;
+        }
+
+        p {
+            color: variables.$gray_004;
+            font-weight: 600;
+        }
+    }
+}
+
+/*------------------------------------*\
+    #Footer styles
+\*------------------------------------*/
+footer {
+    background-color: variables.$dark_blue_000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+
+    img {
+        width: 20vw;
+        max-width: 115px;
+        height: auto;
+        margin: .5rem 1rem;
+    }
+
+    .contact_inf {
+        margin: .5rem 1rem;
+
+        h2 {
+            color: variables.$white_002;
+            font-weight: bolder;
+        }
+
+        .contact_list {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+
+            a {
+                display: flex;
+                align-items: center;
+                color: variables.$white_002;
+                font-family: poppins;
+                text-decoration: none;
+                font-size: 1.1rem;
+                font-weight: 400;
+
+                img {
+                    width: 26px;
+                    height: 26px;
+                    margin-right: 0.5rem;
+                }
+
+                &:hover {
+                    transform: scale(1.1);
+                    color: variables.$blue_002;
+                }
+
+            }
+        }
+
+        p {
+            color: variables.$white_002;
+            cursor: default;
+
+            a {
+                text-decoration: none;
+                color: variables.$green_002;
+
+                &:hover {
+                    cursor: url("../../img/Cruanpa/Ml.png") 0 0, pointer;
+                }
+            }
+
+        }
+    }
+}
+
+/*------------------------------------*\
+    #Responsive styles
+\*------------------------------------*/
+@media (min-width: 601px) and (max-width: 750px) {
+
+/*------------------------------------*\
+    #Footer styles
+\*------------------------------------*/
+    footer {
+        flex-direction: column;
+
+        .contact_inf {
+            margin: .5rem 1rem;
+
+            .contact_list {
+                display: grid;
+                grid-template-columns: repeat(2, auto);
+                gap: 1rem;
+
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    color: variables.$white_002;
+                    font-family: poppins;
+                    text-decoration: none;
+                    font-size: 1.1rem;
+                    font-weight: 400;
+
+                    img {
+                        width: 26px;
+                        height: 26px;
+                        margin-right: 0.5rem;
+                    }
+
+                    &:hover {
+                        transform: scale(1.1);
+                        color: variables.$blue_002;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    /*------------------------------------*\
+    #Header styles
+\*------------------------------------*/
+    header {
+        img {
+            width: 60vw;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .header-buttons {
+            flex-direction: column;
+        }
+    }
+
+    /*------------------------------------*\
+    #Main styles
+\*------------------------------------*/
+    main {
+        width: 92%;
+    }
+
+    /*------------------------------------*\
+    #Brands styles
+\*------------------------------------*/
+    .about_us {
+        p {
+            text-align: justify;
+        }
+    }
+}
