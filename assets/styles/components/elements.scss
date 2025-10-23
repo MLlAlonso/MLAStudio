@@ -1,6 +1,98 @@
 @use "../variables";
 
 /*------------------------------------*\
+    #NavBar
+\*------------------------------------*/
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+
+    .nav_brand {
+        margin-left: 1rem;
+
+        a {
+            display: inline-block;
+
+            img {
+                width: 100px;
+                height: 30px;
+                max-width: 100%;
+                display: block;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .nav_links {
+        margin-left: auto;
+        /* empuja los links al extremo derecho */
+        display: flex;
+        gap: 2.5rem;
+        margin-right: 3.125rem;
+        list-style: none;
+        align-items: center;
+
+        a {
+            color: variables.$gray_005;
+            font-size: 18px;
+
+            &:hover {
+                color: variables.$white_004;
+                font-weight: 600;
+            }
+
+            img{
+                width: 30px;
+                height: auto;
+            }
+        }
+    }
+
+    .menu-toggle {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: 1.5rem;
+        z-index: 1100;
+
+        .bar {
+            width: 25px;
+            height: 3px;
+            background-color: variables.$gray_005;
+            margin: 4px 0;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        &.active .bar:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+
+        &.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        &.active .bar:nth-child(3) {
+            transform: rotate(-45deg) translate(5px, -5px);
+        }
+    }
+}
+
+body.scrolled nav {
+    background-color: rgba(variables.$white_004, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+/*------------------------------------*\
     #FAQ Section
 \*------------------------------------*/
 .FAQ {
@@ -76,8 +168,44 @@
     }
 }
 
-/* Responsive styles */
+/*------------------------------------*\
+    #Responsive Section
+\*------------------------------------*/
 @media (min-width: 601px) and (max-width: 750px) {
+    nav {
+        justify-content: space-between;
+        padding: 0.75rem 1rem;
+
+        .nav_links {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            height: 100vh;
+            width: 65%;
+            background-color: transparent;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            transition: right 0.3s ease;
+            box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+
+            a {
+                color: variables.$gray_005;
+                font-size: 1.1rem;
+                font-weight: 500;
+            }
+
+            &.active {
+                right: 0;
+            }
+        }
+
+        .menu-toggle {
+            display: flex;
+        }
+    }
+
     .FAQ {
         width: 80%;
 
@@ -119,6 +247,45 @@
 }
 
 @media (max-width: 600px) {
+    nav {
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+
+        .nav_brand img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .menu-toggle {
+            display: flex;
+        }
+
+        .nav_links {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            height: 100vh;
+            width: 80%;
+            background-color: transparent;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            transition: right 0.3s ease;
+            box-shadow: -5px 0 15px rgba(0, 0, 0, 0.15);
+
+            a {
+                color: variables.$gray_005;
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+
+            &.active {
+                right: 0;
+            }
+        }
+    }
+
     .FAQ {
         width: 80%;
 

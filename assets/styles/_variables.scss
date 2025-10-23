@@ -14,6 +14,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 // Lexend Deca
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+// Lexend Giga
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /*------------------------------------*\
   #Colors
@@ -24,10 +26,14 @@ $white_000: #FFFFFF;
 $white_001: #D8E1E9;
 $white_002: #F9F9F9;
 $white_003: #FAFAFA;
+$white_004: #FFFFFC;
 
 // Black
 $black_000: #000000;
 $black_001: #2C2C2C;
+$black_002: #0D0A0B;
+$black_003: #2A2A2A;
+$black_004: #0F0F0F;
 
 // Gray
 $gray_001: #E6EDF2;
@@ -35,9 +41,11 @@ $gray_002: #EFF3F7;
 $gray_003: #E0E7EF;
 $gray_004: #C4C4C4;
 $gray_005: #D9D9D9;
+$gray_005: #9F9F9F;
 
 // Dark Gray
 $dark_gray_000: #455A64;
+$dark_gray_001: #646E78;
 
 // Dark Green
 $green_001: #232E21;
@@ -46,6 +54,7 @@ $green_001: #232E21;
 $green_001: #81C784;
 $green_002: #009E66;
 $green_003: #388E3C;
+$green_004: #37BF32;
 
 // Blue
 $blue_000: #C9F0FF;
@@ -55,6 +64,7 @@ $blue_002: #06BEE1;
 // Dark Blue
 $dark_blue_000: #161B5E;
 $dark_blue_001: #2E3192;
+$dark_blue_002: #264653;
 
 // Purple
 $purple_001: #7570B3;
@@ -88,6 +98,28 @@ main {
   }
 }
 
+
+
+@media (min-width: 751px) and (max-width: 1024px) {
+  main {
+    width: 100%;
+
+    section {
+      max-width: 800px;
+    }
+  }
+}
+
+@media (min-width: 601px) and (max-width: 750px) {
+  main {
+    width: 100%;
+
+    section {
+      max-width: 600px;
+    }
+  }
+}
+
 @media (max-width: 600px) {
   main {
     width: 100%;
@@ -98,7 +130,6 @@ main {
     }
   }
 }
-
 
 /*------------------------------------*\
   #User Experience

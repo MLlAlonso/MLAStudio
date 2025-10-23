@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MLA: Marketing, Landing, Automation</title>
+
+    <!-- SEO BÁSICO -->
+    <title>Título único y descriptivo de la página</title>
+    <meta name="description" content="MLA Studio es una agencia creativa digital que impulsa marcas y negocios desde la idea hasta el liderazgo. 
+        Ofrecemos desarrollo web, branding, diseño publicitario y estrategias digitales personalizadas para asegurar 
+        tu presencia y crecimiento en el mundo digital">
+    <meta name="keywords" content="marketing, automation, landing page">
+    <meta name="author" content="Nombre del autor o dueña del sitio">
+    <meta property="og:title"
+        content="Marketing, Landing & Automation: Transformamos conceptos en presencia online profesional">
+    <meta property="og:description" content="Mientras otros solo te dan un link, nosotros te damos presencia">
+    <meta name="twitter:title"
+        content="Marketing, Landing & Automation: Transformamos conceptos en presencia online profesional">
+    <meta name="twitter:description" content="Mientras otros solo te dan un link, nosotros te damos presencia">
+    <meta name="theme-color" content="#388E3C">
+
+
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="icon" href="assets/img/Ml.png">
+
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Google tag (gtag.js) -->
+</head>
+
+<body>
+    <div class="container">
+        <!-- NavBar -->
+        <nav>
+            <div class="nav_brand">
+                <a href="index.html">
+                    <img src="assets/img/MLA.png" alt="MLA logo">
+                </a>
+            </div>
+
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <ul class="nav_links">
+                <li><a href="index.html"><img src="assets/img/icons/home.png" alt="home"></a></li>
+                <li><a href="PageCraft/">PageCraft</a></li>
+                <li><a href="ProfileX/">ProfileX</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <img src="assets/img/MLA.png" alt="MLA">
+            <h1>Transformamos conceptos <br> en presencia online profesional</h1>
+            <div class="head_btn">
+                <a href="https://wa.me/529213029641" class="contact_btn" id="contact_btn" target="_blank">Contactar</a>
+                <!-- <a href="" class="contact_btn" id="free_btn" target="_blank">Inicia sin costo</a> -->
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <section class="information_cards">
+            <div>
+                <h3>ProfileX</h3>
+                <p>Páginas web modernas, rápidas y optimizadas para impulsar tu marca en línea</p>
+                <a href="PageCraft/" target="_blank">Saber más →</a>
+            </div>
+
+            <div>
+                <h3>PageCraft</h3>
+                <p>Portafolio profesional único que muestre tu talento y proyectos con estilo e impacto.</p>
+                <a href="ProfileX/" target="_blank">Saber más →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+
+    <!-- NavBar script -->
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav_links');
+
+        toggle.addEventListener('click', () => {
+            toggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
