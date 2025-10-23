@@ -27,8 +27,6 @@ a {
     text-decoration: none;
 }
 
-
-
 .container::after {
     content: "";
     position: absolute;
@@ -282,6 +280,10 @@ main {
     justify-content: center;
     margin: 20px 0;
     width: 100%;
+
+    section{
+        margin: 40px 0;
+    }
 
     .information_cards {
         display: flex;

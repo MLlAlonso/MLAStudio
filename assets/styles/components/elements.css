@@ -202,6 +202,46 @@ body.scrolled nav {
 }
 
 /*------------------------------------*\
+    #MAIN FAQ 
+\*------------------------------------*/
+.MAIN_FAQ {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  text-align: justify;
+  max-width: 1300px;
+  border-radius: 40px;
+  padding: 40px;
+  background: linear-gradient(to top right, rgba(0, 158, 102, 0.6) 0%, rgb(18, 18, 18) 30%);
+}
+.MAIN_FAQ h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.MAIN_FAQ .FAQ_LIST {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px;
+}
+.MAIN_FAQ .FAQ_LIST h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.MAIN_FAQ .FAQ_LIST p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+.MAIN_FAQ .FAQ_LIST span {
+  color: #37BF32;
+  font-weight: bold;
+}
+
+/*------------------------------------*\
     #Copyright Section
 \*------------------------------------*/
 .copyright {
@@ -284,6 +324,18 @@ body.scrolled nav {
   .copyright a {
     font-size: 16px;
   }
+  .MAIN_FAQ {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 90%;
+  }
+  .MAIN_FAQ h2 {
+    text-align: center;
+  }
+  .MAIN_FAQ .FAQ_LIST {
+    margin: 0;
+  }
 }
 @media (max-width: 600px) {
   nav {
@@ -348,5 +400,17 @@ body.scrolled nav {
   }
   .copyright a {
     font-size: 16px;
+  }
+  .MAIN_FAQ {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 80%;
+  }
+  .MAIN_FAQ h2 {
+    text-align: center;
+  }
+  .MAIN_FAQ .FAQ_LIST {
+    margin: 0;
   }
 }/*# sourceMappingURL=elements.css.map */

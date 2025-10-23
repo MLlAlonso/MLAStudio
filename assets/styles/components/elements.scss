@@ -47,7 +47,7 @@ nav {
                 font-weight: 600;
             }
 
-            img{
+            img {
                 width: 30px;
                 height: auto;
             }
@@ -149,6 +149,57 @@ body.scrolled nav {
 }
 
 /*------------------------------------*\
+    #MAIN FAQ 
+\*------------------------------------*/
+.MAIN_FAQ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: variables.$white_000;
+    text-align: justify;
+
+    max-width: 1300px;
+    border-radius: 40px;
+    padding: 40px;
+
+    // Fondo degradado
+    background:
+        linear-gradient(to top right,
+            rgba(0, 158, 102, 0.6) 0%,
+            rgba(18, 18, 18, 1) 30%);
+
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .FAQ_LIST {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 50px;
+
+        h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 14px;
+            font-weight: 300;
+            margin-top: 12px;
+            margin-bottom: 20px;
+        }
+
+        span {
+            color: variables.$green_004;
+            font-weight: bold;
+        }
+    }
+}
+
+/*------------------------------------*\
     #Copyright Section
 \*------------------------------------*/
 .copyright {
@@ -234,6 +285,7 @@ body.scrolled nav {
         }
     }
 
+
     .copyright {
         width: 80%;
         font-size: 16px;
@@ -242,6 +294,21 @@ body.scrolled nav {
 
         a {
             font-size: 16px;
+        }
+    }
+
+    .MAIN_FAQ {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 90%;
+
+        h2 {
+            text-align: center;
+        }
+
+        .FAQ_LIST {
+            margin: 0;
         }
     }
 }
@@ -322,6 +389,21 @@ body.scrolled nav {
 
         a {
             font-size: 16px;
+        }
+    }
+
+    .MAIN_FAQ {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 80%;
+
+        h2 {
+            text-align: center;
+        }
+
+        .FAQ_LIST {
+            margin: 0;
         }
     }
 }
