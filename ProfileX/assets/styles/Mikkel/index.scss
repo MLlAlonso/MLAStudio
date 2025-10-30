@@ -1,0 +1,70 @@
+@use "../../../../assets/styles/variables.scss";
+@use "../../../../assets/styles/components/cards.scss";
+@use "../../../../assets/styles/components/elements.scss";
+@use "../../../../assets/styles/components/buttons.scss";
+
+/* $white == $white_004
+$black == $black_002
+$gray == $dark_gray_001
+$text == $gray_005
+$enphasys_color == $green_002
+$enphasys_color_hover == $green_004
+$extra_color == $dark_blue_002
+ */
+
+h1 {
+    font-family: 'Lexend Giga';
+    font-size: 3rem;
+    color: variables.$white_004;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Lexend Giga';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: variables.$white_004;
+    text-transform: uppercase;
+}
+
+p,
+a {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    color: variables.$gray_005;
+}
+
+body {
+    background-color: variables.$black_002;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------------*\
+  #Header styles (Barra de navegación)
+\*------------------------------------*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2.5rem;
+    height: 80vh;
+    justify-content: center;
+    gap: 0.125rem;
+    background-image: url('../../img/Mikkel/Mikkel/head.png');
+    background-size: cover;
+    background-position: center;
+
+    h2 {
+        max-width: 50%;
+        color: variables.$gray_005;
+    }
+
+    .header_btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

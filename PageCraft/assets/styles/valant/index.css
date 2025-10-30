@@ -477,6 +477,91 @@ body.scrolled nav {
 }
 
 /*------------------------------------*\
+    #Caption Text styles
+\*------------------------------------*/
+.caption_text {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(to bottom, rgba(0, 158, 102, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+.caption_text h3 {
+  position: absolute;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  padding: 0 1rem;
+}
+.caption_text h3.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.caption_text h3.exit {
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+/*------------------------------------*\
+    #3D Carrousel
+\*------------------------------------*/
+.carrousel_3d {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 120px;
+}
+.carrousel_3d .carrousel_3d_item {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #0F0F0F;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.25);
+  border-right: 4px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.25);
+  transition: all 0.8s ease;
+}
+.carrousel_3d .carrousel_3d_item img {
+  border-radius: 50px;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+}
+.carrousel_3d .carrousel_3d_item a {
+  font-family: "Lexend Giga";
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+}
+.carrousel_3d .carrousel_3d_item.center {
+  transform: scale(1);
+  opacity: 1;
+  z-index: 3;
+}
+.carrousel_3d .carrousel_3d_item.left, .carrousel_3d .carrousel_3d_item.right {
+  transform: scale(0.6);
+  opacity: 0.2;
+  z-index: 1;
+}
+
+/*------------------------------------*\
     #FAQ Section
 \*------------------------------------*/
 .FAQ {
@@ -567,6 +652,57 @@ body.scrolled nav {
 }
 
 /*------------------------------------*\
+    #Footer MLA
+\*------------------------------------*/
+.MLA_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #009E66;
+}
+.MLA_footer h2 {
+  color: #FFFFFF;
+  font-family: "Lexend Giga";
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.MLA_footer .footer_contact {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+}
+.MLA_footer .footer_contact .footer_contact_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.MLA_footer .footer_contact .footer_contact_item img {
+  width: 80px;
+  height: 80px;
+}
+.MLA_footer .footer_contact .footer_contact_item h3 {
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.MLA_footer .footer_contact .footer_contact_item a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/*------------------------------------*\
     #Copyright Section
 \*------------------------------------*/
 .copyright {
@@ -619,6 +755,18 @@ body.scrolled nav {
   nav .menu-toggle {
     display: flex;
   }
+  .MAIN_FAQ {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 90%;
+  }
+  .MAIN_FAQ h2 {
+    text-align: center;
+  }
+  .MAIN_FAQ .FAQ_LIST {
+    margin: 0;
+  }
   .FAQ {
     width: 80%;
   }
@@ -640,6 +788,22 @@ body.scrolled nav {
   .FAQ .FAQ_item p {
     font-size: 16px;
   }
+  .MLA_footer h2 {
+    font-size: 30px;
+  }
+  .MLA_footer .footer_contact {
+    flex-direction: row;
+  }
+  .MLA_footer .footer_contact .footer_contact_item img {
+    width: 60px;
+    height: 60px;
+  }
+  .MLA_footer .footer_contact .footer_contact_item h3 {
+    font-size: 24px;
+  }
+  .MLA_footer .footer_contact .footer_contact_item a {
+    font-size: 20px;
+  }
   .copyright {
     width: 80%;
     font-size: 16px;
@@ -648,18 +812,6 @@ body.scrolled nav {
   }
   .copyright a {
     font-size: 16px;
-  }
-  .MAIN_FAQ {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    width: 90%;
-  }
-  .MAIN_FAQ h2 {
-    text-align: center;
-  }
-  .MAIN_FAQ .FAQ_LIST {
-    margin: 0;
   }
 }
 @media (max-width: 600px) {
@@ -696,6 +848,37 @@ body.scrolled nav {
   nav .nav_links.active {
     right: 0;
   }
+  .caption_text h3 {
+    font-size: 14px;
+  }
+  .carrousel_3d {
+    height: 140px;
+  }
+  .carrousel_3d .carrousel_3d_item {
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+  }
+  .carrousel_3d .carrousel_3d_item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  .carrousel_3d .carrousel_3d_item a {
+    font-size: 14px;
+  }
+  .MAIN_FAQ {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 80%;
+  }
+  .MAIN_FAQ h2 {
+    text-align: center;
+  }
+  .MAIN_FAQ .FAQ_LIST {
+    margin: 0;
+  }
   .FAQ {
     width: 80%;
   }
@@ -717,26 +900,31 @@ body.scrolled nav {
   .FAQ .FAQ_item p {
     font-size: 16px;
   }
+  .MLA_footer h2 {
+    font-size: 30px;
+  }
+  .MLA_footer .footer_contact {
+    flex-direction: column;
+  }
+  .MLA_footer .footer_contact .footer_contact_item {
+    margin-top: 40px;
+  }
+  .MLA_footer .footer_contact .footer_contact_item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0;
+  }
+  .MLA_footer .footer_contact .footer_contact_item h3 {
+    margin-top: 0;
+  }
   .copyright {
     width: 90%;
     font-size: 16px;
     margin-top: 1rem;
-    text-align: justify;
+    text-align: center;
   }
   .copyright a {
     font-size: 16px;
-  }
-  .MAIN_FAQ {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    width: 80%;
-  }
-  .MAIN_FAQ h2 {
-    text-align: center;
-  }
-  .MAIN_FAQ .FAQ_LIST {
-    margin: 0;
   }
 }
 h1,

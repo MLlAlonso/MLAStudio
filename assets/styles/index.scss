@@ -27,7 +27,7 @@ a {
     text-decoration: none;
 }
 
-.container::after {
+/* .container::after {
     content: "";
     position: absolute;
     inset: 0;
@@ -213,7 +213,17 @@ a {
             278px 6375px,
             426.5px 6480px;
     }
+} */
+
+.container {
+    background-image: url("../../assets/img/mla_header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0 0 20px 0;
 }
+
 
 body {
     width: 100%;
@@ -345,6 +355,16 @@ main {
                 cursor: pointer;
                 transform: scale(1.1);
             }
+        }
+    }
+
+    .experiences {
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            color: variables.$white_000;
+            text-align: start;
         }
     }
 

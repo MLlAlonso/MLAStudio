@@ -31,6 +31,25 @@
 }
 
 /*------------------------------------*\
+    #Contact_small Btn
+\*------------------------------------*/
+.contact_small_btn {
+    padding: 10px 20px;
+    background-color: variables.$green_002;
+    color: variables.$white_002;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        background-color: variables.$green_004;
+        transform: scale(1.1);
+    }
+}
+
+/*------------------------------------*\
     #Button sparks
 \*------------------------------------*/
 $btn-color: variables.$purple_001;

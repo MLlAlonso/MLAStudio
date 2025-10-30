@@ -100,6 +100,24 @@ html::-webkit-scrollbar {
 }
 
 /*------------------------------------*\
+    #Contact_small Btn
+\*------------------------------------*/
+.contact_small_btn {
+  padding: 10px 20px;
+  background-color: #009E66;
+  color: #F9F9F9;
+  font-family: "Poppins", sans-serif;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+.contact_small_btn:hover {
+  background-color: #37BF32;
+  transform: scale(1.1);
+}
+
+/*------------------------------------*\
     #Button sparks
 \*------------------------------------*/
 .btn_sparks {
