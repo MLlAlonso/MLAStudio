@@ -115,6 +115,7 @@ html::-webkit-scrollbar {
 .contact_small_btn:hover {
   background-color: #37BF32;
   transform: scale(1.1);
+  cursor: pointer;
 }
 
 /*------------------------------------*\

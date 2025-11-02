@@ -153,6 +153,35 @@ body.scrolled nav {
 }
 
 /*------------------------------------*\
+    #Social Bar styles
+\*------------------------------------*/
+.socialBar {
+  position: fixed;
+  top: 50%;
+  right: 0.625rem;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+  border-radius: 1.25rem;
+  z-index: 1200;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0.5rem;
+}
+.socialBar .socialBar_red {
+  padding: 0.625rem;
+  transition: all 0.3s ease;
+}
+.socialBar .socialBar_red img {
+  width: 1.25rem;
+  height: 1.25rem;
+  transition: filter 0.3s ease;
+}
+.socialBar .socialBar_red:hover img {
+  filter: brightness(0) saturate(100%) invert(48%) sepia(40%) saturate(500%) hue-rotate(110deg) brightness(90%) contrast(100%);
+}
+
+/*------------------------------------*\
     #Caption Text styles
 \*------------------------------------*/
 .caption_text {
@@ -183,6 +212,23 @@ body.scrolled nav {
 .caption_text h3.exit {
   opacity: 0;
   transform: translateY(-50px);
+}
+
+/*------------------------------------*\
+    # Title_shadow
+\*------------------------------------*/
+.title_shadow {
+  color: #009E66;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.title_shadow span {
+  color: #F9F9F9;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.2);
+  font-size: 4rem;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.1;
 }
 
 /*------------------------------------*\
@@ -628,6 +674,25 @@ body.scrolled nav {
 }
 .contact_btn:hover {
   transform: scale(1.05);
+  cursor: pointer;
+}
+
+/*------------------------------------*\
+    #Contact_small Btn
+\*------------------------------------*/
+.contact_small_btn {
+  padding: 10px 20px;
+  background-color: #009E66;
+  color: #F9F9F9;
+  font-family: "Poppins", sans-serif;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  transition: transform 0.3s ease;
+}
+.contact_small_btn:hover {
+  background-color: #37BF32;
+  transform: scale(1.1);
   cursor: pointer;
 }
 

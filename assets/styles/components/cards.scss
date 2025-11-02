@@ -25,14 +25,14 @@
             margin: 0;
         }
 
-        .text{
+        .text {
             font-size: 20px;
             font-family: 'Work Sans', sans-serif;
             text-align: center;
             padding: 10px;
         }
 
-        img{
+        img {
             width: 160px;
             height: 180px;
             display: block;
@@ -56,7 +56,7 @@
         }
 
         .service_card-front {
-           background: variables.$white_000;
+            background: variables.$white_000;
             color: variables.$black_000;
         }
 
@@ -74,7 +74,7 @@
 
 /*------------------------------------*\
   #Notification Card
-\*------------------------------------*/ 
+\*------------------------------------*/
 .notification {
     display: flex;
     flex-direction: column;
@@ -115,15 +115,19 @@
         &:after {
             transform: translateX(0.15rem);
         }
+
         .notititle {
             transform: translateX(0.15rem);
         }
+
         .notibody {
             transform: translateX(0.25rem);
         }
+
         .notiglow {
             opacity: 0.1;
         }
+
         .notiborderglow {
             opacity: 0.1;
         }
@@ -177,14 +181,13 @@
 }
 
 /*------------------------------------*\
-  #Hover show Card
-\*------------------------------------*/ 
-
+  #Hover show Card (2 faces)
+\*------------------------------------*/
 .service_item {
     max-width: 25ch;
     text-align: center;
     background: variables.$white_002;
-    padding: 1.5em;   
+    padding: 1.5em;
     padding-block: 1.8em;
     border-radius: 15px;
     border: 2px solid variables.$gray_004;
@@ -204,7 +207,7 @@
         transition: 0.3s cubic-bezier(0.6, 0.4, 0, 1);
     }
 
-    > strong {
+    >strong {
         display: block;
         font-size: 1.4rem;
         letter-spacing: -0.035em;
@@ -234,9 +237,52 @@
             font-size: 1.2em;
         }
 
-        > div,
-        > strong {
+        >div,
+        >strong {
             opacity: 0;
         }
+    }
+}
+
+/*------------------------------------*\
+  #Hover Card (Ligth)
+\*------------------------------------*/
+.hover-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 0.125rem solid transparent;
+    border-radius: 0.5rem;
+    background-color: variables.$black_005;
+    transition: border-color 0.3s ease;
+    width: 19.75rem;
+    height: 17.5rem;
+    text-align: justify;
+
+    h3 {
+        color: variables.$white_002;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    p {
+        margin: 0 10px;
+    }
+
+    span {
+        color: variables.$white_002;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &:hover {
+        border-color: variables.$green_004;
+    }
+
+    img {
+        width: 4.375rem;
+        height: 4.375rem;
     }
 }

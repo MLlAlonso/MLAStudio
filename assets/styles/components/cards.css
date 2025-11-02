@@ -229,7 +229,7 @@ html::-webkit-scrollbar {
 }
 
 /*------------------------------------*\
-  #Hover show Card
+  #Hover show Card (2 faces)
 \*------------------------------------*/
 .service_item {
   max-width: 25ch;
@@ -282,4 +282,42 @@ html::-webkit-scrollbar {
 .service_item:hover > div,
 .service_item:hover > strong {
   opacity: 0;
+}
+
+/*------------------------------------*\
+  #Hover Card (Ligth)
+\*------------------------------------*/
+.hover-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border: 0.125rem solid transparent;
+  border-radius: 0.5rem;
+  background-color: #1e1e1e;
+  transition: border-color 0.3s ease;
+  width: 19.75rem;
+  height: 17.5rem;
+  text-align: justify;
+}
+.hover-card h3 {
+  color: #F9F9F9;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.hover-card p {
+  margin: 0 10px;
+}
+.hover-card span {
+  color: #F9F9F9;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.hover-card:hover {
+  border-color: #37BF32;
+}
+.hover-card img {
+  width: 4.375rem;
+  height: 4.375rem;
 }/*# sourceMappingURL=cards.css.map */

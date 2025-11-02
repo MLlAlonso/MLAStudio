@@ -215,6 +215,23 @@ body.scrolled nav {
 }
 
 /*------------------------------------*\
+    # Title_shadow
+\*------------------------------------*/
+.title_shadow {
+  color: #009E66;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.title_shadow span {
+  color: #F9F9F9;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.2);
+  font-size: 4rem;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.1;
+}
+
+/*------------------------------------*\
     #3D Carrousel
 \*------------------------------------*/
 .carrousel_3d {
