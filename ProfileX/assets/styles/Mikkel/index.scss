@@ -239,8 +239,47 @@ main {
     }
 
     /*------------------------------------*\
-  #Resume styles (Experiencia Laboral)
-\*------------------------------------*/
+    #Porfolio styles (Portafolio)
+    \*------------------------------------*/
+
+    .portfolio {
+        max-width: 1400px;
+        margin: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2{
+            margin-bottom: 0;
+        }
+        p {
+            font-size: 1rem;
+            color: variables.$gray_005;
+            margin-top: 0;
+        }
+    }
+
+    .portfolio_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.3rem;
+        padding: 2rem;
+
+        @media (min-width: 768px) {
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        }
+
+        @media (min-width: 1024px) {
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    }
+
+    /*------------------------------------*\
+    #Resume styles (Experiencia Laboral)
+\   *------------------------------------*/
     .resume {
         .resume__timeline-container {
             margin: 4rem 0;
@@ -340,7 +379,7 @@ main {
                         font-family: poppins, sans-serif;
                         text-align: justify;
 
-                        span{
+                        span {
                             color: variables.$green_004;
                             font-weight: 600;
                         }
@@ -421,11 +460,7 @@ main {
             }
         }
     }
-
-
 }
-
-
 
 
 @media (max-width: 900px) {
