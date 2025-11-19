@@ -76,6 +76,22 @@
             </div>
         </section>
 
+        <section class="catalog">
+            <!-- Botón que abre el PDF y descarga -->
+            <button class="contact_btn" onclick="openPDF()">Ver Catálogo</button>
+
+            <!-- Modal -->
+            <div id="pdfModal" class="pdfModal">
+                <div class="pdfdiv">
+                    <button class="pdfclose" onclick="closePDF()">Cerrar</button>
+                    <!-- Visor del PDF -->
+                    <iframe id="pdfViewer" src=""></iframe>
+                </div>
+            </div>
+
+            <script src="../assets/js/modalPDF.js"></script>
+        </section>
+
         <section class="brands">
             <h2>Marcas</h2>
 
@@ -233,7 +249,8 @@
                     <img src="../assets/img/Cruanpa/social/instagram.svg" alt=""> Cruanpa
                 </a>
             </div>
-            <p class="copyright">Copyright © 2025 CRUANPA COMERCIALIZADORA | Todos los derechos reservados | Designed & built
+            <p class="copyright">Copyright © 2025 CRUANPA COMERCIALIZADORA | Todos los derechos reservados | Designed &
+                built
                 by <a href="https://mllalonso.github.io/coding-portfolio/index.html" target="_blank">Mikkel Llaven
                     Alonso</a></p>
         </section>

@@ -891,6 +891,67 @@ body.scrolled nav {
 }
 
 /*------------------------------------*\
+    #Modal styles
+\*------------------------------------*/
+.pdfModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  box-sizing: border-box;
+  z-index: 9999;
+  overflow-y: auto;
+}
+.pdfModal .pdfdiv {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.pdfModal .pdfdiv iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.pdfModal .pdfdiv .pdfclose {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 8px 14px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+.pdfModal .pdfdiv .pdfclose:hover {
+  background: #000;
+  transform: scale(1.05);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .pdfModal {
+    padding: 20px;
+  }
+  .pdfModal .pdfdiv {
+    border-radius: 8px;
+  }
+  .pdfModal .pdfclose {
+    top: 8px !important;
+    right: 8px !important;
+  }
+}
+/*------------------------------------*\
     #Caption Text styles
 \*------------------------------------*/
 .caption_text {
@@ -1157,37 +1218,45 @@ body.scrolled nav {
     #Responsive Section
 \*------------------------------------*/
 @media (min-width: 601px) and (max-width: 750px) {
-  nav {
-    justify-content: space-between;
-    padding: 0.75rem 1rem;
-  }
-  nav .nav_links {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    height: 100vh;
-    width: 65%;
-    background-color: transparent;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    transition: right 0.3s ease;
-    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
-  }
-  nav .nav_links a {
-    color: #9F9F9F;
-    font-size: 1.1rem;
-    font-weight: 500;
-  }
-  nav .nav_links.active {
-    right: 0;
-  }
-  nav .menu-toggle {
-    display: flex;
+  /* nav {
+      justify-content: space-between;
+      padding: 0.75rem 1rem;
+
+      .nav_links {
+          position: fixed;
+          top: 0;
+          right: -100%;
+          height: 100vh;
+          width: 65%;
+          background-color: transparent;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+          transition: right 0.3s ease;
+          box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+
+          a {
+              color: variables.$gray_005;
+              font-size: 1.1rem;
+              font-weight: 500;
+          }
+
+          &.active {
+              right: 0;
+          }
+      }
+
+      .menu-toggle {
+          display: flex;
+      }
+  } */
+  .title_shadow {
+    font-size: 1rem;
   }
   .title_shadow span {
     font-size: 2rem;
+    left: 150px;
   }
   .MAIN_FAQ {
     display: flex;
@@ -1313,6 +1382,24 @@ body.scrolled nav {
   .MAIN_FAQ .FAQ_LIST {
     margin: 0;
   }
+  .socialBar {
+    bottom: auto;
+    top: 2rem;
+    left: 0.5rem;
+    right: auto;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .socialBar .socialBar_red {
+    padding: 0.4rem;
+  }
+  .socialBar .socialBar_red img {
+    width: 1rem;
+    height: 1rem;
+  }
   .FAQ {
     width: 80%;
   }
@@ -1430,6 +1517,9 @@ header .header-buttons .contact_btn:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
+header .header-buttons #catalogo {
+  color: #F9F9F9;
+}
 
 /*------------------------------------*\
     #Main styles
@@ -1457,6 +1547,29 @@ main section {
   flex-wrap: wrap;
   gap: 2rem;
   width: 100%;
+}
+
+/*------------------------------------*\
+    #Catalog styles
+\*------------------------------------*/
+.catalog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0;
+}
+.catalog .contact_btn {
+  width: 35%;
+  height: 5rem;
+  background-color: #2E3192;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  color: #F9F9F9;
+}
+.catalog .contact_btn:hover {
+  background-color: #06BEE1;
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 /*------------------------------------*\
@@ -1684,5 +1797,8 @@ footer .contact_inf p a:hover {
   \*------------------------------------*/
   .about_us p {
     text-align: justify;
+  }
+  .catalog .contact_btn {
+    width: 80%;
   }
 }/*# sourceMappingURL=index.css.map */

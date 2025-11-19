@@ -1157,37 +1157,45 @@ body.scrolled nav {
     #Responsive Section
 \*------------------------------------*/
 @media (min-width: 601px) and (max-width: 750px) {
-  nav {
-    justify-content: space-between;
-    padding: 0.75rem 1rem;
-  }
-  nav .nav_links {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    height: 100vh;
-    width: 65%;
-    background-color: transparent;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    transition: right 0.3s ease;
-    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
-  }
-  nav .nav_links a {
-    color: #9F9F9F;
-    font-size: 1.1rem;
-    font-weight: 500;
-  }
-  nav .nav_links.active {
-    right: 0;
-  }
-  nav .menu-toggle {
-    display: flex;
+  /* nav {
+      justify-content: space-between;
+      padding: 0.75rem 1rem;
+
+      .nav_links {
+          position: fixed;
+          top: 0;
+          right: -100%;
+          height: 100vh;
+          width: 65%;
+          background-color: transparent;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 2rem;
+          transition: right 0.3s ease;
+          box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+
+          a {
+              color: variables.$gray_005;
+              font-size: 1.1rem;
+              font-weight: 500;
+          }
+
+          &.active {
+              right: 0;
+          }
+      }
+
+      .menu-toggle {
+          display: flex;
+      }
+  } */
+  .title_shadow {
+    font-size: 1rem;
   }
   .title_shadow span {
     font-size: 2rem;
+    left: 150px;
   }
   .MAIN_FAQ {
     display: flex;
@@ -1312,6 +1320,24 @@ body.scrolled nav {
   }
   .MAIN_FAQ .FAQ_LIST {
     margin: 0;
+  }
+  .socialBar {
+    bottom: auto;
+    top: 2rem;
+    left: 0.5rem;
+    right: auto;
+    flex-direction: row;
+    gap: 0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .socialBar .socialBar_red {
+    padding: 0.4rem;
+  }
+  .socialBar .socialBar_red img {
+    width: 1rem;
+    height: 1rem;
   }
   .FAQ {
     width: 80%;

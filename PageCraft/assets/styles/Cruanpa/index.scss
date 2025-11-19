@@ -77,6 +77,10 @@ header {
                 transform: scale(1.2);
             }
         }
+
+        #catalogo {
+            color: variables.$white_002;
+        }
     }
 }
 
@@ -107,6 +111,32 @@ main {
     flex-wrap: wrap;
     gap: 2rem;
     width: 100%;
+}
+
+/*------------------------------------*\
+    #Catalog styles
+\*------------------------------------*/
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+
+    .contact_btn {
+        width: 35%;
+        height: 5rem;
+        background-color: variables.$dark_blue_001;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        color: variables.$white_002;
+
+        &:hover {
+            background-color: variables.$blue_002;
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+    }
 }
 
 /*------------------------------------*\
@@ -296,7 +326,7 @@ footer {
 \*------------------------------------*/
 @media (min-width: 601px) and (max-width: 750px) {
 
-/*------------------------------------*\
+    /*------------------------------------*\
     #Footer styles
 \*------------------------------------*/
     footer {
@@ -384,6 +414,13 @@ footer {
     .about_us {
         p {
             text-align: justify;
+        }
+    }
+
+    .catalog {
+
+        .contact_btn {
+            width: 80%;
         }
     }
 }
