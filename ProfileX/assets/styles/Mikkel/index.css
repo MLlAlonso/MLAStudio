@@ -2097,10 +2097,10 @@ main .resume .resume__timeline-container .resume__timeline .resume__timeline-ite
   }
   main .aboutme .code_editor {
     width: 80%;
-    height: 200px;
+    height: 240px;
   }
   main .aboutme .code_editor pre {
-    height: 160px;
+    height: 200px;
     font-size: 14px;
   }
   main .skills .skills_container {
