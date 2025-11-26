@@ -722,6 +722,30 @@ main {
 }
 
 @media (max-width: 600px) {
+    nav {
+        .nav_links {
+            height: 80vh;
+            width: 70%;
+            background-color: rgba(variables.$black_002, 0.5);
+            gap: 1.5rem;
+
+            a {
+                color: variables.$gray_005;
+                font-size: 1.2rem;
+                font-weight: 500;
+
+                &:hover {
+                    color: variables.$green_004;
+                    transform: scale(1.2);
+                }
+            }
+
+            &.active {
+                right: 0;
+            }
+        }
+    }
+
     header {
         background-image: url("../../img/Mikkel/Mikkel/head_mobile.png");
         background-size: cover;
@@ -770,7 +794,7 @@ main {
             .skills_container {
                 grid-template-columns: repeat(1, 1fr);
                 .hover-card {
-                    width: 400px;
+                    width: 350px;
                     height: auto;
                 }
             }

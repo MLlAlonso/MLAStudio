@@ -891,6 +891,67 @@ body.scrolled nav {
 }
 
 /*------------------------------------*\
+    #Modal styles
+\*------------------------------------*/
+.pdfModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 50px;
+  box-sizing: border-box;
+  z-index: 9999;
+  overflow-y: auto;
+}
+.pdfModal .pdfdiv {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+.pdfModal .pdfdiv iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.pdfModal .pdfdiv .pdfclose {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 8px 14px;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+.pdfModal .pdfdiv .pdfclose:hover {
+  background: #000;
+  transform: scale(1.05);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .pdfModal {
+    padding: 20px;
+  }
+  .pdfModal .pdfdiv {
+    border-radius: 8px;
+  }
+  .pdfModal .pdfclose {
+    top: 8px !important;
+    right: 8px !important;
+  }
+}
+/*------------------------------------*\
     #Caption Text styles
 \*------------------------------------*/
 .caption_text {
