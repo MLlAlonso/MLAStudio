@@ -1,0 +1,104 @@
+<!-- pagos.html -->
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Realizar pago — Milestones</title>
+
+  <!-- SDK PayPal (LIVE CLIENT ID + MERCHANT ID) -->
+  <script src="https://www.paypal.com/sdk/js?client-id=AUXodN1OqxWpNsE1vRhE_mprf10bVK2m-OEeV0ZL5uVYY8qCfAs15Nu3HuaHW4v4YTO4RRePJPuxO4_i&merchant-id=6LBE6HWJLFGUN&components=buttons,funding-eligibility&enable-funding=card,paylater&currency=MXN"></script>
+
+  <!-- Styles -->
+    <link rel="icon" href="../../assets/img/Mikkel/Ml.png">
+    <link rel="stylesheet" href="../../assets/styles/Mikkel/pagos.css" />
+</head>
+<body>
+  <main class="wrapper">
+    <section class="payment-card">
+      <div class="logo-container">
+        <img src="../../../assets/img/MLA.png" alt="Logo" class="logo" />
+      </div>
+
+      <h1>Servicio de Desarrollo Web — Pago Milestones</h1>
+      <p class="desc">Paga tu servicio con tarjeta o PayPal. MSI disponibles.</p>
+
+      <label for="amount">Monto a pagar (MXN)</label>
+      <input id="amount" type="number" min="1" step="0.01" placeholder="Ej. 5000" />
+
+      <!-- Contenedor único que evitará render duplicado -->
+      <div id="paypal-buttons-wrapper">
+        <div id="paypal-button-paypal"></div>
+        <div id="paypal-button-card"></div>
+      </div>
+
+      <p class="note">Al completar el pago recibirás un correo con los detalles.</p>
+    </section>
+  </main>
+
+  <script>
+    let rendered = false;
+
+    function createOrderObject(value) {
+      return {
+        purchase_units: [{
+          amount: { value: value.toString() },
+          description: 'Servicio de Desarrollo Web — Pago Milestones (intangible)'
+        }]
+      };
+    }
+
+    function clearButtons() {
+      document.getElementById('paypal-button-paypal').innerHTML = '';
+      document.getElementById('paypal-button-card').innerHTML = '';
+    }
+
+    function renderButtons() {
+      const raw = document.getElementById('amount').value;
+      const amount = parseFloat(raw);
+
+      if (!amount || amount <= 0) {
+        clearButtons();
+        return;
+      }
+
+      clearButtons(); // Evita duplicados
+
+      // Botón PayPal
+      paypal.Buttons({
+        fundingSource: paypal.FUNDING.PAYPAL,
+        style: { layout: 'vertical', label: 'paypal', shape: 'rect' },
+        createOrder: function(data, actions) {
+          return actions.order.create(createOrderObject(amount));
+        },
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+            alert('Pago completado. Gracias, ' + (details.payer.name?.given_name || 'cliente'));
+          });
+        }
+      }).render('#paypal-button-paypal');
+
+      // Botón Tarjeta
+      paypal.Buttons({
+        fundingSource: paypal.FUNDING.CARD,
+        style: { layout: 'vertical', label: 'pay', shape: 'rect' },
+        createOrder: function(data, actions) {
+          return actions.order.create(createOrderObject(amount));
+        },
+        onApprove: function(data, actions) {
+          return actions.order.capture().then(function(details) {
+            alert('Pago completado con tarjeta.');
+          });
+        }
+      }).render('#paypal-button-card');
+    }
+
+    // Render cuando el usuario escribe
+    document.getElementById('amount').addEventListener('input', () => {
+      clearTimeout(window._renderTimer);
+      window._renderTimer = setTimeout(renderButtons, 300);
+    });
+
+  </script>
+</body>
+</html>
