@@ -103,17 +103,17 @@
             <div class="carrousel_3d">
                 <div class="carrousel_3d_item">
                     <img src="PageCraft/assets/img/Cruanpa/BlancoC.png" alt="Cruanpa">
-                    <a href="PageCraft/CRUANPA/index.html" target="_blank">CRUANPA Comercializadora</a>
+                    <a href="PageCraft/CRUANPA/index.php" target="_blank">CRUANPA Comercializadora</a>
                 </div>
 
                 <div class="carrousel_3d_item">
                     <img src="PageCraft/assets/img/Valant/icon.png" alt="Valant">
-                    <a href="PageCraft/Valant/index.html" target="_blank">Valant Bordados Electronicos</a>
+                    <a href="PageCraft/Valant/index.php" target="_blank">Valant Bordados Electronicos</a>
                 </div>
 
                 <div class="carrousel_3d_item">
                     <img src="ProfileX/assets/img/EstrellaRamos/photo.svg" alt="Estrella Ramos">
-                    <a href="ProfileX/EstrellaRamos/index.html" target="_blank">Estrella Ramos <br> Ing.
+                    <a href="ProfileX/EstrellaRamos/index.php" target="_blank">Estrella Ramos <br> Ing.
                         Biotecnologia</a>
                 </div>
             </div>
@@ -175,7 +175,7 @@
         </div>
 
         <p class="copyright">Copyright © 2025 Mikkel Llaven Alonso | Todos los derechos reservados | Designed & built by
-            <a href="../../ProfileX/MikkelAlonso/index.php" target="_blank">Mikkel Llaven Alonso</a>
+            <a href="https://mllalonso.github.io/coding-portfolio/index.html" target="_blank">Mikkel Llaven Alonso</a>
         </p>
     </footer>
 
