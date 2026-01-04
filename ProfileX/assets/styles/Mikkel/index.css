@@ -896,6 +896,102 @@ body.scrolled nav {
 }
 
 /*------------------------------------*\
+  #Featured Project
+\*------------------------------------*/
+.featured_project {
+  max-width: 1300px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  /* Imagen */
+  /* Contenido */
+}
+.featured_project__media {
+  grid-column: 1/8;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.featured_project__media img {
+  width: 90%;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.85);
+  transition: filter 0.3s ease;
+}
+.featured_project__media:hover img {
+  filter: brightness(1);
+}
+.featured_project__content {
+  grid-column: 7/-1;
+  text-align: right;
+  z-index: 2;
+}
+.featured_project__label {
+  display: block;
+  font-size: 0.85rem;
+  color: #64ffda;
+  margin-bottom: 0.4rem;
+  font-family: monospace;
+}
+.featured_project__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ccd6f6;
+}
+.featured_project__description {
+  background-color: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: #F9F9F9;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1rem;
+}
+.featured_project__techs {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.featured_project__techs li {
+  font-size: 0.8rem;
+  color: #009E66;
+}
+.featured_project__links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.featured_project__links a {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.featured_project__links a img {
+  width: 20px;
+  height: 20px;
+  filter: grayscale(100%) brightness(200%);
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+.featured_project__links a:hover img {
+  filter: none;
+  transform: translateY(-3px);
+}
+
+/*------------------------------------*\
     #Responsive Section
 \*------------------------------------*/
 @media (min-width: 601px) and (max-width: 750px) {
@@ -1127,6 +1223,37 @@ body.scrolled nav {
   }
   .copyright a {
     font-size: 16px;
+  }
+}
+@media (max-width: 900px) {
+  .featured_project {
+    grid-template-columns: 1fr;
+  }
+  .featured_project__media {
+    grid-column: 1/-1;
+  }
+  .featured_project__media img {
+    width: 100%;
+    height: auto;
+  }
+  .featured_project__content {
+    grid-column: 1/-1;
+    text-align: left;
+    margin-top: -3rem;
+  }
+  .featured_project__techs, .featured_project__links {
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .featured_project__title {
+    font-size: 1.6rem;
+  }
+  .featured_project__description {
+    font-size: 0.9rem;
+  }
+  .featured_project__content {
+    margin-top: 1rem;
   }
 }
 /*------------------------------------*\
@@ -1667,10 +1794,22 @@ main .portfolio {
 main .portfolio h2 {
   margin-bottom: 0;
 }
+main .portfolio h3 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #F9F9F9;
+  text-align: left;
+}
 main .portfolio p {
   font-size: 1rem;
   color: #9F9F9F;
   margin-top: 0;
+}
+main .portfolio_links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 main .portfolio_container {
   display: grid;
@@ -2137,5 +2276,11 @@ main .resume .resume__timeline-container .resume__timeline .resume__timeline-ite
   }
   main .resume .resume__timeline-item {
     width: 75%;
+  }
+  main .portfolio {
+    padding: 10px;
+  }
+  main .portfolio h3, main .portfolio p {
+    text-align: center;
   }
 }/*# sourceMappingURL=index.css.map */

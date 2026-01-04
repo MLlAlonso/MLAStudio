@@ -110,7 +110,7 @@
                     <p>
                         Ingeniero de Software con experiencia en el desarrollo de aplicaciones web completas, seguras y
                         escalables.
-                        Especializado en <span>PHP y Laravel</span>, con conocimientos en <span>Python</span> para
+                        Especializado en <span>React y Laravel</span>, con conocimientos en <span>Python</span> para
                         automatización,
                         creación e integración de <span>API RESTful</span>.
                         <br>
@@ -154,17 +154,16 @@
                         aplicando buenas prácticas y optimización de código.</p>
                 </div>
                 <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/security.png" alt="Cybersecurity">
-                    <h3>Ciberseguridad</h3>
-                    <p>Aplicación de prácticas OWASP, hardening de APIs, protección de endpoints y validación robusta
-                        para aplicaciones seguras.</p>
-                </div>
-                <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/api.png" alt="Rest API">
                     <h3>Rest API</h3>
                     <p>Desarrollo, diseño e implementación de APIs RESTful para integrar sistemas, facilitar la
                         comunicación entre
                         aplicaciones y escalar servicios web.</p>
+                </div>
+                <div class="hover-card">
+                    <img src="../assets/img/Mikkel/skills/react.png" alt="React">
+                    <h3>React</h3>
+                    <p>Desarrollo de frontend escalable con componentes reutilizables, manejo de estado y hooks.</p>
                 </div>
 
                 <div class="hover-card">
@@ -179,11 +178,18 @@
                     <p>Diseño y gestión de bases de datos relacionales, garantizando eficiencia y consistencia</p>
                 </div>
                 <div class="hover-card">
+                    <img src="../assets/img/Mikkel/skills/security.png" alt="Cybersecurity">
+                    <h3>Ciberseguridad</h3>
+                    <p>Aplicación de prácticas OWASP, hardening de APIs, protección de endpoints y validación robusta
+                        para aplicaciones seguras.</p>
+                </div>
+
+                <!-- <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/sqlite.png" alt="SQLite">
                     <h3>SQLite</h3>
                     <p>Gestión de bases de datos ligeras y portables que requieren almacenamiento eficiente sin servidor
                         dedicado</p>
-                </div>
+                </div> -->
 
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/html-5.png" alt="HTML">
@@ -241,7 +247,47 @@
         <!-- Projects -->
         <section class="portfolio" id="portfolio">
             <h2 class="title_shadow"> Portafolio </h2>
-            <p>Selecciona una categoría y explora mis proyectos</p>
+
+            <section class="featured_project">
+                <div class="featured_project__media">
+                    <img src="../assets/img/Mikkel/Projects/MudanzaFacil.png"
+                        alt="Mudanza Fácil – Plataforma de mudanzas en México">
+                </div>
+
+                <div class="featured_project__content">
+                    <span class="featured_project__label">Proyecto destacado</span>
+                    <h3 class="featured_project__title">Mudanza Fácil</h3>
+                    <div class="featured_project__description">
+                        <p>
+                            Plataforma web full-stack diseñada para conectar empresas de mudanzas en México.
+                            Frontend desarrollado en React (SPA / PWA) con backend desacoplado en Laravel,
+                            optimización de rutas, reducción de viajes vacíos y contacto directo vía WhatsApp.
+                        </p>
+                    </div>
+
+                    <ul class="featured_project__techs">
+                        <li>React</li>
+                        <li>SCSS</li>
+                        <li>Laravel</li>
+                        <li>MySQL</li>
+                        <li>Stripe</li>
+                    </ul>
+
+                    <div class="featured_project__links">
+                        <a href="#" target="_blank" aria-label="Ver proyecto">
+                            <img src="../../assets/img/icons/web.png" alt="Pag web">
+                        </a>
+
+                        <a href="https://github.com/MLlAlonso" target="_blank" aria-label="Repositorio">
+                            <img src="../../assets/img/icons/github.png" alt="github">
+                        </a>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <h3>Proyectos y soluciones desarrolladas</h3>
 
             <div class="portfolio_links">
                 <div class="link_container">
@@ -290,6 +336,8 @@
                         </div>
                     </div>
                 </div>
+
+                <p>Selecciona una categoría y explora mis proyectos</p>
             </div>
 
             <div class="portfolio_container">

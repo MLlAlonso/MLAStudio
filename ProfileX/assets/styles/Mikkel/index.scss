@@ -232,7 +232,6 @@ main {
     /*------------------------------------*\
     #Porfolio styles (Portafolio)
     \*------------------------------------*/
-
     .portfolio {
         max-width: 1400px;
         margin: 3rem 0;
@@ -245,11 +244,25 @@ main {
             margin-bottom: 0;
         }
 
+        h3{
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            color: variables.$white_002;
+            text-align: left;
+        }
+
         p {
             font-size: 1rem;
             color: variables.$gray_005;
             margin-top: 0;
         }
+    }
+
+    .portfolio_links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .portfolio_container {
@@ -837,6 +850,13 @@ main {
 
             .resume__timeline-item{
                 width:75%;
+            }
+        }
+
+        .portfolio{
+            padding: 10px;
+            h3,p{
+                text-align: center;
             }
         }
     }
