@@ -108,29 +108,21 @@
                     <h2> Mikkel Llaven Alonso </h2>
                     <h3>Ingeniero de Software | Desarrollador Full Stack</h3>
                     <p>
-                        Ingeniero de Software con experiencia en el desarrollo de aplicaciones web completas, seguras y
-                        escalables.
-                        Especializado en <span>React y Laravel</span>, con conocimientos en <span>Python</span> para
-                        automatización,
-                        creación e integración de <span>API RESTful</span>.
-                        <br>
-                        Con enfoque en <span>desarrollo seguro</span>, implementación de <span>buenas prácticas
-                            OWASP</span> y
-                        aplicación de principios de <span>ciberseguridad</span> en cada etapa del desarrollo.
-                        Experiencia en
-                        <span>hardening de APIs</span>, protección de endpoints y mitigación de vulnerabilidades
-                        comunes.
-                        <br>
-                        Apasionado por el diseño de bases de datos, la optimización del rendimiento, las buenas
-                        prácticas <span>SEO</span>
-                        y el código limpio. Experiencia en análisis de requisitos, diseño de interfaces de usuario y
-                        pruebas funcionales.
-                        <br>
-                        Comunicación efectiva en <span>inglés</span> (B2) y conocimientos de <span>francés</span> (A2) y
-                        <span>japonés</span> (A1). Comprometido con el aprendizaje continuo y la mejora constante de
-                        procesos de desarrollo.
-                    </p>
+                        Experiencia en desarrollo de aplicaciones web seguras, escalables y orientadas a producto,
+                        utilizando <span>React y Laravel</span>, integración de <span>API RESTful</span> y
+                        automatización con <span>Python</span>, con enfoque en arquitectura modular, rendimiento y
+                        mantenimiento a largo plazo.
 
+                        <br><br>
+                        Con enfoque en <span>desarrollo seguro</span>, implementando protección de endpoints y
+                        mitigación de vulnerabilidades.
+                        Experiencia en diseño y optimización de bases de datos, <span>SEO técnico</span> y desarrollo
+                        con código limpio, así como en análisis de requisitos, diseño UI/UX y pruebas funcionales.
+                        <br><br>
+
+                        Comunicación efectiva en <span>inglés</span> (B2) y conocimientos de <span>francés</span> (A2) y
+                        <span>japonés</span> (A1).
+                    </p>
 
                     <a href="../assets/docs/Mikkel/Mikkel Llaven Alonso_CV.pdf" download="CV_Mikkel_Llaven.pdf">
                         <button class="contact_small_btn">Descargar CV</button>
@@ -150,38 +142,39 @@
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/php.png" alt="PHP">
                     <h3>Laravel (PHP)</h3>
-                    <p>Desarrollo de aplicaciones web seguras, escalables y de alto rendimiento con Laravel (PHP),
-                        aplicando buenas prácticas y optimización de código.</p>
+                    <p>Desarrollo de aplicaciones web seguras y escalables con Laravel, diseño de arquitectura backend,
+                        APIs robustas y optimización de rendimiento.</p>
                 </div>
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/api.png" alt="Rest API">
                     <h3>Rest API</h3>
-                    <p>Desarrollo, diseño e implementación de APIs RESTful para integrar sistemas, facilitar la
-                        comunicación entre
-                        aplicaciones y escalar servicios web.</p>
+                    <p>Diseño e implementación de APIs RESTful para integración de sistemas, comunicación entre
+                        servicios y arquitecturas escalables.</p>
                 </div>
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/react.png" alt="React">
                     <h3>React</h3>
-                    <p>Desarrollo de frontend escalable con componentes reutilizables, manejo de estado y hooks.</p>
+                    <p>Desarrollo de interfaces modernas con React, componentes reutilizables, manejo de estado y
+                        consumo eficiente de APIs.</p>
                 </div>
 
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/python.png" alt="Python">
                     <h3>Python</h3>
-                    <p>Automatización de procesos, análisis de datos y desarrollo de scripts para soluciones eficientes
-                        y versátiles</p>
+                    <p>Automatización de procesos, scripting y desarrollo de herramientas para optimizar flujos de
+                        trabajo y análisis de datos.</p>
                 </div>
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/sql.png" alt="SQL">
                     <h3>SQL</h3>
-                    <p>Diseño y gestión de bases de datos relacionales, garantizando eficiencia y consistencia</p>
+                    <p>Diseño y optimización de bases de datos relacionales, consultas eficientes y modelado de datos
+                        para aplicaciones escalables.</p>
                 </div>
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/security.png" alt="Cybersecurity">
                     <h3>Ciberseguridad</h3>
-                    <p>Aplicación de prácticas OWASP, hardening de APIs, protección de endpoints y validación robusta
-                        para aplicaciones seguras.</p>
+                    <p>Implementación de prácticas OWASP, hardening de APIs, protección de endpoints y mitigación de
+                        vulnerabilidades.</p>
                 </div>
 
                 <!-- <div class="hover-card">
@@ -194,17 +187,18 @@
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/html-5.png" alt="HTML">
                     <h3>HTML</h3>
-                    <p>Estructuración de contenido web, asegurando una experiencia de usuario óptima</p>
+                    <p>Estructuración semántica de interfaces web optimizadas para accesibilidad, SEO y rendimiento.</p>
                 </div>
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/javascript.png" alt="JavaScript">
                     <h3>JavaScript</h3>
-                    <p>Desarrollo de interactividad y funcionalidad, mejorando la experiencia del usuario</p>
+                    <p>Desarrollo de lógica del lado del cliente, interacción dinámica y consumo de APIs para
+                        aplicaciones web modernas.</p>
                 </div>
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/css-3.png" alt="CSS">
                     <h3>CSS</h3>
-                    <p>Diseño de interfaces web modernas y responsivas, considerando la usabilidad</p>
+                    <p>Diseño de interfaces modernas, responsivas y centradas en la experiencia de usuario.</p>
                 </div>
 
                 <!-- <div class="hover-card">
@@ -224,23 +218,21 @@
             </div>
 
             <div class="tools_container">
-                <img src="../assets/img/Mikkel/Tools/github.png" alt="GitHub" title="GitHub">
-                <img src="../assets/img/Mikkel/Tools/jira.png" alt="Jira" title="Jira">
-                <img src="../assets/img/Mikkel/Tools/figma.png" alt="Figma" title="Figma">
-
-                <img src="../assets/img/Mikkel/Tools/visual-studio.png" alt="Vs Code" title="Visual Studio Code">
+                <img src="../assets/img/Mikkel/Tools/github.png" alt="GIT" title="GIT">
                 <img src="../assets/img/Mikkel/Tools/postman.png" alt="postman" title="postman">
-                <img src="../assets/img/Mikkel/Tools/xampp.png" alt="Xampp" title="XAMPP">
+                <img src="../assets/img/Mikkel/Tools/jira.png" alt="Jira" title="Jira">
 
+                <img src="../assets/img/Mikkel/Tools/figma.png" alt="Figma" title="Figma">
+                <img src="../assets/img/Mikkel/Tools/visual-studio.png" alt="Vs Code" title="Visual Studio Code">
                 <img src="../assets/img/Mikkel/Tools/filezilla.png" alt="filezilla" title="FileZilla">
-                <img src="../assets/img/Mikkel/Tools/notion.png" alt="Notion" title="Notion">
+
                 <img src="../assets/img/Mikkel/Tools/uml.png" alt="diagrama UML" title="UML Diagram">
+                <img src="../assets/img/Mikkel/Tools/notion.png" alt="Notion" title="Notion">
+                <img src="../assets/img/Mikkel/Tools/wordpress.png" alt="Wordpress and Wix" title="Wordpress and Wix">
 
-
-                <img src="../assets/img/Mikkel/Tools/wordpress.png" alt="wordpress" title="wordpress">
-                <img src="../assets/img/Mikkel/Tools/wix.png" alt="wix" title="wix">
-                <img src="../assets/img/Mikkel/Tools/filmora.png" alt="Filmora" title="Filmora">
-
+                <!-- <img src="../assets/img/Mikkel/Tools/wix.png" alt="wix" title="wix">
+                <img src="../assets/img/Mikkel/Tools/xampp.png" alt="Xampp" title="XAMPP">
+                <img src="../assets/img/Mikkel/Tools/filmora.png" alt="Filmora" title="Filmora"> -->
             </div>
         </section>
 
@@ -251,7 +243,13 @@
             <section class="featured_project">
                 <div class="featured_project__media">
                     <img src="../assets/img/Mikkel/Projects/MudanzaFacil.png"
-                        alt="Mudanza Fácil – Plataforma de mudanzas en México">
+                        alt="Mudanza Fácil – Plataforma de mudanzas en México" class="lightbox-trigger">
+                </div>
+
+                <!-- LIGHTBOX -->
+                <div class="lightbox" id="lightbox">
+                    <span class="lightbox__close">&times;</span>
+                    <img class="lightbox__img" id="lightbox-img">
                 </div>
 
                 <div class="featured_project__content">
@@ -259,10 +257,15 @@
                     <h3 class="featured_project__title">Mudanza Fácil</h3>
                     <div class="featured_project__description">
                         <p>
-                            Plataforma web full-stack diseñada para conectar empresas de mudanzas en México.
-                            Frontend desarrollado en React (SPA / PWA) con backend desacoplado en Laravel,
-                            optimización de rutas, reducción de viajes vacíos y contacto directo vía WhatsApp.
+                            Desarrollo de una plataforma <span>SaaS full-stack</span> para conectar empresas de mudanzas
+                            y optimizar
+                            la logística de cargas.
                         </p>
+
+                        <p>Implementación de <span>arquitectura desacoplada</span> con frontend en Next.js (React) y
+                            backend API
+                            REST en Laravel. Incluye sistema de publicación y gestión de servicios, administración de
+                            usuarios, generación de leads, reputación y motor de notificaciones basado en eventos.</p>
                     </div>
 
                     <ul class="featured_project__techs">
@@ -274,17 +277,17 @@
                     </ul>
 
                     <div class="featured_project__links">
-                        <a href="#" target="_blank" aria-label="Ver proyecto">
+                        <a href="https://app.mudanzafacil.com.mx/empresa/login" target="_blank"
+                            aria-label="Ver proyecto">
                             <img src="../../assets/img/icons/web.png" alt="Pag web">
                         </a>
 
-                        <a href="https://github.com/MLlAlonso" target="_blank" aria-label="Repositorio">
+                        <a href="https://github.com/MLlAlonso/Red-Mudancera" target="_blank" aria-label="Repositorio">
                             <img src="../../assets/img/icons/github.png" alt="github">
                         </a>
                     </div>
 
                 </div>
-
             </section>
 
             <h3>Proyectos y soluciones desarrolladas</h3>
@@ -441,7 +444,6 @@
                     </div>
                 </div>
 
-
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
                         <img src="../assets/img/Mikkel/Projects/Calculadora_Ventas (2).png" alt="Calculadora_Ventas">
@@ -543,6 +545,44 @@
                     </div>
                 </div>
 
+                <div class="expand_card" data-type="general full-stack web">
+                    <div class="expand_card__image">
+                        <img src="../assets/img/Mikkel/Projects/wplp.png"
+                            alt="WordPress Landing Page Technical Challenge preview">
+                    </div>
+
+                    <div class="expand_card__techs">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
+                            alt="WordPress">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                            alt="HTML5">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                            alt="JavaScript">
+                    </div>
+
+                    <div class="expand_card__info">
+                        <h3 class="expand_card__title">WordPress Landing Page</h3>
+                        <p class="expand_card__description">
+                            Technical challenge en WordPress, enfocado en maquetación responsive, estructura semántica
+                            y optimización SEO.
+                        </p>
+                        <div class="expand_card__links">
+                            <a href="https://techtest.mlastdio.com/" target="_blank">
+                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
+                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://www.figma.com/design/JaGSc0Bw9CXLsBzD8twoav/Tech-test?node-id=1-2&p=f&t=dt1xACEVUEabpU2j-0"
+                                target="_blank">
+                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
+                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="expand_card" data-type="general frontend web">
                     <div class="expand_card__image">
@@ -666,7 +706,6 @@
                     </div>
                 </div>
 
-
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
                         <img src="../assets/img/Mikkel/Projects/CART.jpeg" alt="CartQuotationManager">
@@ -774,7 +813,6 @@
                         </div>
                     </div>
                 </div>
-
 
                 <div class="expand_card" data-type="general frontend web">
                     <div class="expand_card__image">
@@ -979,6 +1017,33 @@
                             <ul class="resume__timeline">
                                 <li class="resume__timeline-item">
                                     <div class="resume__timeline-circle"></div>
+                                    <div class="resume__timeline-date">Junio 2025 - Actualidad</div>
+                                    <div class="resume__timeline-title"> MLA Studio - Freelance / Project Manager</div>
+                                    <div class="resume__timeline-descr">
+                                        Liderazgo y gestión de proyectos desde el levantamiento de requisitos hasta la
+                                        entrega final, coordinando equipos de diseño y desarrollo. Asi como
+                                        supervisión de entregables, documentación técnica, propuestas comerciales y
+                                        comunicación directa con clientes.
+
+                                        <br>Desarrollo web con <span>Laravel</span>, <span>Node.js</span>,
+                                        <span>MySQL</span> y <span>JavaScript</span>,
+                                        construyendo productos escalables y de alto rendimiento.
+
+                                        <span>Proyecto destacado:</span> Desarrollo de <span>Mudanza Fácil</span>,
+                                        plataforma web tipo <span>SaaS</span> que conecta empresas de mudanzas en
+                                        México,
+                                        construida con <span>React</span> y backend en <span>Laravel</span>, optimizando
+                                        la
+                                        gestión
+                                        de solicitudes mediante un sistema de <span>leads</span> y contacto directo vía
+                                        WhatsApp.
+
+
+                                    </div>
+                                </li>
+
+                                <li class="resume__timeline-item">
+                                    <div class="resume__timeline-circle"></div>
                                     <div class="resume__timeline-date">Diciembre 2024 - Agosto 2025</div>
                                     <div class="resume__timeline-title">El Hub de Seguridad - Desarrollador web</div>
                                     <div class="resume__timeline-descr">
@@ -990,25 +1055,6 @@
                                         landing pages optimizadas, documentación técnica y gestión colaborativa en
                                         Notion. Desarrollo de una PWA con Node.js y Express, con persistencia offline y
                                         optimización para producción.
-                                    </div>
-                                </li>
-
-                                <li class="resume__timeline-item">
-                                    <div class="resume__timeline-circle"></div>
-                                    <div class="resume__timeline-date">Junio 2025 - Actualidad</div>
-                                    <div class="resume__timeline-title"> MLA Studio - Freelance / Project Manager</div>
-                                    <div class="resume__timeline-descr">
-                                        <span>Liderazgo y gestión</span> de proyectos desde el levantamiento de
-                                        requisitos hasta
-                                        la entrega final, <span>coordinando equipos</span> de diseño y desarrollo para
-                                        garantizar
-                                        coherencia visual, técnica y funcional. Desarrollo web Full
-                                        Stack utilizando <span>Laravel, Node.js, MySQL y JavaScript</span>, asegurando
-                                        productos
-                                        escalables y de alto rendimiento. Supervisión de tiempos, entregables y
-                                        objetivos, elaboración de documentación técnica, propuestas comerciales y
-                                        presupuestos,
-                                        manteniendo una comunicación efectiva con clientes y colaboradores.
                                     </div>
                                 </li>
 
@@ -1107,6 +1153,7 @@
     <!-- Resume -->
     <script src="../assets/js/Mikkel/resume.js"></script>
     <!-- Projects -->
+    <script src="../assets/js/Mikkel/images.js"></script>
     <script src="../assets/js/Mikkel/projects.js"></script>
     <!-- Translate -->
     <script src="../assets/js/Mikkel/translate.js"></script>

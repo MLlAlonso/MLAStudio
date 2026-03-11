@@ -2,13 +2,14 @@ const codes = [
     {
         lang: "php",
         content: `<?php
-
+        
 namespace App\Http\Controllers;
-use Illuminate\Http\Request;
-
-class WelcomeController extends Controller {
-    public function index() {
-    return "If you can imagine it, I can develop it";
+class WelcomeController extends Controller
+{
+    public function index()
+    {
+        $idea = "complex ideas";
+        return "Turning {$idea} into simple software. If you can imagine it, I can build it.";
     }
 }`
     }

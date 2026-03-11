@@ -195,18 +195,34 @@
 
             <div class="carrousel_3d">
                 <div class="carrousel_3d_item">
+                    <img src="assets/img/MudanzaFacil.png" alt="Mudanza Fácil">
+                    <a href="https://app.mudanzafacil.com.mx/empresa/login" target="_blank">Mudanza Fácil</a>
+                </div>
+
+                <div class="carrousel_3d_item">
                     <img src="PageCraft/assets/img/Cruanpa/BlancoC.png" alt="Cruanpa">
-                    <a href="PageCraft/CRUANPA/index.html" target="_blank">CRUANPA Comercializadora</a>
+                    <a href="PageCraft/CRUANPA/index.php" target="_blank">CRUANPA Comercializadora</a>
+                </div>
+
+                <div class="carrousel_3d_item">
+                    <img src="ProfileX/assets/img/Mikkel/Mikkel/Mikkel 1.png" alt="Mikkel Llaven">
+                    <a href="ProfileX/MikkelAlonso/index.php" target="_blank">Mikkel Llaven <br> Ing.
+                        Software</a>
+                </div>
+
+                <div class="carrousel_3d_item">
+                    <img src="assets/img/WISCONSIGN.avif" alt="WISCONSIGN">
+                    <a href="https://www.wisconsign.co/" target="_blank">WISCONSIGN</a>
                 </div>
 
                 <div class="carrousel_3d_item">
                     <img src="PageCraft/assets/img/Valant/icon.png" alt="Valant">
-                    <a href="PageCraft/Valant/index.html" target="_blank">Valant Bordados Electronicos</a>
+                    <a href="PageCraft/Valant/index.php" target="_blank">Valant Bordados Electronicos</a>
                 </div>
 
                 <div class="carrousel_3d_item">
                     <img src="ProfileX/assets/img/EstrellaRamos/photo.svg" alt="Estrella Ramos">
-                    <a href="ProfileX/EstrellaRamos/index.html" target="_blank">Estrella Ramos <br> Ing.
+                    <a href="ProfileX/EstrellaRamos/index.php" target="_blank">Estrella Ramos <br> Ing.
                         Biotecnologia</a>
                 </div>
             </div>

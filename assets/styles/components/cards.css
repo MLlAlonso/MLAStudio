@@ -336,14 +336,13 @@ html::-webkit-scrollbar {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-color: #000;
-  /* Imagen de fondo */
-  /* Barra superior de tecnologías */
-  /* Contenido */
-  /* Estado expandido */
 }
 .expand_card:hover {
   transform: scale(1.05);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+}
+.expand_card {
+  /* Imagen de fondo */
 }
 .expand_card__image {
   position: absolute;
@@ -359,6 +358,9 @@ html::-webkit-scrollbar {
 }
 .expand_card:hover .expand_card__image img {
   filter: brightness(0.5);
+}
+.expand_card {
+  /* Barra superior de tecnologías */
 }
 .expand_card__techs {
   position: absolute;
@@ -389,6 +391,9 @@ html::-webkit-scrollbar {
 .expand_card:hover .expand_card__techs {
   opacity: 1;
   transform: translateY(0);
+}
+.expand_card {
+  /* Contenido */
 }
 .expand_card__info {
   position: absolute;
@@ -447,6 +452,9 @@ html::-webkit-scrollbar {
 }
 .expand_card__info .expand_card__links a:hover img {
   filter: none;
+}
+.expand_card {
+  /* Estado expandido */
 }
 .expand_card:hover .expand_card__info {
   transform: translateY(0);
