@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title (MUY IMPORTANTE para SEO) -->
+    <title>ProfileX | Portfolio, Online Resume & Link in Bio</title>
+
+    <!-- SEO básico -->
+    <meta name="description"
+        content="Create your portfolio, online resume, digital business card and link-in-bio page in minutes with ProfileX. Build your professional online presence with one simple link.">
+
+    <meta name="keywords"
+        content="online portfolio, digital resume, link in bio, personal website, digital business card, developer portfolio, profile page">
+
+    <meta name="author" content="MLA Studios">
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://profilex.io">
+
+    <!-- Open Graph (Facebook / LinkedIn / Discord) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://profilex.io">
+    <meta property="og:title" content="ProfileX | Portfolio, Online Resume & Link in Bio">
+    <meta property="og:description"
+        content="Your portfolio, resume and professional links in one powerful page. Share your professional identity with one link.">
+    <meta property="og:image" content="https://profilex.io/assets/img/preview.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ProfileX | Portfolio, Online Resume & Link in Bio">
+    <meta name="twitter:description" content="Create a portfolio, online resume and digital business card in minutes.">
+    <meta name="twitter:image" content="https://profilex.io/assets/img/preview.png">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#111111">
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/img/Ml.png">
+    <!-- Styles -->
+    <link rel="stylesheet" href="../ProfileX/assets/styles/index.css" />
+    <!-- Google Fonts (opcional) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <div class="container">
+        <!-- NavBar -->
+        <nav>
+            <div class="nav_brand">
+                <a href="../index.php">
+                    <img src="../assets/img/MLA.png" alt="MLA logo">
+                </a>
+            </div>
+
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+
+            <ul class="nav_links">
+                <li><a href="../index.php"><img src="../assets/img/icons/home.png" alt="home" target="_blank"></a></li>
+                <li><a href="../PageCraft/index.php" target="_blank">PageCraft</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <p>Tu portafolio digital profesional</p>
+            <img src="assets/img/ProfileX.png" alt="ProfileX">
+            <h2>Un espacio para mostrar quién eres
+                y lo que haces, a tu manera.</h2>
+            <div class="head_btn">
+                <a href="#services" class="contact_btn" id="plans_btn">Nuestros planes</a>
+                <a href="https://wa.me/529213029641" class="contact_btn" id="contact_btn" target="_blank">Contactar</a>
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <section class="why_section">
+            <h2>Porqué elegirnos</h2>
+
+            <div class="why_chips">
+                <button class="chip" data-target="impacto">
+                    <img src="assets/img/impact.svg" alt="">
+                    Impacto
+                </button>
+
+                <button class="chip" data-target="seo">
+                    <img src="assets/img/seo.svg" alt="">
+                    Optimizado
+                </button>
+
+                <button class="chip" data-target="mobile">
+                    <img src="assets/img/mobile.svg" alt="">
+                    Mobile-first
+                </button>
+            </div>
+
+            <div class="why_chips">
+                <button class="chip" data-target="liderazgo">
+                    <img src="assets/img/lider.svg" alt="">
+                    Liderazgo
+                </button>
+
+                <button class="chip" data-target="performance">
+                    <img src="assets/img/rendimiento.svg" alt="">
+                    Rendimiento
+                </button>
+
+                <button class="chip" data-target="scalable">
+                    <img src="assets/img/escalable.svg" alt="">
+                    Escalable
+                </button>
+            </div>
+
+            <div class="chip_hint">
+                Haz clic en una opción para ver más detalles
+            </div>
+
+            <div class="why_cards">
+                <div class="why_card" data-card="impacto">
+                    <div class="card_header">
+                        <img src="assets/img/impact.svg" class="card_icon">
+                        <h3>Impacto</h3>
+                    </div>
+
+                    <div class="card_divider"></div>
+
+                    <ul class="card_list">
+                        <li>
+                            <span class="check">✓</span>
+                            Presencia profesional.
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Destaca al instante
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Deja huella en cada visita.
+                        </li>
+                    </ul>
+
+                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                        Hablemos de tu idea
+                    </button>
+                </div>
+
+                <div class="why_card" data-card="seo">
+                    <div class="card_header">
+                        <img src="assets/img/seo.svg" class="card_icon">
+                        <h3>Optimizado</h3>
+                    </div>
+
+                    <div class="card_divider"></div>
+
+                    <ul class="card_list">
+                        <li>
+                            <span class="check">✓</span>
+                            Optimizado para buscadores.
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Fácil de compartir.
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Conecta con nuevas oportunidades.
+                        </li>
+                    </ul>
+
+                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                        Hablemos de tu idea
+                    </button>
+                </div>
+
+                <div class="why_card" data-card="mobile">
+                    <div class="card_header">
+                        <img src="assets/img/mobile.svg" class="card_icon">
+                        <h3>Mobile-first</h3>
+                    </div>
+
+                    <div class="card_divider"></div>
+
+                    <ul class="card_list">
+                        <li>
+                            <span class="check">✓</span>
+                            Perfecto en móviles..
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Fluido en todo.
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Experiencia total.
+                        </li>
+                    </ul>
+
+                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                        Hablemos de tu idea
+                    </button>
+                </div>
+
+                <div class="why_card" data-card="liderazgo">
+                    <div class="card_header">
+                        <img src="assets/img/lider.svg" class="card_icon">
+                        <h3>Liderazgo</h3>
+                    </div>
+
+                    <div class="card_divider"></div>
+
+                    <ul class="card_list">
+                        <li>
+                            <span class="check">✓</span>
+                            Presenta tus proyectos con claridad.
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Organiza tu experiencia.
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Cuenta tu historia visualmente.
+                        </li>
+                    </ul>
+
+                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                        Hablemos de tu idea
+                    </button>
+                </div>
+
+                <div class="why_card" data-card="performance">
+                    <div class="card_header">
+                        <img src="assets/img/rendimiento.svg" class="card_icon">
+                        <h3>Rendimiento</h3>
+                    </div>
+
+                    <div class="card_divider"></div>
+
+                    <ul class="card_list">
+                        <li>
+                            <span class="check">✓</span>
+                            Carga rápida.
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Navegación intuitiva.
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Experiencia sin fricciones.
+                        </li>
+                    </ul>
+
+                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                        Hablemos de tu idea
+                    </button>
+                </div>
+
+                <div class="why_card" data-card="scalable">
+                    <div class="card_header">
+                        <img src="assets/img/escalable.svg" class="card_icon">
+                        <h3>Escalable</h3>
+                    </div>
+
+                    <div class="card_divider"></div>
+
+                    <ul class="card_list">
+                        <li>
+                            <span class="check">✓</span>
+                            Código limpio.
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Tecnologías modernas.
+                        </li>
+
+                        <li>
+                            <span class="check">✓</span>
+                            Preparado para crecer contigo.
+                        </li>
+                    </ul>
+
+                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                        Hablemos de tu idea
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="caption_text">
+            <h3>Convierte tus ideas en experiencias digitales</h3>
+            <h3>Mientras otros solo te dan un link, nosotros te damos presencia</h3>
+            <h3>Tu marca no nació para vivir dentro de una plantilla.</h3>
+        </section>
+
+        <section class="experiences">
+            <h2>Experiencias impulsadas</h2>
+
+            <div class="carrousel_3d">
+                <div class="carrousel_3d_item">
+                    <div class="card_preview">
+                        <img src="assets/img/portafolio.png" alt="Profile preview">
+                    </div>
+
+                    <div class="card_user">
+                        <a href="MikkelAlonso/index.php" target="_blank">
+                            <img class="avatar" src="assets/img/Mikkel/Mikkel/Mikkel 1.png" alt="Software Engineer">
+                        </a>
+
+                        <div class="user_info">
+                            <a href="MikkelAlonso/index.php" target="_blank">
+                                <span class="name">Mikkel Llaven Alonso</span>
+                            </a>
+                            <span class="career">Ing. de Software</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrousel_3d_item">
+                    <div class="card_preview">
+                        <img src="assets/img/cv.png">
+                    </div>
+
+                    <div class="card_user">
+                        <img class="avatar" src="assets/img/EstrellaRamos/photo.svg">
+
+                        <div class="user_info">
+                            <a href="EstrellaRamos/index.php" target="_blank">
+                                <span class="name">Estrella Ramos</span>
+                            </a>
+
+                            <span class="career">Ing. en Biotecnología</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing_section" id="services">
+            <h2>Planes</h2>
+
+            <div class="pricing_cards">
+                <!-- PLAN 1 -->
+                <div class="pricing_card">
+                    <div class="plan_header">
+                        <img src="assets/img/inicia.svg">
+                        <h3>Inicia</h3>
+                    </div>
+
+                    <p class="plan_desc">
+                        Ideal para freelancers o profesionales que quieren mostrar su trabajo o marca de forma sencilla
+                        y profesional en su primera presencia digital.
+                    </p>
+
+                    <div class="plan_price">
+                        $900 <span>mxn</span>
+                    </div>
+
+                    <h4>Incluye:</h4>
+
+                    <ul>
+                        <li>Tarjeta digital personalizada y responsive</li>
+                        <li>Dominio y SEO básico</li>
+                        <li>Contacto directo</li>
+                    </ul>
+
+                    <div class="plan_delivery">
+                        Entrega: 3 días hábiles
+                    </div>
+
+                    <button class="plan_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                        Contáctanos
+                    </button>
+                </div>
+
+                <!-- PLAN 2 -->
+                <div class="pricing_card">
+                    <div class="plan_header">
+                        <img src="assets/img/crece.svg">
+                        <h3>Crece</h3>
+                    </div>
+
+                    <p class="plan_desc">
+                        Ideal para profesionales, artistas o pequeñas empresas que buscan un portafolio más completo,
+                        atractivo y que proyecte confianza.
+                    </p>
+
+                    <div class="plan_price">
+                        $1500 <span>mxn</span>
+                    </div>
+
+                    <h4>Incluye:</h4>
+
+                    <ul>
+                        <li>Incluye todo lo del plan Inicia</li>
+                        <li>Diseño avanzado con animaciones</li>
+                        <li>Sección de proyectos, servicios, experiencia</li>
+                        <li>Multilenguaje opcional (hasta 2 idiomas)</li>
+                    </ul>
+
+                    <div class="plan_delivery">
+                        Entrega: 6 días hábiles
+                    </div>
+
+                    <button class="plan_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                        Contáctanos
+                    </button>
+                </div>
+
+                <!-- PLAN 3 -->
+                <div class="pricing_card">
+                    <div class="plan_header">
+                        <img src="assets/img/lidera.svg">
+                        <h3>Lidera</h3>
+                    </div>
+
+                    <p class="plan_desc">
+                        Ideal para marcas, empresas o profesionales que buscan una presencia digital completa,
+                        diferenciada y capaz de atraer nuevas oportunidades.
+                    </p>
+
+                    <div class="plan_price">
+                        $2400 <span>mxn</span>
+                    </div>
+
+                    <h4>Incluye:</h4>
+
+                    <ul>
+                        <li>Incluye todo lo de los planes anteriores</li>
+                        <li>Galería de proyectos o productos interactiva</li>
+                        <li>Optimización avanzada y SEO completo</li>
+                        <li>Secciones dinámicas</li>
+                    </ul>
+
+                    <div class="plan_delivery">
+                        Entrega: 9 días hábiles
+                    </div>
+
+                    <button class="plan_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                        Contáctanos
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="MAIN_FAQ">
+            <h2>¿Tienes <br> alguna duda?</h2>
+
+            <div class="FAQ_LIST">
+                <div class="FAQ_LIST_ITEM">
+                    <h3>¿ProfileX es solo para freelancers o también pueden usarlo empresas?</h3>
+                    <p>
+                        ProfileX es <span>para todos</span>. Puedes crear tu portafolio personal como profesional
+                        independiente o
+                        <span>mostrar los proyectos y servicios</span> de tu empresa de manera profesional y moderna.
+                    </p>
+                </div>
+
+                <div class="FAQ_LIST_ITEM">
+                    <h3>¿Qué incluye la optimización SEO y la visibilidad online?</h3>
+                    <p>
+                        Cada portafolio viene con <span>SEO técnico</span> básico, fácil de compartir y preparado para
+                        ser indexado
+                        por buscadores. Los planes avanzados incluyen optimización completa, para que tu portafolio
+                        destaque y <span>atraiga oportunidades</span> profesionales o comerciales.
+                    </p>
+                </div>
+
+                <div class="FAQ_LIST_ITEM">
+                    <h3>¿Puedo personalizar el diseño de mi portafolio?</h3>
+                    <p>
+                        Todos los planes permiten personalizar colores, tipografías, secciones y animaciones para que
+                        <span> tu
+                            portafolio refleje tu estilo o la identidad de tu marca</span>.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="MLA_footer" id="contact">
+        <h2>Ponte en contacto conmigo</h2>
+        <div class="footer_contact">
+            <div class="footer_contact_item">
+                <img src="../assets/img/icons/whatsapp.png" alt="WhatsApp">
+                <h3>WhatsApp</h3>
+                <a href="https://wa.me/529213029641" target="_blank">Enviar Mensaje</a>
+            </div>
+
+            <div class="footer_contact_item">
+                <img src="../assets/img/icons/email.png" alt="Email">
+                <h3>Email</h3>
+                <a href="mailto:mikkel_03@outlook.com" target="_blank">mikkel_03@outlook.com</a>
+            </div>
+
+            <div class="footer_contact_item">
+                <img src="../assets/img/icons/contact.png" alt="Contact Number">
+                <h3>Mi contacto</h3>
+                <a href="tel:+5219213029641" target="_blank">+52 921 302 9641</a>
+            </div>
+        </div>
+
+        <p class="copyright">Copyright © 2026 Mikkel Llaven Alonso | Todos los derechos reservados | Designed & built by
+            <a href="../../ProfileX/MikkelAlonso/index.php" target="_blank">Mikkel Llaven Alonso</a>
+        </p>
+    </footer>
+
+    <!-- NavBar script -->
+    <script src="../assets/js/navBar.js" defer></script>
+    <!-- Why Cards script -->
+    <script src="../ProfileX/assets/js/whyCards.js" defer></script>
+    <!-- Caption Text script -->
+    <script src="../assets/js/carrousel_text.js" defer></script>
+    <!-- Experiencies Carrousel script -->
+    <script src="../assets/js/carrousel_3D.js" defer></script>
+</body>
+
+</html>

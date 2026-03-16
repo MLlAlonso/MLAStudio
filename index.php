@@ -49,10 +49,8 @@
             </div>
 
             <ul class="nav_links">
-                <li><a href="index.html"><img src="assets/img/icons/home.png" alt="home"></a></li>
-                <li><a href="PageCraft/">PageCraft</a></li>
-                <li><a href="ProfileX/">ProfileX</a></li>
-                <li><a href="">Servicios</a></li>
+                <li><a href="PageCraft/" target="_blank">PageCraft</a></li>
+                <li><a href="ProfileX/" target="_blank">ProfileX</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
@@ -72,13 +70,13 @@
             <div>
                 <h3>ProfileX</h3>
                 <p>Páginas web modernas, rápidas y optimizadas para impulsar tu marca en línea</p>
-                <a href="https://wa.me/529213029641" target="_blank">Saber más →</a>
+                <a href="ProfileX/index.php" target="_blank">Saber más →</a>
             </div>
 
             <div>
                 <h3>PageCraft</h3>
                 <p>Portafolio profesional único que muestre tu talento y proyectos con estilo e impacto.</p>
-                <a href="https://wa.me/529213029641" target="_blank">Saber más →</a>
+                <a href="PageCraft/index.php" target="_blank">Saber más →</a>
             </div>
         </section>
 
@@ -261,7 +259,7 @@
         </section>
     </main>
 
-    <footer class="MLA_footer">
+    <footer class="MLA_footer" id="contact">
         <h2>Ponte en contacto conmigo</h2>
         <div class="footer_contact">
             <div class="footer_contact_item">
@@ -283,7 +281,7 @@
             </div>
         </div>
 
-        <p class="copyright">Copyright © 2025 Mikkel Llaven Alonso | Todos los derechos reservados | Designed & built by
+        <p class="copyright">Copyright © 2026 Mikkel Llaven Alonso | Todos los derechos reservados | Designed & built by
             <a href="../../ProfileX/MikkelAlonso/index.php" target="_blank">Mikkel Llaven Alonso</a>
         </p>
     </footer>
