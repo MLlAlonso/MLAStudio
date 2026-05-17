@@ -6,30 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO BÁSICO -->
-    <title>Mikkel Llaven | Web Full Stack Developer</title>
-    <meta name="description" content="Desarrollador web full stack con experiencia en Laravel, Java y tecnologías web.
-        Explora proyectos innovadores y soluciones eficientes">
+    <title>Mikkel Llaven | Full Stack Web Developer</title>
+
+    <meta name="description"
+        content="Portafolio de Mikkel Llaven, ingeniero de software y desarrollador web full stack. Especializado en Laravel, PHP y tecnologías modernas, enfocado en crear soluciones escalables y eficientes.">
+
     <meta name="keywords"
-        content="Mikkel Llaven, desarrollador web, full stack, ingeniero de software, Laravel, PHP, JavaScript, HTML, CSS, MySQL, backend, frontend, soluciones digitales, programador web, software engineer">
+        content="desarrollador web, web developer, full stack, ingeniero de software, Laravel, PHP, JavaScript, HTML, CSS, MySQL, backend, frontend, software engineer">
+
     <meta name="author" content="Mikkel Llaven Alonso">
-    <meta property="og:title" content="Mikkel Llaven | Full Stack Web Developer & Software Engineer">
+    <meta name="theme-color" content="#009E66">
+
+    <!-- OPEN GRAPH (WhatsApp, Facebook, LinkedIn) -->
+    <meta property="og:title" content="Mikkel Llaven | Full Stack Web Developer">
     <meta property="og:description"
-        content="Portafolio de Mikkel Llaven, desarrollador full stack con experiencia en Laravel, PHP y tecnologías web modernas. Proyectos innovadores y soluciones eficientes.">
+        content="Portafolio de Mikkel Llaven, desarrollador full stack enfocado en soluciones escalables y eficientes.">
+    <meta property="og:image" content="https://mlastdio.com/ProfileX/assets/img/Mikkel/Mikkel/head.png">
+    <meta property="og:url" content="https://mlastdio.com/ProfileX">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="es_MX">
+
+    <!-- TWITTER -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mikkel Llaven | Full Stack Web Developer">
     <meta name="twitter:description"
-        content="Ingeniero de software especializado en desarrollo web full stack con Laravel, PHP y tecnologías modernas. Descubre proyectos innovadores y eficientes.">
-    <meta name="theme-color" content="#009E66">
+        content="Ingeniero de software especializado en desarrollo web full stack con Laravel y tecnologías modernas.">
+    <meta name="twitter:image" content="https://mlastdio.com/ProfileX/assets/img/Mikkel/Mikkel/head.png">
 
-    <!-- Styles -->
-    <link rel="icon" href="../assets/img/Mikkel/Ml.png">
+    <!-- FAVICON -->
+    <link rel="icon" href="/ProfileX/assets/img/Mikkel/Ml.png">
+
+    <!-- STYLES -->
     <link rel="stylesheet" href="../assets/styles/Mikkel/index.css" />
-    <!-- SCRIPTS -->
+
+    <!-- GOOGLE TRANSLATE -->
     <script type="text/javascript"
         src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 </head>
 
 <body>

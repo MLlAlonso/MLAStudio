@@ -506,7 +506,7 @@ nav .nav_links {
   align-items: center;
 }
 nav .nav_links a {
-  color: #9F9F9F;
+  color: #D9D9D9;
   font-size: 18px;
 }
 nav .nav_links a:hover {
@@ -530,7 +530,7 @@ nav .menu-toggle {
 nav .menu-toggle .bar {
   width: 25px;
   height: 3px;
-  background-color: #9F9F9F;
+  background-color: #D9D9D9;
   margin: 4px 0;
   border-radius: 2px;
   transition: all 0.3s ease;
@@ -1033,7 +1033,7 @@ body.scrolled nav {
     box-shadow: -5px 0 15px rgba(0, 0, 0, 0.15);
   }
   nav .nav_links a {
-    color: #9F9F9F;
+    color: #D9D9D9;
     font-size: 1.2rem;
     font-weight: 500;
   }
@@ -1193,7 +1193,7 @@ body.scrolled nav {
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: #7570B3;
+  background-color: #D992EB;
   transition: all 0.2s ease;
   font-family: "Baloo 2", cursive;
   font-weight: bold;
@@ -1217,14 +1217,14 @@ body.scrolled nav {
 }
 .btn_sparks:hover:before {
   top: -70%;
-  background-image: radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 20%, #7570B3 20%, transparent 30%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7570B3 15%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%);
+  background-image: radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, transparent 20%, #D992EB 20%, transparent 30%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, transparent 10%, #D992EB 15%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%);
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
   background-position: 50% 120%;
   animation: greentopBubbles 0.6s ease;
 }
 .btn_sparks:hover::after {
   bottom: -70%;
-  background-image: radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7570B3 15%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%);
+  background-image: radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, transparent 10%, #D992EB 15%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
   background-position: 50% 0%;
   animation: greenbottomBubbles 0.6s ease;
@@ -1481,7 +1481,7 @@ p,
 a {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
-  color: #9F9F9F;
+  color: #D9D9D9;
 }
 
 body {
@@ -1507,7 +1507,7 @@ header {
 }
 header h2 {
   max-width: 50%;
-  color: #9F9F9F;
+  color: #D9D9D9;
 }
 header .header_btn {
   display: flex;
@@ -1604,7 +1604,7 @@ main .aboutme .code_editor pre {
   background-color: #2d2d2d;
   white-space: pre-wrap;
   font-size: 1.05rem;
-  color: #9F9F9F;
+  color: #D9D9D9;
   padding: 10px;
 }
 main {
@@ -1690,7 +1690,7 @@ main .portfolio h3 {
 }
 main .portfolio p {
   font-size: 1rem;
-  color: #9F9F9F;
+  color: #D9D9D9;
   margin-top: 0;
 }
 main {
@@ -1943,7 +1943,7 @@ main .resume .resume__timeline-container .resume__timeline .resume__timeline-ite
   background: var(--bgColor);
   position: relative;
   padding-inline: 1.5rem;
-  color: #9F9F9F;
+  color: #D9D9D9;
   font-family: poppins, sans-serif;
   text-align: justify;
 }
@@ -2214,7 +2214,7 @@ main .resume .resume__timeline-container .resume__timeline .resume__timeline-ite
     gap: 1.5rem;
   }
   nav .nav_links a {
-    color: #9F9F9F;
+    color: #D9D9D9;
     font-size: 1.2rem;
     font-weight: 500;
   }

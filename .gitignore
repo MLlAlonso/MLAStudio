@@ -1,2 +1,14 @@
 # VS Code
 .vscode/
+$
+# Images
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Documents
+*.pdf
+
+# CSS source maps
+*.css.map
