@@ -120,16 +120,25 @@
                     <h2> Mikkel Llaven Alonso </h2>
                     <h3>Ingeniero de Software | Desarrollador Full Stack</h3>
                     <p>
-                        Experiencia en desarrollo de aplicaciones web seguras, escalables y orientadas a producto,
-                        utilizando <span>React y Laravel</span>, integración de <span>API RESTful</span> y
-                        automatización con <span>Python</span>, con enfoque en arquitectura modular, rendimiento y
-                        mantenimiento a largo plazo.
-
+                        Especializado en el diseño y desarrollo de productos digitales y aplicaciones
+                        web enfocadas en rendimiento, escalabilidad y experiencia de usuario.
                         <br><br>
-                        Con enfoque en <span>desarrollo seguro</span>, implementando protección de endpoints y
-                        mitigación de vulnerabilidades.
-                        Experiencia en diseño y optimización de bases de datos, <span>SEO técnico</span> y desarrollo
-                        con código limpio, así como en análisis de requisitos, diseño UI/UX y pruebas funcionales.
+
+                        Mi experiencia incluye tecnologías como <span>Laravel</span>, <span>React</span>,
+                        <span>Next.js</span>, <span>MySQL</span>, <span>APIs REST</span>, <span>Stripe</span>,
+                        <span>Google Services</span> y automatización con <span>Python</span>. Además, cuento con
+                        conocimientos en arquitectura modular, seguridad web, optimización de bases de datos, SEO
+                        técnico, diseño UI/UX y gestión de productos digitales.
+                        <br><br>
+
+                        He trabajado en proyectos para clientes y en la creación de productos propios,
+                        <span>participando en
+                            todo el ciclo de desarrollo</span>: análisis de requisitos, arquitectura, desarrollo backend
+                        y
+                        frontend, integración de servicios externos, despliegue y evolución continua del producto. Mi
+                        enfoque se basa en <span>construir soluciones mantenibles, escalables y alineadas con los
+                            objetivos
+                            del negocio</span>.
                         <br><br>
 
                         Comunicación efectiva en <span>inglés</span> (B2) y conocimientos de <span>francés</span> (A2) y
@@ -171,53 +180,41 @@
                 </div>
 
                 <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/python.png" alt="Python">
-                    <h3>Python</h3>
-                    <p>Automatización de procesos, scripting y desarrollo de herramientas para optimizar flujos de
-                        trabajo y análisis de datos.</p>
+                    <img src="../assets/img/Mikkel/skills/database.png" alt="database">
+                    <h3>Database Design & Optimization</h3>
+                    <p>Modelado y optimización de bases de datos relacionales, diseño eficiente de esquemas y mejora del
+                        rendimiento de consultas.</p>
                 </div>
                 <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/sql.png" alt="SQL">
-                    <h3>SQL</h3>
-                    <p>Diseño y optimización de bases de datos relacionales, consultas eficientes y modelado de datos
-                        para aplicaciones escalables.</p>
+                    <img src="../assets/img/Mikkel/skills/architecture.png" alt="software architecture">
+                    <h3>Software Architecture</h3>
+                    <p>Diseño de arquitecturas modulares, mantenibles y escalables, aplicando buenas prácticas de
+                        ingeniería y patrones de diseño.</p>
                 </div>
                 <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/security.png" alt="Cybersecurity">
-                    <h3>Ciberseguridad</h3>
-                    <p>Implementación de prácticas OWASP, hardening de APIs, protección de endpoints y mitigación de
-                        vulnerabilidades.</p>
+                    <img src="../assets/img/Mikkel/skills/web_design.png" alt="UI/UX design">
+                    <h3>UI/UX Design</h3>
+                    <p>Diseño de experiencias digitales centradas en el usuario, creación de prototipos y validación de
+                        interfaces orientadas a usabilidad y conversión.</p>
                 </div>
 
-                <!-- <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/sqlite.png" alt="SQLite">
-                    <h3>SQLite</h3>
-                    <p>Gestión de bases de datos ligeras y portables que requieren almacenamiento eficiente sin servidor
-                        dedicado</p>
-                </div> -->
-
                 <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/html-5.png" alt="HTML">
-                    <h3>HTML</h3>
-                    <p>Estructuración semántica de interfaces web optimizadas para accesibilidad, SEO y rendimiento.</p>
+                    <img src="../assets/img/Mikkel/skills/management.png" alt="Project Management">
+                    <h3>Project Management</h3>
+                    <p>Planificación, coordinación y seguimiento de proyectos tecnológicos, garantizando entregas
+                        alineadas con objetivos de negocio.</p>
                 </div>
                 <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/javascript.png" alt="JavaScript">
-                    <h3>JavaScript</h3>
-                    <p>Desarrollo de lógica del lado del cliente, interacción dinámica y consumo de APIs para
-                        aplicaciones web modernas.</p>
+                    <img src="../assets/img/Mikkel/skills/devops.png" alt="DevOps & Deployment">
+                    <h3>DevOps & Deployment</h3>
+                    <p>Configuración, despliegue y mantenimiento de aplicaciones en entornos productivos.</p>
                 </div>
                 <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/css-3.png" alt="CSS">
-                    <h3>CSS</h3>
-                    <p>Diseño de interfaces modernas, responsivas y centradas en la experiencia de usuario.</p>
+                    <img src="../assets/img/Mikkel/skills/web.png" alt="web product">
+                    <h3>Product Development</h3>
+                    <p>Participación en todo el ciclo de vida del producto digital: análisis de requisitos,
+                        planificación, desarrollo, validación y mejora continua.</p>
                 </div>
-
-                <!-- <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/java.png" alt="Java">
-                    <h3>Java</h3>
-                    <p>Desarrollo de aplicaciones robustas y de alto rendimiento</p>
-                </div> -->
             </div>
         </section>
 
@@ -225,22 +222,23 @@
         <section class="tools" id="tools">
             <div class="tools_title">
                 <h2>Herramientas de Desarrollo</h2>
-                <p>Utilizo herramientas como GitHub, Figma, Jira, VS Code y Notion para crear soluciones web eficientes,
+                <p>Utilizo herramientas como Git, Figma, Jira, VS Code y más para crear soluciones web eficientes,
                     optimizando el desarrollo y la gestión de proyectos.</p>
             </div>
 
             <div class="tools_container">
-                <img src="../assets/img/Mikkel/Tools/github.png" alt="GIT" title="GIT">
+                <img src="../assets/img/Mikkel/Tools/github.png" alt="GIT" title="Git & GitHub">
+                <img src="../assets/img/Mikkel/Tools/google.png" alt="Google Cloud & APIs" title="Google Cloud & APIs">
                 <img src="../assets/img/Mikkel/Tools/postman.png" alt="postman" title="postman">
+
                 <img src="../assets/img/Mikkel/Tools/jira.png" alt="Jira" title="Jira">
-
+                <img src="../assets/img/Mikkel/Tools/mysql.png" alt="MySQL" title="MySQL">
                 <img src="../assets/img/Mikkel/Tools/figma.png" alt="Figma" title="Figma">
-                <img src="../assets/img/Mikkel/Tools/visual-studio.png" alt="Vs Code" title="Visual Studio Code">
-                <img src="../assets/img/Mikkel/Tools/filezilla.png" alt="filezilla" title="FileZilla">
 
-                <img src="../assets/img/Mikkel/Tools/uml.png" alt="diagrama UML" title="UML Diagram">
-                <img src="../assets/img/Mikkel/Tools/notion.png" alt="Notion" title="Notion">
+                <img src="../assets/img/Mikkel/Tools/uml.png" alt="diagrama UML" title="System Design & UML">
                 <img src="../assets/img/Mikkel/Tools/wordpress.png" alt="Wordpress and Wix" title="Wordpress and Wix">
+                <img src="../assets/img/Mikkel/Tools/visual-studio.png" alt="Vs Code" title="Visual Studio Code">
+
 
                 <!-- <img src="../assets/img/Mikkel/Tools/wix.png" alt="wix" title="wix">
                 <img src="../assets/img/Mikkel/Tools/xampp.png" alt="Xampp" title="XAMPP">
@@ -269,28 +267,32 @@
                     <h3 class="featured_project__title">Mudanza Fácil</h3>
                     <div class="featured_project__description">
                         <p>
-                            Desarrollo de una plataforma <span>SaaS full-stack</span> para conectar empresas de mudanzas
-                            y optimizar
-                            la logística de cargas.
+                            Plataforma <span>SaaS</span> desarrollada para optimizar la industria de mudanzas mediante
+                            la gestión de
+                            servicios y la generación de oportunidades comerciales para empresas transportistas.
                         </p>
 
-                        <p>Implementación de <span>arquitectura desacoplada</span> con frontend en Next.js (React) y
-                            backend API
-                            REST en Laravel. Incluye sistema de publicación y gestión de servicios, administración de
-                            usuarios, generación de leads, reputación y motor de notificaciones basado en eventos.</p>
+                        <p>Construida sobre una arquitectura desacoplada con <span>Next.js</span> (React) y
+                            <span>Laravel API REST</span>,
+                            incorpora gestión de servicios, solicitudes de mudanza, <span>generación de leads</span>,
+                            sistema de
+                            reputación, <span>notificaciones en tiempo real</span> e integración con servicios externos
+                            para
+                            optimizar la operación y escalabilidad del producto.
+                        </p>
                     </div>
 
                     <ul class="featured_project__techs">
                         <li>React</li>
-                        <li>SCSS</li>
                         <li>Laravel</li>
                         <li>MySQL</li>
+                        <li>SCSS</li>
                         <li>Stripe</li>
+                        <li>Google Cloud</li>
                     </ul>
 
                     <div class="featured_project__links">
-                        <a href="https://app.mudanzafacil.com.mx/empresa/login" target="_blank"
-                            aria-label="Ver proyecto">
+                        <a href="https://app.mudanzafacil.com.mx/bienvenida" target="_blank" aria-label="Ver proyecto">
                             <img src="../../assets/img/icons/web.png" alt="Pag web">
                         </a>
 
@@ -339,15 +341,6 @@
                             Front-End<span aria-hidden=""></span>
                             <span aria-hidden="" class="btn_glitch_span">_Front-End</span>
                             <label class="number">r4</label>
-                        </div>
-                    </div>
-
-                    <div class="link_wrapper">
-                        <input type="radio" id="value-0" name="btn" />
-                        <div class="btn_glitch">
-                            <span aria-hidden="">Ver</span>_Todo
-                            <span aria-hidden="" class="btn_glitch_span">👀_Todo</span>
-                            <label class="number">r0</label>
                         </div>
                     </div>
                 </div>
@@ -487,38 +480,35 @@
                         </div>
                     </div>
                 </div>
-                <div class="expand_card" data-type="general full-stack web">
+                <div class="expand_card" data-type="general frontend web">
                     <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/mla.png" alt="MLA studio">
+                        <img src="../assets/img/Mikkel/Projects/LP_CAMPUS.png" alt="landing-pages-campusEHDS">
                     </div>
 
                     <div class="expand_card__techs">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML">
+                            alt="HTML5" class="card__tech-icon" title="HTML5">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
+                            alt="CSS3" class="card__tech-icon" title="CSS3">
                     </div>
 
                     <div class="expand_card__info">
-                        <h3 class="expand_card__title">MLA studio</h3>
+                        <h3 class="expand_card__title">Landing Page Campus EHDS</h3>
                         <p class="expand_card__description">
-                            Estudio digital que impulsa marcas y profesionales a destacar
-                            mediante desarrollo web, branding e identidad visual.
+                            Página de aterrizaje para el campus de "El Hub de Seguridad",
+                            enfocada en la experiencia del usuario.
                         </p>
-
                         <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/MLAStudio" target="_blank">
-                                <span class="card__icon card__icon--github" aria-label="Ver en GitHub">
-                                    <img src="../../assets/img/icons/github.png" alt="github" class="project_icon_img">
-                                </span>
-                            </a>
-
-                            <a href="https://www.figma.com/proto/LKP3ynY5uMKL2SvXkUb6xN/Personal-Project?node-id=423-27&t=y0kTYk2swYI9c9T6-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=423%3A27"
+                            <a href="https://www.figma.com/proto/d896uInk5ToLnDzCZm7s8y/El-Hub-de-Seguridad?page-id=3155%3A43136&node-id=4400-2293&viewport=-2517%2C627%2C0.21&t=KaubFMZJZxWrGc0P-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4400%3A2293&show-proto-sidebar=1"
                                 target="_blank">
                                 <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
                                         src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://pages.elhubdeseguridad.com/empresas/" target="_blank">
+                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
+                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
                                 </span>
                             </a>
                         </div>
@@ -559,6 +549,114 @@
 
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
+                        <img src="../assets/img/Mikkel/Projects/mla.png" alt="MLA studio">
+                    </div>
+
+                    <div class="expand_card__techs">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                            alt="HTML5" class="card__tech-icon" title="HTML">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                            alt="CSS3" class="card__tech-icon" title="CSS">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
+                    </div>
+
+                    <div class="expand_card__info">
+                        <h3 class="expand_card__title">MLA studio</h3>
+                        <p class="expand_card__description">
+                            Estudio digital que impulsa marcas y profesionales a destacar
+                            mediante desarrollo web, branding e identidad visual.
+                        </p>
+
+                        <div class="expand_card__links">
+                            <a href="https://github.com/MLlAlonso/MLAStudio" target="_blank">
+                                <span class="card__icon card__icon--github" aria-label="Ver en GitHub">
+                                    <img src="../../assets/img/icons/github.png" alt="github" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://www.figma.com/proto/LKP3ynY5uMKL2SvXkUb6xN/Personal-Project?node-id=423-27&t=y0kTYk2swYI9c9T6-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=423%3A27"
+                                target="_blank">
+                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
+                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="expand_card" data-type="general frontend web">
+                    <div class="expand_card__image">
+                        <img src="../assets/img/Mikkel/Projects/LP_EHDS.png" alt="landing-pages-EHDS">
+                    </div>
+
+                    <div class="expand_card__techs">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                            alt="HTML5" class="card__tech-icon" title="HTML5">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                            alt="CSS3" class="card__tech-icon" title="CSS3">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
+                    </div>
+
+                    <div class="expand_card__info">
+                        <h3 class="expand_card__title">Landing Page EHDS</h3>
+                        <p class="expand_card__description">
+                            Diseño y desarrollo frontend de una landing page para "El Hub de
+                            Seguridad", con enfoque en UX/UI.
+                        </p>
+                        <div class="expand_card__links">
+                            <a href="https://www.figma.com/proto/d896uInk5ToLnDzCZm7s8y/El-Hub-de-Seguridad?page-id=3155%3A43136&node-id=4372-1853&viewport=-2517%2C627%2C0.21&t=0dDApXv1kivKdSWl-1&scaling=contain&content-scaling=responsive&starting-point-node-id=4400%3A2293&show-proto-sidebar=1"
+                                target="_blank">
+                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
+                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://pages.elhubdeseguridad.com/" target="_blank">
+                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
+                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="expand_card" data-type="general frontend web">
+                    <div class="expand_card__image">
+                        <img src="../assets/img/Mikkel/Projects/FLOR.png" alt="Flor_amarilla">
+                    </div>
+
+                    <div class="expand_card__techs">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                            alt="HTML5" class="card__tech-icon" title="HTML">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                            alt="CSS3" class="card__tech-icon" title="CSS">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
+                    </div>
+
+                    <div class="expand_card__info">
+                        <h3 class="expand_card__title">Flor Amarilla</h3>
+                        <p class="expand_card__description">
+                            Un proyecto interactivo en el frontend que crea una animación de
+                            una flor amarilla usando únicamente JavaScript y CSS.
+                        </p>
+                        <div class="expand_card__links">
+                            <a href="https://github.com/MLlAlonso/Flor_amarilla" target="_blank"
+                                aria-label="Ver en GitHub">
+                                <img src="../../assets/img/icons/github.png" alt="GitHub">
+                            </a>
+
+                            <a href="https://mllalonso.github.io/Flor_amarilla/" target="_blank">
+                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
+                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expand_card" data-type="general full-stack web">
+                    <div class="expand_card__image">
                         <img src="../assets/img/Mikkel/Projects/wplp.png"
                             alt="WordPress Landing Page Technical Challenge preview">
                     </div>
@@ -590,41 +688,6 @@
                                 target="_blank">
                                 <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
                                         src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="expand_card" data-type="general frontend web">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/FLOR.png" alt="Flor_amarilla">
-                    </div>
-
-                    <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">Flor Amarilla</h3>
-                        <p class="expand_card__description">
-                            Un proyecto interactivo en el frontend que crea una animación de
-                            una flor amarilla usando únicamente JavaScript y CSS.
-                        </p>
-                        <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/Flor_amarilla" target="_blank"
-                                aria-label="Ver en GitHub">
-                                <img src="../../assets/img/icons/github.png" alt="GitHub">
-                            </a>
-
-                            <a href="https://mllalonso.github.io/Flor_amarilla/" target="_blank">
-                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
-                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
                                 </span>
                             </a>
                         </div>
@@ -685,31 +748,30 @@
                 </div>
                 <div class="expand_card" data-type="general frontend web">
                     <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/LP_CAMPUS.png" alt="landing-pages-campusEHDS">
+                        <img src="../assets/img/Mikkel/Projects/CRP.png" alt="tarjeta de presentación">
                     </div>
 
                     <div class="expand_card__techs">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML5">
+                            alt="HTML5" class="card__tech-icon" title="HTML">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS3">
+                            alt="CSS3" class="card__tech-icon" title="CSS">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
                     </div>
 
                     <div class="expand_card__info">
-                        <h3 class="expand_card__title">Landing Page Campus EHDS</h3>
+                        <h3 class="expand_card__title">CRUANPA (Tarjeta de Presentación)</h3>
                         <p class="expand_card__description">
-                            Página de aterrizaje para el campus de "El Hub de Seguridad",
-                            enfocada en la experiencia del usuario.
+                            Una tarjeta de presentación digital interactiva, diseñada con HTML y CSS.
                         </p>
                         <div class="expand_card__links">
-                            <a href="https://www.figma.com/proto/d896uInk5ToLnDzCZm7s8y/El-Hub-de-Seguridad?page-id=3155%3A43136&node-id=4400-2293&viewport=-2517%2C627%2C0.21&t=KaubFMZJZxWrGc0P-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4400%3A2293&show-proto-sidebar=1"
-                                target="_blank">
-                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
-                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
-                                </span>
+                            <a href="https://github.com/MLlAlonso/MLAStudio/tree/main/PageCraft" target="_blank"
+                                aria-label="Ver en GitHub">
+                                <img src="../../assets/img/icons/github.png" alt="GitHub">
                             </a>
 
-                            <a href="https://pages.elhubdeseguridad.com/empresas/" target="_blank">
+                            <a href="https://mllalonso.github.io/MLAStudio/PageCraft/CRUANPA/" target="_blank">
                                 <span class="card__icon card__icon--web" aria-label="Ver en Web">
                                     <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
                                 </span>
@@ -718,6 +780,38 @@
                     </div>
                 </div>
 
+                <div class="expand_card" data-type="general frontend web">
+                    <div class="expand_card__image">
+                        <img src="../assets/img/Mikkel/Projects/wisconsign.png" alt="WisconSign landing page preview">
+                    </div>
+
+                    <div class="expand_card__techs">
+                        <img src="../assets/img/Mikkel/Tools/wix.png" alt="Wix">
+                        <img src="../assets/img/Mikkel/Tools/SEO.png" alt="SEO">
+                    </div>
+
+                    <div class="expand_card__info">
+                        <h3 class="expand_card__title">WisconSign</h3>
+                        <p class="expand_card__description">
+                            Landing page profesional para una agencia de loan signing y notary services en Wisconsin.
+                            Diseñada y creada completamente en Wix, optimizada para SEO, experiencia móvil y navegación
+                            clara para clientes bilingües.
+                        </p>
+
+                        <div class="expand_card__links">
+                            <a href="https://www.figma.com/proto/kWp404az1WxYi6mKKzdo1C/Wisconsign?node-id=22-80&t=Jkve1wlmThJQts7z-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+                                target="_blank">
+                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
+                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://www.wisconsign.co/" target="_blank" aria-label="Ver sitio en vivo">
+                                <img src="../../assets/img/icons/web.png" alt="Live demo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
                         <img src="../assets/img/Mikkel/Projects/CART.jpeg" alt="CartQuotationManager">
@@ -746,39 +840,6 @@
                             <a href="https://github.com/MLlAlonso/CartQuotationManager" target="_blank"
                                 aria-label="Ver en GitHub">
                                 <img src="../../assets/img/icons/github.png" alt="GitHub">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="expand_card" data-type="general frontend web">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/CRP.png" alt="tarjeta de presentación">
-                    </div>
-
-                    <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">CRUANPA (Tarjeta de Presentación)</h3>
-                        <p class="expand_card__description">
-                            Una tarjeta de presentación digital interactiva, diseñada con HTML y CSS.
-                        </p>
-                        <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/MLAStudio/tree/main/PageCraft" target="_blank"
-                                aria-label="Ver en GitHub">
-                                <img src="../../assets/img/icons/github.png" alt="GitHub">
-                            </a>
-
-                            <a href="https://mllalonso.github.io/MLAStudio/PageCraft/CRUANPA/" target="_blank">
-                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
-                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
-                                </span>
                             </a>
                         </div>
                     </div>
@@ -826,74 +887,6 @@
                     </div>
                 </div>
 
-                <div class="expand_card" data-type="general frontend web">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/LP_EHDS.png" alt="landing-pages-EHDS">
-                    </div>
-
-                    <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML5">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS3">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">Landing Page EHDS</h3>
-                        <p class="expand_card__description">
-                            Diseño y desarrollo frontend de una landing page para "El Hub de
-                            Seguridad", con enfoque en UX/UI.
-                        </p>
-                        <div class="expand_card__links">
-                            <a href="https://www.figma.com/proto/d896uInk5ToLnDzCZm7s8y/El-Hub-de-Seguridad?page-id=3155%3A43136&node-id=4372-1853&viewport=-2517%2C627%2C0.21&t=0dDApXv1kivKdSWl-1&scaling=contain&content-scaling=responsive&starting-point-node-id=4400%3A2293&show-proto-sidebar=1"
-                                target="_blank">
-                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
-                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
-                                </span>
-                            </a>
-
-                            <a href="https://pages.elhubdeseguridad.com/" target="_blank">
-                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
-                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="expand_card" data-type="general frontend web">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/wisconsign.png" alt="WisconSign landing page preview">
-                    </div>
-
-                    <div class="expand_card__techs">
-                        <img src="../assets/img/Mikkel/Tools/wix.png" alt="Wix">
-                        <img src="../assets/img/Mikkel/Tools/SEO.png" alt="SEO">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">WisconSign</h3>
-                        <p class="expand_card__description">
-                            Landing page profesional para una agencia de loan signing y notary services en Wisconsin.
-                            Diseñada y creada completamente en Wix, optimizada para SEO, experiencia móvil y navegación
-                            clara para clientes bilingües.
-                        </p>
-
-                        <div class="expand_card__links">
-                            <a href="https://www.figma.com/proto/kWp404az1WxYi6mKKzdo1C/Wisconsign?node-id=22-80&t=Jkve1wlmThJQts7z-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
-                                target="_blank">
-                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
-                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
-                                </span>
-                            </a>
-
-                            <a href="https://www.wisconsign.co/" target="_blank" aria-label="Ver sitio en vivo">
-                                <img src="../../assets/img/icons/web.png" alt="Live demo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
                         <img src="../assets/img/Mikkel/Projects/Calculadora_Ventas (1).png" alt="Calculadora_Ventas">
@@ -927,7 +920,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="expand_card" data-type="general backend web">
                     <div class="expand_card__image">
                         <img src="../assets/img/Mikkel/Projects/VENDEDORES.png" alt="Vendedores-Subordinados">
@@ -985,6 +977,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="expand_card" data-type="general frontend">
                     <div class="expand_card__image">
                         <img src="../assets/img/Mikkel/Projects/PALETA.png" alt="La Paleta">
@@ -1010,7 +1003,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
+            <div class="portfolio_actions">
+                <button id="toggleProjects" class="btn_primary">
+                    Ver más proyectos
+                </button>
             </div>
         </section>
 
@@ -1029,100 +1027,72 @@
                             <ul class="resume__timeline">
                                 <li class="resume__timeline-item">
                                     <div class="resume__timeline-circle"></div>
-                                    <div class="resume__timeline-date">Junio 2025 - Actualidad</div>
-                                    <div class="resume__timeline-title"> MLA Studio - Freelance / Project Manager</div>
+                                    <div class="resume__timeline-date"> Project Manager / Freelance - MLA Studio</div>
+                                    <div class="resume__timeline-title">Junio 2025 - Actualidad</div>
                                     <div class="resume__timeline-descr">
-                                        Liderazgo y gestión de proyectos desde el levantamiento de requisitos hasta la
-                                        entrega final, coordinando equipos de diseño y desarrollo. Asi como
-                                        supervisión de entregables, documentación técnica, propuestas comerciales y
-                                        comunicación directa con clientes.
-
-                                        <br>Desarrollo web con <span>Laravel</span>, <span>Node.js</span>,
-                                        <span>MySQL</span> y <span>JavaScript</span>,
-                                        construyendo productos escalables y de alto rendimiento.
-
-                                        <span>Proyecto destacado:</span> Desarrollo de <span>Mudanza Fácil</span>,
-                                        plataforma web tipo <span>SaaS</span> que conecta empresas de mudanzas en
-                                        México,
-                                        construida con <span>React</span> y backend en <span>Laravel</span>, optimizando
-                                        la
-                                        gestión
-                                        de solicitudes mediante un sistema de <span>leads</span> y contacto directo vía
-                                        WhatsApp.
-
-
+                                        Lidero el desarrollo y gestión de productos digitales bajo mi marca
+                                        profesional,
+                                        participando en todo el <span>ciclo de vida del proyecto</span>: análisis de
+                                        requisitos,
+                                        planificación, arquitectura, desarrollo, despliegue y evolución continua.
+                                        Además, coordino <span>colaboradores externos</span>, gestiono la
+                                        <span>comunicación con clientes</span> y
+                                        superviso la documentación técnica y comercial para garantizar entregas
+                                        alineadas con los <span>objetivos del negocio</span>.
                                     </div>
                                 </li>
 
                                 <li class="resume__timeline-item">
                                     <div class="resume__timeline-circle"></div>
-                                    <div class="resume__timeline-date">Diciembre 2024 - Agosto 2025</div>
-                                    <div class="resume__timeline-title">El Hub de Seguridad - Desarrollador web</div>
+                                    <div class="resume__timeline-date">Desarrollador web - El Hub de Seguridad</div>
+                                    <div class="resume__timeline-title">Diciembre 2024 - Agosto 2025</div>
                                     <div class="resume__timeline-descr">
-                                        Desarrollo y mantenimiento de una plataforma e-learning, migrando de
-                                        arquitectura monolítica a microservicios con <span>REST APIs</span> .
-                                        Automatización de
-                                        procesos internos con <span>Laravel</span> y pruebas automatizadas en Postman.
-                                        Creación de
-                                        landing pages optimizadas, documentación técnica y gestión colaborativa en
-                                        Notion. Desarrollo de una PWA con Node.js y Express, con persistencia offline y
-                                        optimización para producción.
+                                        Participé en el desarrollo y evolución de una plataforma e-learning,
+                                        contribuyendo a la <span>migración de componentes</span> hacia una arquitectura
+                                        basada en <span>APIs REST</span> y automatizando procesos internos mediante
+                                        <span>Laravel</span>. También desarrollé funcionalidades web, landing pages y
+                                        soluciones PWA orientadas a mejorar la experiencia de usuario,
+                                        el <span>rendimiento</span> y la <span>mantenibilidad del sistema</span>.
                                     </div>
                                 </li>
 
                                 <li class="resume__timeline-item">
-                                    <div class="resume__timeline-date">Enero 2024 - Diciembre 2024</div>
-                                    <div class="resume__timeline-title">CRUANPA COMERCIALIZADORA - Desarrollador Jr.
-                                    </div>
+                                    <div class="resume__timeline-date">Web Developer- Freelance</div>
+                                    <div class="resume__timeline-title">Octubre 2022 - Diciembre 2024</div>
                                     <div class="resume__timeline-descr">
-                                        Desarrollo de un sistema de inventario en <span>Java</span> con lógica
-                                        financiera y manejo de
-                                        datos en <span>JSON</span>. Automatización de reportes financieros mediante
-                                        tablas dinámicas
-                                        en Excel y gestión documental en Google Workspace. Coordinación y seguimiento de
-                                        tareas en Trello, asegurando la <span>comunicación entre equipos</span> técnicos
-                                        y
-                                        administrativos.
+                                        Desarrollé sitios web, landing pages y aplicaciones para clientes
+                                        independientes, participando desde el <span>levantamiento de requisitos</span>
+                                        hasta la entrega final. Durante esta etapa fortalecí mis habilidades en
+                                        <span>desarrollo full stack</span>, integración de APIs, comunicación con
+                                        clientes y construcción de soluciones adaptadas a <span>necesidades reales de
+                                            negocio</span>.
                                     </div>
                                 </li>
 
                                 <li class="resume__timeline-item">
-                                    <div class="resume__timeline-date">Julio 2023 - Diciembre 2023</div>
-                                    <div class="resume__timeline-title">INTEKEL Automatización -
-                                        Practicante de ingeniería de software
+                                    <div class="resume__timeline-date">Desarrollador Jr. - CRUANPA COMERCIALIZADORA
                                     </div>
+                                    <div class="resume__timeline-title">Enero 2024 - Diciembre 2024</div>
                                     <div class="resume__timeline-descr">
-                                        <span>Análisis de requisitos, diseño de interfaces</span> en Figma y validación
-                                        de flujos
-                                        mediante <span>pruebas funcionales</span>. Desarrollo de casos de uso, diagramas
-                                        de
-                                        procedimiento y documentación de historias de usuario en Jira, asegurando una
-                                        comunicación clara entre equipos y una implementación alineada con las
-                                        necesidades del proyecto.
+                                        Desarrollo de un sistema de inventario en <span>Java</span> con <span>lógica
+                                            financiera</span> y manejo de datos en <span>JSON</span>. Automatización de
+                                        <span>reportes financieros</span> mediante tablas dinámicas en Excel y gestión
+                                        documental en Google Workspace. Coordinación y seguimiento de tareas, asegurando
+                                        la <span>comunicación entre equipos</span> técnicos y administrativos.
                                     </div>
                                 </li>
 
                                 <li class="resume__timeline-item">
-                                    <div class="resume__timeline-date">Febrero 2023 - Junio 2023</div>
-                                    <div class="resume__timeline-title">CONFETI Confiesta - Proyecto Escolar</div>
+                                    <div class="resume__timeline-date"> Ing. de Software (Trainee)- INTEKEL
+                                        Automatización</div>
+                                    <div class="resume__timeline-title">Julio 2023 - Diciembre 2023</div>
                                     <div class="resume__timeline-descr">
-                                        <span>Liderar la planificación y supervisión</span> de recursos en proyectos de
-                                        software para
-                                        ANFECA, coordinando la <span>comunicación entre equipos</span> de desarrollo,
-                                        administración y gestión de negocios. Transformé requerimientos en
-                                        especificaciones técnicas y diseñé interfaces de usuario eficientes que
-                                        mejoraron la usabilidad y coherencia del sistema.
-                                    </div>
-                                </li>
-
-                                <li class="resume__timeline-item">
-                                    <div class="resume__timeline-date">Agosto 2022 - Febrero 2023</div>
-                                    <div class="resume__timeline-title">Universidad Veracruzana campus Coatzacoalcos -
-                                        Auxiliar de enlace operativo</div>
-                                    <div class="resume__timeline-descr">
-                                        Digitalización y <span>gestión documental administrativa</span>, apoyo en la
-                                        organización de
-                                        eventos académicos y levantamiento físico de inventarios.
+                                        <span>Análisis de requisitos</span>, diseño de interfaces en Figma
+                                        y validación de flujos mediante <span>pruebas funcionales</span>.
+                                        Desarrollo de <span>casos de uso</span>, diagramas de procedimiento y
+                                        documentación de <span>historias de usuario</span> en Jira,
+                                        asegurando una <span>comunicación entre equipos</span> y una implementación
+                                        alineada con las necesidades del proyecto.
                                     </div>
                                 </li>
                             </ul>
@@ -1133,7 +1103,7 @@
         </section>
     </main>
 
-    <footer class="MLA_footer">
+    <footer class="MLA_footer" id="contact">
         <h2>Ponte en contacto conmigo</h2>
         <div class="footer_contact">
             <div class="footer_contact_item">
@@ -1171,7 +1141,6 @@
     <script src="../assets/js/Mikkel/translate.js"></script>
     <!-- Translate -->
     <script src="../../assets/js/navBar.js"></script>
-
 </body>
 
 </html>

@@ -2,14 +2,17 @@ const codes = [
     {
         lang: "php",
         content: `<?php
-        
+
 namespace App\Http\Controllers;
+
 class WelcomeController extends Controller
 {
-    public function index()
+    public function index(): string
     {
-        $idea = "complex ideas";
-        return "Turning {$idea} into simple software. If you can imagine it, I can build it.";
+        $developer = "Mikkel Llaven Alonso";
+        $mission = "turning ideas into digital products";
+
+        return "{$developer}: Full Stack Software Engineer focused on {$mission} through clean architecture, scalable systems and exceptional user experiences.";
     }
 }`
     }

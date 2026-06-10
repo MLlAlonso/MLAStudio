@@ -9,16 +9,16 @@
     <title>BLOMSTARS</title>
 
     <meta name="description"
-        content="Únete a BLOMSTARS, agencia especializada en reclutamiento y crecimiento de streamers para Bingo Live. Gana dinero transmitiendo en vivo, recibe apoyo, capacitación y forma parte de una comunidad profesional.">
+        content="Únete a BLOMSTARS, agencia especializada en reclutamiento y crecimiento de streamers para Bigo Live. Gana dinero transmitiendo en vivo, recibe apoyo, capacitación y forma parte de una comunidad profesional.">
     <meta name="keywords"
-        content="Bingo Live, streamers, agencia de streamers, reclutamiento de streamers, live streaming, hosts Bingo Live, agencia Bingo Live, ganar dinero transmitiendo, streaming en vivo, creadoras de contenido">
+        content="Bigo Live, streamers, agencia de streamers, reclutamiento de streamers, live streaming, hosts Bigo Live, agencia Bigo Live, ganar dinero transmitiendo, streaming en vivo, creadoras de contenido">
     <meta name="author" content="Mikkel Llaven Alonso">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:title" content="BLOMSTARS | Conviértete en streamer oficial de Bingo Live">
+    <meta property="og:title" content="BLOMSTARS | Conviértete en streamer oficial de Bigo Live">
     <meta property="og:description"
-        content="Forma parte de BLOMSTARS y comienza a generar ingresos como streamer en Bingo Live. Te ayudamos a crecer con acompañamiento y soporte profesional.">
+        content="Forma parte de BLOMSTARS y comienza a generar ingresos como streamer en Bigo Live. Te ayudamos a crecer con acompañamiento y soporte profesional.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="es_MX">
 
@@ -28,8 +28,8 @@
     <meta property="og:image" content="https://blomstars.com/assets/img/preview.jpg">
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="BLOMSTARS | Agencia de Streamers para Bingo Live">
-    <meta name="twitter:description" content="Únete a Bingo Live con BLOMSTARS y monetiza tus transmisiones en vivo.">
+    <meta name="twitter:title" content="BLOMSTARS | Agencia de Streamers para Bigo Live">
+    <meta name="twitter:description" content="Únete a Bigo Live con BLOMSTARS y monetiza tus transmisiones en vivo.">
     <meta name="twitter:image" content="https://blomstars.com/assets/img/preview.jpg">
     <!-- Favicon -->
     <link rel="icon" href="../assets/img/BLOMSTARS/flor_icon.png">
@@ -68,7 +68,7 @@
             <p>
                 Haz lives, crea tu espacio, conecta con personas y
                 desarrolla tu perfil como creadora en
-                <strong>BINGO LIVE</strong>.
+                <strong>BIGO LIVE</strong>.
             </p>
 
             <!-- FEATURES -->
@@ -105,14 +105,15 @@
             </div>
 
             <!-- CTA -->
-            <a href="#empezar" class="transmitir__cta">
+            <a href="https://wa.me/5491135846994?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20BloomStars%20Agency%20y%20c%C3%B3mo%20puedo%20empezar%20como%20streamer"
+                target="_blank" class="transmitir__cta">
                 Conviértete en emisora oficial
             </a>
         </div>
 
         <!-- RIGHT -->
         <div class="transmitir__image">
-            <img src="../assets/img/BLOMSTARS/hero.png" alt="Streamer Bingo Live">
+            <img src="../assets/img/BLOMSTARS/hero.png" alt="Streamer Bigo Live">
         </div>
     </section>
 
@@ -152,7 +153,7 @@
                 <div class="crear__track">
                     <!-- ORIGINALS -->
                     <article class="crear__card">
-                        <img src="../assets/img/BLOMSTARS/stream (1).jpeg" alt="Streamer Bingo Live">
+                        <img src="../assets/img/BLOMSTARS/stream (1).jpeg" alt="Streamer Bigo Live">
                     </article>
 
                     <article class="crear__card">
@@ -160,12 +161,12 @@
                     </article>
 
                     <article class="crear__card">
-                        <img src="../assets/img/BLOMSTARS/stream (2).jpeg" alt="Bingo Live streamer">
+                        <img src="../assets/img/BLOMSTARS/stream (2).jpeg" alt="Bigo Live streamer">
                     </article>
 
                     <!-- DUPLICADOS PARA LOOP -->
                     <article class="crear__card">
-                        <img src="../assets/img/BLOMSTARS/stream (1).jpeg" alt="Streamer Bingo Live">
+                        <img src="../assets/img/BLOMSTARS/stream (1).jpeg" alt="Streamer Bigo Live">
                     </article>
 
                     <article class="crear__card">
@@ -173,7 +174,7 @@
                     </article>
 
                     <article class="crear__card">
-                        <img src="../assets/img/BLOMSTARS/stream (2).jpeg" alt="Bingo Live streamer">
+                        <img src="../assets/img/BLOMSTARS/stream (2).jpeg" alt="Bigo Live streamer">
                     </article>
                 </div>
             </div>
@@ -202,7 +203,7 @@
 
             <!-- RIGHT -->
             <div class="empezar__image">
-                <img src="../assets/img/BLOMSTARS/elementos.png" alt="Creadora de contenido en Bingo Live">
+                <img src="../assets/img/BLOMSTARS/elementos.png" alt="Creadora de contenido en Bigo Live">
             </div>
         </section>
 
@@ -289,7 +290,7 @@
 
             <!-- RIGHT -->
             <div class="monetizar__image">
-                <img src="../assets/img/BLOMSTARS/image 1.png" alt="Streamer Bingo Live">
+                <img src="../assets/img/BLOMSTARS/image 1.png" alt="Streamer Bigo Live">
             </div>
         </section>
 
@@ -350,7 +351,8 @@
                     </h2>
 
                     <p>
-                        Te guiamos durante el proceso para que entiendas cómo funciona la plataforma, cómo mejorar tus lives y cómo desarrollar tu perfil como creadora.
+                        Te guiamos durante el proceso para que entiendas cómo funciona la plataforma, cómo mejorar tus
+                        lives y cómo desarrollar tu perfil como creadora.
                     </p>
 
                     <p class="acompanamiento-card__highlight">
@@ -435,7 +437,7 @@
 
             <!-- CENTER IMAGE -->
             <article class="historia-card historia-card--image">
-                <img src="../assets/img/BLOMSTARS/stream (2).jpeg" alt="Streamer Bingo Live">
+                <img src="../assets/img/BLOMSTARS/stream (2).jpeg" alt="Streamer Bigo Live">
             </article>
 
             <!-- RIGHT CARD -->
@@ -507,13 +509,15 @@
             </p>
 
             <!-- CTA -->
-            <a href="https://wa.me/529211430225" target="_blank" class="footer__cta">
+            <a href="https://wa.me/5491135846994?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20BloomStars%20Agency%20y%20c%C3%B3mo%20puedo%20empezar%20como%20streamer"
+                target="_blank" class="footer__cta" style="color: white;">
                 Conviértete en emisora oficial
             </a>
 
             <!-- SOCIALS -->
             <div class="footer__socials">
-                <a href="https://api.whatsapp.com/message/JZB5RWE64DOHB1?autoload=1&app_absent=0" target="_blank">
+                <a href="https://wa.me/5491135846994?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20BloomStars%20Agency%20y%20c%C3%B3mo%20puedo%20empezar%20como%20streamer"
+                    target="_blank">
                     <img src="../assets/img/BLOMSTARS/whatsapp.png" alt="WhatsApp">
                 </a>
 
@@ -535,7 +539,8 @@
 
     <!-- SOCIAL FLOAT -->
     <div class="social-float">
-        <a href="https://api.whatsapp.com/message/JZB5RWE64DOHB1?autoload=1&app_absent=0" target="_blank" class="social-float__item">
+        <a href="https://wa.me/5491135846994?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20BloomStars%20Agency%20y%20c%C3%B3mo%20puedo%20empezar%20como%20streamer"
+            target="_blank" class="social-float__item">
             <img src="../assets/img/BLOMSTARS/whatsapp.png" alt="WhatsApp">
         </a>
 
