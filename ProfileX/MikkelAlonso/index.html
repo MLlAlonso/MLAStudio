@@ -547,6 +547,34 @@
                     </div>
                 </div>
 
+                <div class="expand_card" data-type="general frontend web">
+                    <div class="expand_card__image">
+                        <img src="../assets/img/Mikkel/Projects/BLOOMSTARS.png" alt="landing-pages-BLOOMSTARS">
+                    </div>
+
+                    <div class="expand_card__techs">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                            alt="HTML5" class="card__tech-icon" title="HTML5">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                            alt="CSS3" class="card__tech-icon" title="CSS3">
+                    </div>
+
+                    <div class="expand_card__info">
+                        <h3 class="expand_card__title">Landing Page BLOMSTARS</h3>
+                        <p class="expand_card__description">
+                            Landing page para la agencia de streaming "BLOOMSTARS", diseñada para
+                            captar y convertir nuevos suscriptores.
+                        </p>
+                        <div class="expand_card__links">
+                            <a href="https://mlastdio.com/PageCraft/BLOMSTARS/" target="_blank">
+                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
+                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
                         <img src="../assets/img/Mikkel/Projects/mla.png" alt="MLA studio">

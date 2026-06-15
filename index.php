@@ -215,6 +215,11 @@
 
                 <div class="carrousel_3d_item">
                     <img src="PageCraft/assets/img/Valant/icon.png" alt="Valant">
+                    <a href="PageCraft/BLOMSTARS/index.php" target="_blank">Valant Bordados Electronicos</a>
+                </div>
+
+                <div class="carrousel_3d_item">
+                    <img src="PageCraft/assets/img/Valant/icon.png" alt="Valant">
                     <a href="PageCraft/Valant/index.php" target="_blank">Valant Bordados Electronicos</a>
                 </div>
 

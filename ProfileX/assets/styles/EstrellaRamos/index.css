@@ -9,6 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
 /*------------------------------------*\
   #Colors
 \*------------------------------------*/
@@ -297,10 +298,12 @@ html::-webkit-scrollbar {
   border: 0.125rem solid transparent;
   border-radius: 0.5rem;
   background-color: #1e1e1e;
-  transition: border-color 0.3s ease;
   width: 19.75rem;
   height: 17.5rem;
   text-align: justify;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 .hover-card h3 {
   color: #F9F9F9;
@@ -317,6 +320,9 @@ html::-webkit-scrollbar {
 }
 .hover-card:hover {
   border-color: #37BF32;
+  transform: translateY(-12px) scale(1.02);
+  z-index: 100;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35), 0 0 20px rgba(0, 158, 102, 0.15);
 }
 .hover-card img {
   width: 4.375rem;
@@ -1193,7 +1199,7 @@ body.scrolled nav {
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: #D992EB;
+  background-color: #7570B3;
   transition: all 0.2s ease;
   font-family: "Baloo 2", cursive;
   font-weight: bold;
@@ -1217,14 +1223,14 @@ body.scrolled nav {
 }
 .btn_sparks:hover:before {
   top: -70%;
-  background-image: radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, transparent 20%, #D992EB 20%, transparent 30%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, transparent 10%, #D992EB 15%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%);
+  background-image: radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 20%, #7570B3 20%, transparent 30%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7570B3 15%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%);
   background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
   background-position: 50% 120%;
   animation: greentopBubbles 0.6s ease;
 }
 .btn_sparks:hover::after {
   bottom: -70%;
-  background-image: radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, transparent 10%, #D992EB 15%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%), radial-gradient(circle, #D992EB 20%, transparent 20%);
+  background-image: radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, transparent 10%, #7570B3 15%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%), radial-gradient(circle, #7570B3 20%, transparent 20%);
   background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
   background-position: 50% 0%;
   animation: greenbottomBubbles 0.6s ease;

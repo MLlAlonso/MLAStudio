@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Modak&display=swap");
 /*------------------------------------*\
   #Colors
 \*------------------------------------*/
@@ -159,7 +160,7 @@ section,
   width: 0%;
   height: 3px;
   border-radius: 999px;
-  background: #D992EB;
+  background: #7570B3;
   transition: 0.3s ease;
 }
 .header__nav a:hover::after {
@@ -194,7 +195,7 @@ section,
   max-width: 750px;
 }
 .transmitir h1 span {
-  color: #D992EB;
+  color: #7570B3;
   position: relative;
 }
 .transmitir p {
@@ -223,7 +224,7 @@ section,
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  background: #D992EB;
+  background: #7570B3;
   color: #550D68;
   padding: 1rem 2rem;
   border-radius: 999px;
@@ -341,7 +342,7 @@ section {
   font-weight: 600;
 }
 .crear h2 span {
-  color: #D992EB;
+  color: #7570B3;
   font-weight: 800;
 }
 .crear__text {
@@ -965,7 +966,7 @@ section {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  background: #D992EB;
+  background: #7570B3;
   padding: 1rem 2rem;
   border-radius: 999px;
   font-size: 1rem;
