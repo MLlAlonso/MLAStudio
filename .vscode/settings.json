@@ -11,12 +11,19 @@
         "statusBar.background": "#009e6699",
         "statusBar.foreground": "#e7e7e7",
         "statusBarItem.hoverBackground": "#00d18799",
-        "statusBarItem.remoteBackground": "#009e6699",
+        "statusBarItem.remoteBackground": "#e8bfff",
         "statusBarItem.remoteForeground": "#e7e7e7",
         "titleBar.activeBackground": "#009e6699",
         "titleBar.activeForeground": "#e7e7e7",
         "titleBar.inactiveBackground": "#009e6699",
-        "titleBar.inactiveForeground": "#e7e7e799"
+        "titleBar.inactiveForeground": "#e7e7e799",
+        "activityBarTop.activeBackground": "#00d18799",
+        "activityBarTop.background": "#00d18799",
+        "activityBarTop.foreground": "#15202b",
+        "activityBarTop.inactiveForeground": "#15202b99",
+        "commandCenter.foreground": "#e7e7e7",
+        "statusBar.debuggingBackground": "#009e6699",
+        "statusBar.debuggingForeground": "#e7e7e7"
     },
     "peacock.color": "#009e6699",
     "liveServer.settings.port": 5501

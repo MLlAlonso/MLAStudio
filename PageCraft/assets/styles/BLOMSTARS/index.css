@@ -1051,6 +1051,25 @@ section {
 }
 
 /*------------------------------------*\
+    #Copyright Section
+\*------------------------------------*/
+.copyright {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #C4C4C4;
+  text-align: center;
+  background: #550D68;
+}
+.copyright a {
+  color: #009E66;
+  -webkit-text-emphasis: none;
+          text-emphasis: none;
+  text-decoration: none;
+}
+
+/*------------------------------------*\
   #RESPONSIVE
 \*------------------------------------*/
 @media (min-width: 1600px) {
@@ -1409,6 +1428,14 @@ section {
   .footer__image--right {
     width: 80%;
   }
+  .copyright {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+  }
+  .copyright a {
+    font-size: 16px;
+  }
 }
 @media (max-width: 479px) {
   html,
@@ -1648,6 +1675,15 @@ section {
   }
   .social-float {
     display: none;
+  }
+  .copyright {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 0rem;
+    text-align: center;
+  }
+  .copyright a {
+    font-size: 16px;
   }
 }
 @media (max-width: 320px) {

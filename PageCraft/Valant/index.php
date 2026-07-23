@@ -134,7 +134,7 @@
             </div>
         </section>
 
-        <p class="copyright">Copyright © 2025 Bordados Valant | Todos los derechos reservados  | Designed & built by <a href="../../ProfileX/MikkelAlonso/index.php" target="_blank">Mikkel Llaven Alonso</a></p>
+        <p class="copyright">Copyright © 2026 Bordados Valant | Todos los derechos reservados  | Designed & built by <a href="https://mlastdio.com/ProfileX/MikkelAlonso/" target="_blank">Mikkel Llaven Alonso</a></p>
     </main>
 </body>
 

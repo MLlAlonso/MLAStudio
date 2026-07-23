@@ -1135,6 +1135,12 @@
         <h2>Ponte en contacto conmigo</h2>
         <div class="footer_contact">
             <div class="footer_contact_item">
+                <img src="../../assets/img/icons/calendar.png" alt="Calendar">
+                <h3>Google Meet</h3>
+                <a href="https://calendar.app.google/YZeeH5ReoDHfHJka8" target="_blank">Agenda una reunión</a>
+            </div>
+
+            <div class="footer_contact_item">
                 <img src="../../assets/img/icons/whatsapp.png" alt="WhatsApp">
                 <h3>WhatsApp</h3>
                 <a href="https://wa.me/529213029641" target="_blank">Enviar Mensaje</a>
@@ -1153,7 +1159,7 @@
             </div>
         </div>
 
-        <p class="copyright">© 2025 Mikkel Llaven Alonso. Todos los derechos reservados.</p>
+        <p class="copyright">© 2026 Mikkel Llaven Alonso. Todos los derechos reservados.</p>
     </footer>
 
     <!-- Header -->

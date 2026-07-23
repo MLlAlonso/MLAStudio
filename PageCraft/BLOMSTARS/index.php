@@ -34,11 +34,514 @@
     <!-- Favicon -->
     <link rel="icon" href="../assets/img/BLOMSTARS/flor_icon.png">
     <!-- Styles -->
-    <link rel="stylesheet" href="../assets/styles/BLOMSTARS/index2.css">
+    <link rel="stylesheet" href="../assets/styles/BLOMSTARS/index.css">
 </head>
 
-
 <body>
+    <!-- NAVBAR -->
+    <header class="header">
+        <div class="header__container">
+            <!-- LOGO -->
+            <a href="#inicio" class="header__logo">
+                <img src="../assets/img/BLOMSTARS/logo.png" alt="BLOMSTARS Logo">
+            </a>
+
+            <!-- NAV -->
+            <nav class="header__nav">
+                <a href="#inicio"> Inicio </a>
+                <a href="#crear"> ¿Qué es un live? </a>
+                <a href="#monetizar"> Beneficios </a>
+                <a href="#empezar"> ¿Cómo funciona? </a>
+                <a href="#historia"> Preguntas </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="transmitir">
+        <!-- LEFT -->
+        <div class="transmitir__content">
+            <h1>
+                Convierte tu tiempo online en algo que también puede <span>impulsarte</span>
+            </h1>
+
+            <p>
+                Haz lives, crea tu espacio, conecta con personas y
+                desarrolla tu perfil como creadora en
+                <strong>BIGO LIVE</strong>.
+            </p>
+
+            <!-- FEATURES -->
+            <div class="transmitir__features">
+                <article class="feature">
+                    <div class="feature__icon">
+                        <img src="../assets/img/BLOMSTARS/corazon.png" alt="Haz lives">
+                    </div>
+
+                    <span>
+                        Empieza gratis
+                    </span>
+                </article>
+
+                <article class="feature">
+                    <div class="feature__icon">
+                        <img src="../assets/img/BLOMSTARS/regalo.png" alt="Conecta con personas">
+                    </div>
+
+                    <span>
+                        Monetiza desde el inicio
+                    </span>
+                </article>
+
+                <article class="feature">
+                    <div class="feature__icon">
+                        <img src="../assets/img/BLOMSTARS/cinta.png" alt="Crece online">
+                    </div>
+
+                    <span>
+                        Crece con apoyo real
+                    </span>
+                </article>
+            </div>
+
+            <!-- CTA -->
+            <a href="https://wa.me/5491135846994?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20BloomStars%20Agency%20y%20c%C3%B3mo%20puedo%20empezar%20como%20streamer"
+                target="_blank" class="transmitir__cta">
+                Conviértete en emisora oficial
+            </a>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="transmitir__image">
+            <img src="../assets/img/BLOMSTARS/hero.png" alt="Streamer Bigo Live">
+        </div>
+    </section>
+
+    <!-- MAIN -->
+    <main id="inicio">
+        <section class="crear" id="crear">
+            <!-- LEFT -->
+            <div class="crear__content">
+                <span class="crear__tag">
+                    ¿Qué es un live?
+                </span>
+
+                <h2>
+                    Transmitir en vivo es compartir tu espacio,
+                    tu personalidad y <span> lo que te gusta</span>
+                </h2>
+
+                <p class="crear__text">
+                    Un live es una transmisión en tiempo real donde puedes
+                    hablar con personas, reaccionar al chat, compartir tu
+                    rutina, jugar, maquillarte, escuchar música, estudiar
+                    o simplemente pasar un buen rato mientras construyes
+                    tu comunidad.
+                </p>
+
+                <div class="crear__highlight">
+                    <p>
+                        <span>No necesitas ser famosa</span> para comenzar.
+                        Solo ganas de hablar y crear tu propio
+                        espacio en internet.
+                    </p>
+                </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="crear__carousel">
+                <div class="crear__track">
+                    <!-- ORIGINALS -->
+                    <article class="crear__card">
+                        <img src="../assets/img/BLOMSTARS/stream (1).jpeg" alt="Streamer Bigo Live">
+                    </article>
+
+                    <article class="crear__card">
+                        <img src="../assets/img/BLOMSTARS/stream (1).png" alt="Live creator">
+                    </article>
+
+                    <article class="crear__card">
+                        <img src="../assets/img/BLOMSTARS/stream (2).jpeg" alt="Bigo Live streamer">
+                    </article>
+
+                    <!-- DUPLICADOS PARA LOOP -->
+                    <article class="crear__card">
+                        <img src="../assets/img/BLOMSTARS/stream (1).jpeg" alt="Streamer Bigo Live">
+                    </article>
+
+                    <article class="crear__card">
+                        <img src="../assets/img/BLOMSTARS/stream (1).png" alt="Live creator">
+                    </article>
+
+                    <article class="crear__card">
+                        <img src="../assets/img/BLOMSTARS/stream (2).jpeg" alt="Bigo Live streamer">
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="empezar" id="empezar">
+            <!-- LEFT -->
+            <div class="empezar__content">
+                <span class="empezar__tag">
+                    ¿Cómo funciona?
+                </span>
+
+                <h2>
+                    Crear contenido también puede verse así
+                </h2>
+
+                <p>
+                    Trabajar en internet no siempre se trata de
+                    viralidad externa.
+                    <br>
+                    También puede verse como construir una rutina
+                    creativa, flexible y auténtica alrededor de
+                    algo que disfrutas hacer.
+                </p>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="empezar__image">
+                <img src="../assets/img/BLOMSTARS/elementos.png" alt="Creadora de contenido en Bigo Live">
+            </div>
+        </section>
+
+        <section class="monetizar" id="monetizar">
+            <!-- LEFT -->
+            <div class="monetizar__content">
+                <div class="monetizar__heading">
+                    <h2>
+                        Empezar es más fácil de lo que imaginas
+                    </h2>
+                </div>
+
+                <!-- CARDS -->
+                <div class="monetizar__cards">
+                    <!-- CARD -->
+                    <article class="benefit-card">
+                        <div class="benefit-card__icon">
+                            <img src="../assets/img/BLOMSTARS/celular.png" alt="Celular">
+                        </div>
+
+                        <div class="benefit-card__info">
+                            <h3>
+                                Un celular
+                            </h3>
+
+                            <p>
+                                No necesitas equipo profesional para comenzar
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- CARD -->
+                    <article class="benefit-card">
+                        <div class="benefit-card__icon">
+                            <img src="../assets/img/BLOMSTARS/comentario.png" alt="Conectar">
+                        </div>
+
+                        <div class="benefit-card__info">
+                            <h3>
+                                Ganas de hablar y conectar
+                            </h3>
+
+                            <p>
+                                Tu personalidad es lo más importante
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- CARD -->
+                    <article class="benefit-card">
+                        <div class="benefit-card__icon">
+                            <img src="../assets/img/BLOMSTARS/calendario.png" alt="Constancia">
+                        </div>
+
+                        <div class="benefit-card__info">
+                            <h3>
+                                Constancia
+                            </h3>
+
+                            <p>
+                                Las comunidades se construyen poco a poco
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- CARD -->
+                    <article class="benefit-card">
+                        <div class="benefit-card__icon">
+                            <img src="../assets/img/BLOMSTARS/flor.png" alt="Estilo">
+                        </div>
+
+                        <div class="benefit-card__info">
+                            <h3>
+                                Tu propio estilo
+                            </h3>
+
+                            <p>
+                                No tienes que parecerte a nadie más
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="monetizar__image">
+                <img src="../assets/img/BLOMSTARS/image 1.png" alt="Streamer Bigo Live">
+            </div>
+        </section>
+
+        <section class="acompanamiento">
+            <!-- LEFT CARD -->
+            <article class="acompanamiento-card acompanamiento-card--money">
+                <h2>
+                    Sí, <span>puedes monetizar</span> tus lives
+                </h2>
+
+                <p>
+                    Como emisora oficial puedes comenzar a <strong>generar
+                        ingresos</strong> a través de tus transmisiones,
+                    metas y apoyo de tu comunidad.
+                    <br><br>
+                    Mientras más desarrolles tu perfil y tu comunidad,
+                    más oportunidades tendrás dentro de la plataforma.
+                </p>
+
+                <!-- ICONS -->
+                <div class="money-icons">
+                    <div class="money-icons__item">
+                        <img src="../assets/img/BLOMSTARS/regalo.png" alt="Regalos">
+                        <span>
+                            Recibe regalos virtuales
+                        </span>
+                    </div>
+
+                    <div class="money-icons__item">
+                        <img src="../assets/img/BLOMSTARS/estrella.png" alt="Metas">
+                        <span>
+                            Cumple metas y gana más
+                        </span>
+                    </div>
+
+                    <div class="money-icons__item">
+                        <img src="../assets/img/BLOMSTARS/comunidad.png" alt="Comunidad">
+                        <span>
+                            Crece junto a tu comunidad
+                        </span>
+                    </div>
+
+                    <div class="money-icons__item">
+                        <img src="../assets/img/BLOMSTARS/dinero.png" alt="Ingreso">
+                        <span>
+                            Tus primeros ingresos online
+                        </span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- RIGHT CARD -->
+            <article class="acompanamiento-card acompanamiento-card--support">
+
+                <div class="acompanamiento-card__content">
+                    <h2>
+                        No empiezas sola
+                    </h2>
+
+                    <p>
+                        Te guiamos durante el proceso para que entiendas cómo funciona la plataforma, cómo mejorar tus
+                        lives y cómo desarrollar tu perfil como creadora.
+                    </p>
+
+                    <p class="acompanamiento-card__highlight">
+                        Nuestro acompañamiento es totalmente gratuito.
+                    </p>
+
+                    <!-- LIST -->
+                    <div class="support-list">
+                        <div class="support-list__item">
+                            <img src="../assets/img/BLOMSTARS/check.png" alt="Check">
+
+                            <span>
+                                Ayuda para iniciar
+                            </span>
+                        </div>
+
+                        <div class="support-list__item">
+                            <img src="../assets/img/BLOMSTARS/check.png" alt="Check">
+
+                            <span>
+                                Consejos para crecer
+                            </span>
+                        </div>
+
+                        <div class="support-list__item">
+                            <img src="../assets/img/BLOMSTARS/check.png" alt="Check">
+
+                            <span>
+                                Orientación personalizada
+                            </span>
+                        </div>
+
+                        <div class="support-list__item">
+                            <img src="../assets/img/BLOMSTARS/check.png" alt="Check">
+
+                            <span>
+                                Apoyo durante el proceso
+                            </span>
+                        </div>
+
+                        <div class="support-list__item">
+                            <img src="../assets/img/BLOMSTARS/check.png" alt="Check">
+
+                            <span>
+                                Ideas de contenido
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- RIGHT IMAGE -->
+                <div class="acompanamiento-card__image">
+                    <img src="../assets/img/BLOMSTARS/cel.png" alt="Acompañamiento BLOMSTARS">
+                </div>
+
+            </article>
+        </section>
+
+        <section class="historia" id="historia">
+            <!-- LEFT CARD -->
+            <article class="historia-card historia-card--quote">
+                <span class="historia-card__quote">
+                    “ ”
+                </span>
+
+                <p class="historia-card__text">
+                    Al principio solo quería probar algo nuevo
+                    y terminé encontrando una rutina que
+                    realmente disfruto.
+                </p>
+
+                <!-- STARS -->
+                <div class="historia-card__stars">
+                    <img src="../assets/img/BLOMSTARS/estrella.png" alt="Estrella">
+                    <img src="../assets/img/BLOMSTARS/estrella.png" alt="Estrella">
+                    <img src="../assets/img/BLOMSTARS/estrella.png" alt="Estrella">
+                    <img src="../assets/img/BLOMSTARS/estrella.png" alt="Estrella">
+                    <img src="../assets/img/BLOMSTARS/estrella.png" alt="Estrella">
+                </div>
+            </article>
+
+            <!-- CENTER IMAGE -->
+            <article class="historia-card historia-card--image">
+                <img src="../assets/img/BLOMSTARS/stream (2).jpeg" alt="Streamer Bigo Live">
+            </article>
+
+            <!-- RIGHT CARD -->
+            <article class="historia-card historia-card--list">
+                <h2>
+                    Cada historia empieza con un pequeño paso
+                </h2>
+
+                <!-- LIST -->
+                <div class="historia-list">
+                    <div class="historia-list__item">
+                        <div class="historia-list__icon">
+                            <img src="../assets/img/BLOMSTARS/corazon.png" alt="Confianza">
+                        </div>
+
+                        <span>
+                            Más confianza
+                        </span>
+                    </div>
+
+                    <div class="historia-list__item">
+                        <div class="historia-list__icon">
+                            <img src="../assets/img/BLOMSTARS/comunidad.png" alt="Amistades">
+                        </div>
+
+                        <span>
+                            Nuevas amistades
+                        </span>
+                    </div>
+
+                    <div class="historia-list__item">
+                        <div class="historia-list__icon">
+                            <img src="../assets/img/BLOMSTARS/estrella.png" alt="Momentos">
+                        </div>
+
+                        <span>
+                            Momentos increíbles
+                        </span>
+                    </div>
+
+                    <div class="historia-list__item">
+                        <div class="historia-list__icon">
+                            <img src="../assets/img/BLOMSTARS/comentario.png" alt="Oportunidades">
+                        </div>
+
+                        <span>
+                            Oportunidades reales
+                        </span>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- LEFT IMAGE -->
+        <div class="footer__image footer__image--left">
+            <img src="../assets/img/BLOMSTARS/flor_icon.png" alt="Streamer BIGO LIVE">
+        </div>
+
+        <!-- CENTER CONTENT -->
+        <div class="footer__content">
+            <h2>
+                Tu espacio en internet puede empezar hoy
+            </h2>
+
+            <p>
+                Empieza gratis y descubre cómo desarrollarte como emisora oficial en BIGO LIVE.
+            </p>
+
+            <!-- CTA -->
+            <a href="https://wa.me/5491135846994?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20BloomStars%20Agency%20y%20c%C3%B3mo%20puedo%20empezar%20como%20streamer"
+                target="_blank" class="footer__cta" style="color: white;">
+                Conviértete en emisora oficial
+            </a>
+
+            <!-- SOCIALS -->
+            <div class="footer__socials">
+                <a href="https://wa.me/5491135846994?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20BloomStars%20Agency%20y%20c%C3%B3mo%20puedo%20empezar%20como%20streamer"
+                    target="_blank">
+                    <img src="../assets/img/BLOMSTARS/whatsapp.png" alt="WhatsApp">
+                </a>
+
+                <a href="https://www.instagram.com/bloomstarsag" target="_blank">
+                    <img src="../assets/img/BLOMSTARS/instagram.png" alt="Instagram">
+                </a>
+
+                <a href="https://www.tiktok.com/@teambloomstars" target="_blank">
+                    <img src="../assets/img/BLOMSTARS/tiktok.png" alt="TikTok">
+                </a>
+            </div>
+        </div>
+
+        <!-- RIGHT IMAGE -->
+        <div class="footer__image footer__image--right">
+            <img src="../assets/img/BLOMSTARS/stream (1).png" alt="Creadora de contenido BIGO LIVE">
+        </div>
+    </footer>
+
+    <section class="copyright">
+        <p class="copyright">Copyright © 2026 | Todos los derechos reservados | Built by
+            <a href="https://mlastdio.com/ProfileX/MikkelAlonso/" target="_blank">Mikkel Llaven Alonso</a>
+        </p>
+    </section>
 
     <!-- SOCIAL FLOAT -->
     <div class="social-float">
@@ -56,517 +559,15 @@
         </a>
     </div>
 
-    <!-- NAVBAR -->
-    <div class="navbar__container">
-        <a href="/" class="navbar__logo">
-            <img src="../assets/img/BLOMSTARS/logo.png" alt="BloomStars Agency" />
-        </a>
-
-        <div class="navbar__right">
-            <ul class="navbar__menu">
-                <li>
-                    <a href="#quienes-somos">Quienes somos</a>
-                </li>
-
-                <span class="navbar__separator">|</span>
-
-                <li>
-                    <a href="#beneficios">Beneficios</a>
-                </li>
-
-                <span class="navbar__separator">|</span>
-
-                <li>
-                    <a href="#preguntas-frecuentes">Preguntas frecuentes</a>
-                </li>
-            </ul>
-
-            <a class="navbar__cta"
-                href="https://wa.me/5491135846994?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20BloomStars%20Agency%20y%20c%C3%B3mo%20puedo%20empezar%20como%20streamer"
-                target="_blank" rel="noopener noreferrer">
-                Quiero aplicar
-            </a>
-        </div>
-    </div>
-
-    <!-- Hero -->
-    <header class="hero">
-        <div class="hero__container">
-            <!-- Left Column -->
-            <div class="hero__content">
-                <div class="hero__badge">
-                    EMISORAS OFICIALES
-                </div>
-
-                <h1 class="hero__title">
-                    Convierte tus lives en
-                    <span>INGRESOS</span>
-                </h1>
-
-                <p class="hero__description">
-                    UNETE A BLOOMSTARS COMO EMISORA OFICIAL Y EMPIEZA A
-                    MONETIZAR HACIENDO STREAMING DESDE TU CELULAR
-                </p>
-
-                <a class="hero__cta"
-                    href="https://wa.me/5491135846994?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20BloomStars%20Agency%20y%20c%C3%B3mo%20puedo%20empezar%20como%20streamer"
-                    target="_blank" rel="noopener noreferrer">
-                    Quiero aplicar
-                </a>
-
-                <div class="hero__social-proof">
-                    <img src="../assets/img/BLOMSTARS/perfiles.png" alt="Streamers BloomStars" />
-
-                    <span>
-                        Más chicas están transmitiendo y ganando
-                    </span>
-                </div>
-            </div>
-
-            <!-- Right Column -->
-            <div class="hero__image">
-                <img src="../assets/img/BLOMSTARS/celular_header.png" alt="BloomStars Streamer" />
-            </div>
-        </div>
-    </header>
-
-    <!-- About us -->
-    <section class="about">
-        <div class="about__container">
-            <!-- Columna izquierda -->
-            <div class="about__content">
-                <div class="about__badge">
-                    Quiénes somos
-                </div>
-
-                <p class="about__description">
-                    Somos personas con experiencias en streaming que ya hemos crecido
-                    y guiado a otras chicas.
-                    <br><br>
-                    Ayudamos a chicas que quieren iniciar,
-                    probar o abrirse a hacer live streaming desde su celular para
-                    crear una comunidad de verdad, recibir apoyo y monetizar.
-                    <br><br>
-                    Aquí puedes expresarte, conectar con personas y crecer haciendo
-                    lo que te gusta, sin recurrir a nada incómodo.
-                </p>
-            </div>
-
-            <!-- Columna derecha -->
-            <div class="about__grid">
-                <article class="about-card">
-                    <div class="about-card__icon">
-                        <img src="../assets/img/BLOMSTARS/celular.png" />
-                    </div>
-
-                    <h3>Desde tu celular</h3>
-
-                    <p>
-                        No necesitas cámara profesional ni PC
-                    </p>
-                </article>
-
-                <article class="about-card">
-                    <div class="about-card__icon">
-                        <img src="../assets/img/BLOMSTARS/cinta.png" />
-                    </div>
-
-                    <h3>Sé tu misma</h3>
-
-                    <p>
-                        Queremos que brilles con tu personalidad genuina
-                    </p>
-                </article>
-
-                <article class="about-card">
-                    <div class="about-card__icon">
-                        <img src="../assets/img/BLOMSTARS/comunidad.png" />
-                    </div>
-
-                    <h3>Comunidad real</h3>
-
-                    <p>
-                        Construye tu propio nicho y conecta con personas que valoran
-                        tu contenido
-                    </p>
-                </article>
-
-                <article class="about-card">
-                    <div class="about-card__icon">
-                        <img src="../assets/img/BLOMSTARS/dinero.png" />
-                    </div>
-
-                    <h3>Monetiza desde el inicio</h3>
-
-                    <p>
-                        Solo necesitas ser mayor de edad y tener ganas de comunicarte
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Benefits -->
-    <section class="benefits">
-        <div class="benefits__container">
-            <!-- Columna izquierda -->
-            <div class="benefits__content">
-                <div class="benefits__badge">
-                    BENEFICIOS DE TRABAJAR CON NOSOTRAS
-                </div>
-
-                <h2 class="benefits__description">
-                    En BLOOMStars te damos las herramientas, el apoyo y la guía
-                    que necesitas para crecer en Bigolive y lograr tus metas.
-                </h2>
-
-                <a class="benefits__cta"
-                    href="https://wa.me/5491135846994?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20BloomStars%20Agency%20y%20c%C3%B3mo%20puedo%20empezar%20como%20streamer"
-                    target="_blank" rel="noopener noreferrer">
-                    Quiero aplicar
-                </a>
-            </div>
-
-            <!-- Columna derecha -->
-            <div class="benefits__grid">
-                <article class="benefit-card">
-                    <img src="../assets/img/BLOMSTARS/soporte.png" alt="Acompañamiento real" />
-
-                    <h3>Acompañamiento real</h3>
-
-                    <p>
-                        Estamos contigo en cada paso de tu camino
-                    </p>
-                </article>
-
-                <article class="benefit-card">
-                    <img src="../assets/img/BLOMSTARS/libro.png" alt="Guías y training" />
-
-                    <h3>Guías y training</h3>
-
-                    <p>
-                        Aprende, mejora y fortalece tus habilidades como streamer
-                    </p>
-                </article>
-
-                <article class="benefit-card">
-                    <img src="../assets/img/BLOMSTARS/regalo.png" alt="Incentivos por metas" />
-
-                    <h3>Incentivos por metas</h3>
-
-                    <p>
-                        Alcanza tus objetivos y recibe recompensas por tu esfuerzo
-                    </p>
-                </article>
-
-                <article class="benefit-card">
-                    <img src="../assets/img/BLOMSTARS/estrella.png" alt="Soporte personalizado" />
-
-                    <h3>Soporte personalizado</h3>
-
-                    <p>
-                        Resolvemos tus dudas y te ayudamos a superar cualquier
-                        obstáculo
-                    </p>
-                </article>
-
-                <article class="benefit-card">
-                    <img src="../assets/img/BLOMSTARS/crecer.png" alt="Herramientas reales" />
-
-                    <h3>Herramientas reales</h3>
-
-                    <p>
-                        Recursos útiles para que pierdas el miedo y crezcas con
-                        seguridad
-                    </p>
-                </article>
-            </div>
-        </div>
-    </section>
-
-    <!-- Bigolive -->
-    <section class="bigo">
-        <div class="bigo__container">
-            <!-- Columna izquierda -->
-            <div class="bigo__content">
-                <div class="bigo__badge">
-                    ¿Por qué BIGO LIVE?
-                </div>
-
-                <ul class="bigo__list">
-                    <li>
-                        <div class="bigo__check">
-                            <img src="../assets/img/BLOMSTARS/comprobado.png" alt="Check" />
-                        </div>
-
-                        <span>
-                            Plataforma con millones de usuarios activos
-                        </span>
-                    </li>
-
-                    <li>
-                        <div class="bigo__check">
-                            <img src="../assets/img/BLOMSTARS/comprobado.png" alt="Check" />
-                        </div>
-
-                        <span>
-                            Puedes monetizar desde el comienzo, sin necesidad de seguidores
-                        </span>
-                    </li>
-
-                    <li>
-                        <div class="bigo__check">
-                            <img src="../assets/img/BLOMSTARS/comprobado.png" alt="Check" />
-                        </div>
-
-                        <span>
-                            Libertad total para elegir tu temática e intereses
-                        </span>
-                    </li>
-
-                    <li>
-                        <div class="bigo__check">
-                            <img src="../assets/img/BLOMSTARS/comprobado.png" alt="Check" />
-                        </div>
-
-                        <span>
-                            Crea tu propio nicho y recibe apoyo de una comunidad
-                            que valora tu contenido
-                        </span>
-                    </li>
-
-                    <li>
-                        <div class="bigo__check">
-                            <img src="../assets/img/BLOMSTARS/comprobado.png" alt="Check" />
-                        </div>
-
-                        <span>
-                            No necesitas hacer videos ni posts, solo live streaming
-                        </span>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Columna derecha -->
-            <div class="bigo__image">
-                <img src="../assets/img/BLOMSTARS/bigolive.png" alt="BIGO LIVE" />
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ -->
-    <section class="faq" id="preguntas-frecuentes">
-        <div class="faq__container">
-            <div class="faq__badge">
-                Preguntas frecuentes
-            </div>
-
-            <div class="faq__grid">
-                <!-- Columna izquierda -->
-                <div class="faq__column">
-                    <div class="faq-item">
-                        <button class="faq-item__header">
-                            <span>¿Necesito experiencia para empezar?</span>
-                            <span class="faq-item__icon">+</span>
-                        </button>
-
-                        <div class="faq-item__content">
-                            <p>
-                                No. Puedes comenzar incluso si nunca has hecho lives antes.
-                                En BloomStars te guiamos paso a paso para ayudarte a sentirte
-                                cómoda, perder el miedo y comenzar a crecer a tu ritmo.
-                            </p>
-
-                            <p>
-                                Lo más importante es tener interés por comunicarte, gusto por
-                                salir a cámara, facilidad de palabra, ganas de interactuar con
-                                personas, expresar tu personalidad o talentos y disposición
-                                para seguir aprendiendo y mejorando con el tiempo.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <button class="faq-item__header">
-                            <span>¿Necesito cámara profesional o PC?</span>
-                            <span class="faq-item__icon">+</span>
-                        </button>
-
-                        <div class="faq-item__content">
-                            <p>
-                                No necesitas PC ni equipo profesional. Puedes comenzar desde
-                                tu celular y conectar desde donde estés.
-                            </p>
-
-                            <p>
-                                Lo más importante es tu personalidad, comunicación y ganas de
-                                expresarte.
-                            </p>
-
-                            <p>
-                                Solo necesitas ser atenta a detalles básicos como una buena
-                                iluminación, un espacio cómodo y poder mantener interacción
-                                con las personas durante tus lives.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <button class="faq-item__header">
-                            <span>¿Cuándo puedo empezar a monetizar?</span>
-                            <span class="faq-item__icon">+</span>
-                        </button>
-
-                        <div class="faq-item__content">
-                            <p>
-                                A diferencia de otras plataformas, puedes comenzar a monetizar
-                                desde el inicio, sin necesidad de tener seguidores previos.
-                            </p>
-
-                            <p>
-                                Para conocer más información sobre ingresos y pagos puedes
-                                contactarnos por WhatsApp a través del botón "Quiero aplicar".
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Columna derecha -->
-                <div class="faq__column">
-                    <div class="faq-item">
-                        <button class="faq-item__header">
-                            <span>¿Qué tipo de contenido puedo hacer?</span>
-                            <span class="faq-item__icon">+</span>
-                        </button>
-
-                        <div class="faq-item__content">
-                            <p>
-                                Puedes hacer lives hablando, reaccionando, compartiendo
-                                hobbies, música, maquillaje, gaming casual, lifestyle o
-                                simplemente siendo tú misma.
-                            </p>
-
-                            <p>
-                                La idea es crear una comunidad auténtica alrededor de tu
-                                personalidad e intereses.
-                            </p>
-
-                            <p>
-                                Bigo Live no es una plataforma enfocada en contenido para
-                                adultos y en BloomStars buscamos crear un espacio cómodo,
-                                respetuoso y seguro para nuestras emisoras.
-                            </p>
-
-                            <p>
-                                Siempre te apoyaremos ante cualquier situación incómoda y te
-                                orientaremos sobre cómo bloquear, reportar o manejar usuarios
-                                inapropiados dentro de la app.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <button class="faq-item__header">
-                            <span>¿Hay exclusividad con la agencia?</span>
-                            <span class="faq-item__icon">+</span>
-                        </button>
-
-                        <div class="faq-item__content">
-                            <p>
-                                Sí, al formar parte de nuestra agencia en Bigo Live no puedes
-                                estar firmada con otra agencia al mismo tiempo.
-                            </p>
-
-                            <p>
-                                Sin embargo, puedes solicitar tu cambio o baja cuando lo
-                                desees.
-                            </p>
-
-                            <p>
-                                No manejamos plazos forzosos ni pedimos pagos para comenzar o
-                                cerrar tu proceso.
-                            </p>
-
-                            <p>
-                                Nuestro objetivo es que te sientas cómoda, informada y
-                                acompañada desde el inicio.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <button class="faq-item__header">
-                            <span>¿Tiene algún costo?</span>
-                            <span class="faq-item__icon">+</span>
-                        </button>
-
-                        <div class="faq-item__content">
-                            <p>
-                                No. En ningún momento se te solicitará ningún tipo de pago,
-                                transferencia o inversión para comenzar.
-                            </p>
-
-                            <p>
-                                Las agencias somos contratadas directamente por Bigo Live y no
-                                recibimos pagos de las emisoras.
-                            </p>
-
-                            <p>
-                                Si alguna persona llega a pedirte dinero en nombre de la
-                                agencia o del proceso, te recomendamos no continuar y
-                                reportarlo.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <section class="cta-final">
-        <div class="cta-final__container">
-            <div class="cta-final__content">
-                <img src="../assets/img/BLOMSTARS/flor.png" alt="BloomStars" class="cta-final__image" />
-
-                <div class="cta-final__text">
-                    <h2>
-                        ¿Lista para comenzar tu camino como streamer?
-                    </h2>
-
-                    <p>
-                        ÚNETE A BLOOMSTARS Y CONVIERTE TUS LIVES EN INGRESOS
-                    </p>
-                </div>
-            </div>
-
-            <a class="cta-final__button"
-                href="https://wa.me/5491135846994?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20BloomStars%20Agency%20y%20c%C3%B3mo%20puedo%20empezar%20como%20streamer"
-                target="_blank" rel="noopener noreferrer">
-                Quiero aplicar
-            </a>
-        </div>
-    </section>
-
     <script>
-        const faqItems = document.querySelectorAll(".faq-item");
+        const header = document.querySelector(".header");
 
-        faqItems.forEach((item) => {
-            const header = item.querySelector(".faq-item__header");
-
-            header.addEventListener("click", () => {
-                const isActive = item.classList.contains("active");
-
-                faqItems.forEach((faq) => {
-                    faq.classList.remove("active");
-                });
-
-                if (!isActive) {
-                    item.classList.add("active");
-                }
-            });
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 40) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
         });
     </script>
 </body>
-
-</html>

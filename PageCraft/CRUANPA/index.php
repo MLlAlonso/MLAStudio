@@ -249,9 +249,9 @@
                     <img src="../assets/img/Cruanpa/social/instagram.svg" alt=""> Cruanpa
                 </a>
             </div>
-            <p class="copyright">Copyright © 2025 CRUANPA COMERCIALIZADORA | Todos los derechos reservados | Designed &
+            <p class="copyright">Copyright © 2026 CRUANPA COMERCIALIZADORA | Todos los derechos reservados | Designed &
                 built
-                by <a href="../../ProfileX/MikkelAlonso/index.php" target="_blank">Mikkel Llaven
+                by <a href="https://mlastdio.com/ProfileX/MikkelAlonso/" target="_blank">Mikkel Llaven
                     Alonso</a></p>
         </section>
     </footer>
