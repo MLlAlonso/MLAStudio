@@ -1,42 +1,10 @@
 /* =========================================================
-   FUENTE: MADE OUTER SANS
+   FUENTE: BODONI 72
 ========================================================= */
 @font-face {
-    font-family: "MADE Outer Sans";
-    src: url("../FONT/MADE%20Outer%20Sans%20Regular%20PERSONAL%20USE.otf") format("opentype");
+    font-family: "Bodoni 72";
+    src: url("../FONT/Bodoni%2072.ttc") format("truetype");
     font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "MADE Outer Sans";
-    src: url("../FONT/MADE%20Outer%20Sans%20Medium%20PERSONAL%20USE.otf") format("opentype");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "MADE Outer Sans";
-    src: url("../FONT/MADE%20Outer%20Sans%20Bold%20PERSONAL%20USE.otf") format("opentype");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "MADE Outer Sans";
-    src: url("../FONT/MADE%20Outer%20Sans Light%20PERSONAL%20USE.otf") format("opentype");
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "MADE Outer Sans";
-    src: url("../FONT/MADE%20Outer%20Sans%20Thin%20PERSONAL%20USE.otf") format("opentype");
-    font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
@@ -67,7 +35,7 @@ body {
     width: 100%;
     min-height: 100vh;
     min-height: 100svh;
-    font-family: "MADE Outer Sans", sans-serif;
+    font-family: "Bodoni 72", serif;
     overflow-x: hidden;
     overflow-y: scroll;
     scrollbar-width: none;
@@ -90,22 +58,36 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-image: url("https://res.cloudinary.com/dhzmsgmq2/image/upload/v1786516342/Header_gvx0lt.webp");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #000000;
     isolation: isolate;
+
+    &__video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        height: 100%;
+        min-width: 100%;
+        min-height: 100%;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+        object-position: center center;
+        z-index: -3;
+        display: block;
+        pointer-events: none;
+    }
 
     &__overlay {
         position: absolute;
         inset: 0;
-        z-index: -1;
-        background: rgba(0, 0, 0, 0);
+        z-index: -2;
+        background: rgba(0, 0, 0, 0.08);
+        pointer-events: none;
     }
 
     &__content {
         position: relative;
-        z-index: 1;
+        z-index: 2;
         width: 100%;
         max-width: 1200px;
         min-height: 100vh;
@@ -114,17 +96,8 @@ body::-webkit-scrollbar {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-end;
         text-align: center;
-    }
-
-    &__logo {
-        display: block;
-        width: min(70vw, 520px);
-        height: auto;
-        max-height: 55vh;
-        object-fit: contain;
-        margin-bottom: clamp(24px, 4vh, 45px);
     }
 }
 
@@ -133,6 +106,7 @@ body::-webkit-scrollbar {
 ========================================================= */
 .music-button {
     position: relative;
+    z-index: 3;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -144,7 +118,7 @@ body::-webkit-scrollbar {
     border-radius: 26px;
     background: $music-button-color;
     color: $white;
-    font-family: "MADE Outer Sans", sans-serif;
+    font-family: "Bodoni 72", serif;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 0.4px;
@@ -179,7 +153,7 @@ body::-webkit-scrollbar {
         justify-content: center;
         width: 18px;
         height: 18px;
-        font-family: "MADE Outer Sans", sans-serif;
+        font-family: "Bodoni 72", serif;
         font-size: 12px;
         flex-shrink: 0;
         transition: transform 0.2s ease;
@@ -256,7 +230,7 @@ body::-webkit-scrollbar {
 }
 
 .invitation-section__image--description {
-    width: min(54vw, 480px);
+    width: min(64vw, 520px);
     max-width: 100%;
 }
 
@@ -305,7 +279,7 @@ body::-webkit-scrollbar {
     &__logo {
         display: block;
         height: auto;
-        max-width: 25%;
+        max-width: 20%;
         object-fit: contain;
         margin-bottom: 25px;
     }
@@ -336,11 +310,13 @@ body::-webkit-scrollbar {
         flex-direction: row;
         align-items: flex-start;
         justify-content: center;
-        gap: 20px;
+        gap: 0;
+        flex-wrap: nowrap;
     }
 
     &__item {
-        flex: 1;
+        position: relative;
+        flex: 1 1 0;
         min-width: 0;
         display: flex;
         flex-direction: column;
@@ -349,8 +325,20 @@ body::-webkit-scrollbar {
         text-align: center;
     }
 
+    &__item:not(:last-child)::after {
+        content: ":";
+        position: absolute;
+        top: 0;
+        right: -10px;
+        color: #ffffff;
+        font-size: 120px;
+        font-weight: 700;
+        line-height: 0.95;
+    }
+
     &__number {
         display: block;
+        width: 100%;
         color: #ffffff;
         font-size: 120px;
         font-weight: 700;
@@ -431,7 +419,7 @@ body::-webkit-scrollbar {
     border-radius: 20px;
     background: #A88639;
     color: #ffffff;
-    font-family: "MADE Outer Sans", sans-serif;
+    font-family: "Bodoni 72", serif;
     font-size: 28px;
     font-weight: bold;
     line-height: 1;
@@ -471,7 +459,7 @@ body::-webkit-scrollbar {
     align-items: stretch;
     justify-content: center;
     overflow: visible;
-    background-image: url("https://res.cloudinary.com/dhzmsgmq2/image/upload/v1786515958/BG2_zlwupb.webp");
+    background-image: url("https://res.cloudinary.com/dhzmsgmq2/image/upload/v1786638729/Recurso_4_zaepej.webp");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -497,7 +485,7 @@ body::-webkit-scrollbar {
     z-index: 10;
     margin-top: -80px;
     margin-bottom: -80px;
-    filter: drop-shadow( 0 10px 20px rgba(0, 0, 0, 0.15) );
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15));
     overflow: hidden;
 
     &__title {
@@ -530,7 +518,7 @@ body::-webkit-scrollbar {
         border-radius: 20px;
         background: #A88639;
         color: #ffffff;
-        font-family: "MADE Outer Sans", sans-serif;
+        font-family: "Bodoni 72", serif;
         font-size: 24px;
         font-weight: 600;
         line-height: 1;
@@ -572,27 +560,18 @@ body::-webkit-scrollbar {
 
 .party-card__image--reception {
     width: 50%;
-
     max-width: 300px;
-
     height: auto;
-
     max-height: 180px;
-
     margin-bottom: 30px;
 }
 
 .party-card__image--hotel {
     width: 60%;
-
     max-width: 340px;
-
     height: auto;
-
     max-height: 180px;
-
     margin-top: 30px;
-
     margin-bottom: 30px;
 }
 
@@ -646,7 +625,7 @@ body::-webkit-scrollbar {
     border-radius: 20px;
     background: #A88639;
     color: #ffffff;
-    font-family: "MADE Outer Sans", sans-serif;
+    font-family: "Bodoni 72", serif;
     font-size: 30px;
     font-weight: 600;
     line-height: 1;
@@ -705,7 +684,7 @@ body::-webkit-scrollbar {
     }
 
     .invitation-section__image--description {
-        width: min(58vw, 260px);
+        width: min(68vw, 300px);
     }
 
     .invitation-section__image--parents {
@@ -724,8 +703,8 @@ body::-webkit-scrollbar {
         }
 
         &__logo {
-            max-width: 55%;
-            margin-bottom: 10px;
+            max-width: 30%;
+            margin-bottom: 15px;
         }
 
         &__image {
@@ -745,7 +724,7 @@ body::-webkit-scrollbar {
     }
 
     .countdown {
-        width: 85%;
+        width: 94%;
         margin-bottom: 25px;
 
         &__title {
@@ -754,32 +733,42 @@ body::-webkit-scrollbar {
         }
 
         &__timer {
-            gap: 5px;
+            width: 100%;
+            gap: 3px;
+            flex-wrap: nowrap;
         }
 
         &__item {
-            flex: 1;
+            flex: 1 1 0;
+            min-width: 0;
         }
 
+
         &__number {
-            font-size: 50px;
+            font-size: 38px;
             letter-spacing: -1px;
         }
 
         &__label {
             margin-top: 12px;
-            font-size: 16px;
+            font-size: 12px;
+            white-space: nowrap;
         }
     }
 
+    .countdown__item:not(:last-child)::after {
+        font-size: 38px;
+    }
+
     .countdown.is-today {
+
         .countdown__title {
             font-size: 28px;
             margin-bottom: 10px;
         }
 
         .countdown__number {
-            font-size: 45px;
+            font-size: 38px;
         }
 
         .countdown__label {
@@ -880,7 +869,7 @@ body::-webkit-scrollbar {
     }
 
     .invitation-section__image--description {
-        width: min(62vw, 350px);
+        width: min(68vw, 380px);
     }
 
     .invitation-section__image--parents {
@@ -899,7 +888,7 @@ body::-webkit-scrollbar {
         }
 
         &__logo {
-            max-width: 55%;
+            max-width: 40%;
             margin-bottom: 12px;
         }
 
@@ -920,7 +909,7 @@ body::-webkit-scrollbar {
     }
 
     .countdown {
-        width: 80%;
+        width: 92%;
         margin-bottom: 30px;
 
         &__title {
@@ -929,32 +918,45 @@ body::-webkit-scrollbar {
         }
 
         &__timer {
-            gap: 8px;
+            width: 100%;
+            gap: 5px;
+            flex-wrap: nowrap;
+        }
+
+        &__item {
+            flex: 1 1 0;
+            min-width: 0;
         }
 
         &__number {
-            font-size: 80px;
+            font-size: 60px;
             letter-spacing: -1.5px;
         }
 
         &__label {
             margin-top: 15px;
-            font-size: 18px;
+            font-size: 15px;
+            white-space: nowrap;
         }
     }
 
+    .countdown__item:not(:last-child)::after {
+        font-size: 60px;
+    }
+
     .countdown.is-today {
+
         .countdown__title {
             font-size: 32px;
             margin-bottom: 12px;
         }
 
         .countdown__number {
-            font-size: clamp(42px, 11vw, 68px);
+            font-size: 55px;
         }
 
         .countdown__label {
-            font-size: 14px;
+            font-size: 13px;
         }
     }
 
@@ -1051,7 +1053,7 @@ body::-webkit-scrollbar {
     }
 
     .invitation-section__image--description {
-        width: min(48vw, 400px);
+        width: min(54vw, 460px);
     }
 
     .invitation-section__image--parents {
@@ -1072,7 +1074,7 @@ body::-webkit-scrollbar {
         }
 
         &__logo {
-            max-width: 38%;
+            max-width: 30%;
             margin-bottom: 15px;
         }
 
@@ -1089,7 +1091,7 @@ body::-webkit-scrollbar {
     }
 
     .countdown {
-        width: 75%;
+        width: 82%;
         margin-bottom: 35px;
 
         &__title {
@@ -1098,27 +1100,44 @@ body::-webkit-scrollbar {
         }
 
         &__timer {
-            gap: 15px;
+            width: 100%;
+            gap: 10px;
+            flex-wrap: nowrap;
+        }
+
+        &__item {
+            flex: 1 1 0;
+            min-width: 0;
         }
 
         &__number {
-            font-size: 100px;
+            font-size: 82px;
             letter-spacing: -2px;
         }
 
         &__label {
             margin-top: 20px;
-            font-size: 26px;
+            font-size: 22px;
+            white-space: nowrap;
         }
     }
 
+    .countdown__item:not(:last-child)::after {
+        font-size: 82px;
+    }
+
     .countdown.is-today {
+
         .countdown__title {
             font-size: 38px;
         }
 
         .countdown__number {
-            font-size: 85px;
+            font-size: 78px;
+        }
+
+        .countdown__label {
+            font-size: 20px;
         }
     }
 
@@ -1189,43 +1208,6 @@ body::-webkit-scrollbar {
     }
 }
 
-@media (min-width: 1024px) {
-    .hero__content {
-        padding: 60px 50px;
-    }
-
-    .hero__logo {
-        width: min(48vw, 560px);
-        max-height: 58vh;
-        margin-bottom: 38px;
-    }
-
-    .music-button {
-        min-width: 220px;
-        min-height: 50px;
-        padding: 14px 30px;
-        font-size: 18px;
-    }
-
-    .invitation-section__content {
-        padding: 70px 50px;
-        gap: 30px;
-    }
-
-    .invitation-section__image--description {
-        width: min(38vw, 468px);
-    }
-
-    .invitation-section__image--parents {
-        width: 75%;
-        max-width: 800px;
-    }
-
-    .invitation-section__image--invitation {
-        width: min(38vw, 500px);
-    }
-}
-
 @media (min-width: 1600px) {
     .hero__content {
         padding: 70px 60px;
@@ -1251,7 +1233,7 @@ body::-webkit-scrollbar {
     }
 
     .invitation-section__image--description {
-        width: min(30vw, 450px);
+        width: min(36vw, 520px);
     }
 
     .invitation-section__image--parents {
@@ -1271,7 +1253,7 @@ body::-webkit-scrollbar {
         }
 
         &__logo {
-            max-width: 25%;
+            max-width: 20%;
             margin-bottom: 20px;
         }
 
@@ -1296,28 +1278,42 @@ body::-webkit-scrollbar {
         }
 
         &__timer {
-            gap: 35px;
+            gap: 25px;
+            flex-wrap: nowrap;
+        }
+
+        &__item {
+            flex: 1 1 0;
         }
 
         &__number {
-            font-size: 140px;
+            font-size: 125px;
             letter-spacing: -2px;
         }
 
         &__label {
             margin-top: 30px;
-            font-size: 36px;
+            font-size: 32px;
         }
     }
 
     .countdown.is-today {
+
         .countdown__title {
             font-size: 48px;
         }
 
         .countdown__number {
-            font-size: 120px;
+            font-size: 110px;
         }
+
+        .countdown__label {
+            font-size: 30px;
+        }
+    }
+
+    .countdown__item:not(:last-child)::after {
+        font-size: 125px;
     }
 
     .location-button {

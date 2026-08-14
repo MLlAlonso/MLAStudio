@@ -12,6 +12,31 @@ document.addEventListener("DOMContentLoaded", () => {
     const partyLocationButton = document.getElementById("partyLocationButton");
     const hotelButton = document.getElementById("hotelButton");
     const attendanceButton = document.getElementById("attendanceButton");
+    const heroVideo = document.getElementById("heroVideo");
+    const heroSkip = document.getElementById("heroSkip");
+
+    /* =====================================================
+    VIDEO DEL HERO
+    ===================================================== */
+    if (heroVideo) {
+        heroVideo.muted = true;
+
+        const playHeroVideo = async () => {
+            try {
+                await heroVideo.play();
+            } catch (error) {
+                console.warn("El navegador no permitió la reproducción automática del video.");
+            }
+        };
+
+        playHeroVideo();
+
+        heroVideo.addEventListener("ended", () => {
+            if (heroSkip) {
+                heroSkip.classList.add("is-hidden");
+            }
+        });
+    }
 
     /* =====================================================
        MÚSICA
@@ -72,37 +97,67 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    /* =====================================================
+    CUENTA REGRESIVA
+    ===================================================== */
     if (countdown && countdownTitle && countdownDays && countdownHours && countdownMinutes) {
         /*
         -----------------------------------------------------
         FECHA DEL EVENTO
+    
         14 de noviembre de 2026
         00:00:00 hora local del dispositivo.
         -----------------------------------------------------
         */
         const eventDate = new Date(2026, 10, 14, 0, 0, 0);
+        const countdownSeconds = document.getElementById("countdownSeconds");
 
         const formatNumber = (number) => {
             return String(number).padStart(2, "0");
         };
 
+        /*
+        -----------------------------------------------------
+        ESTADO "ES HOY"
+        -----------------------------------------------------
+        */
         const setTodayState = () => {
             countdownTitle.textContent = "Es hoy!";
             countdownDays.textContent = "00";
             countdownHours.textContent = "00";
             countdownMinutes.textContent = "00";
+
+            if (countdownSeconds) {
+                countdownSeconds.textContent = "00";
+            }
+
             countdown.classList.add("is-today");
         };
 
+        /*
+        -----------------------------------------------------
+        ACTUALIZAR CONTADOR
+        -----------------------------------------------------
+        */
         const updateCountdown = () => {
             const now = new Date();
             const difference = eventDate.getTime() - now.getTime();
 
+            /*
+            -------------------------------------------------
+            SI ES EL DÍA DEL EVENTO
+            -------------------------------------------------
+            */
             if (now.getFullYear() === 2026 && now.getMonth() === 10 && now.getDate() === 14) {
                 setTodayState();
                 return;
             }
 
+            /*
+            -------------------------------------------------
+            SI LA FECHA YA PASÓ
+            -------------------------------------------------
+            */
             if (difference <= 0) {
                 setTodayState();
                 return;
@@ -112,15 +167,39 @@ document.addEventListener("DOMContentLoaded", () => {
             const days = Math.floor(totalSeconds / 86400);
             const hours = Math.floor((totalSeconds % 86400) / 3600);
             const minutes = Math.floor((totalSeconds % 3600) / 60);
+            const seconds = totalSeconds % 60;
+
+            /*
+            -------------------------------------------------
+            ACTUALIZAR DOM
+            -------------------------------------------------
+            */
             countdownTitle.textContent = "Faltan";
             countdownDays.textContent = formatNumber(days);
             countdownHours.textContent = formatNumber(hours);
             countdownMinutes.textContent = formatNumber(minutes);
+
+            if (countdownSeconds) {
+                countdownSeconds.textContent = formatNumber(seconds);
+            }
+
             countdown.classList.remove("is-today");
         };
 
+        /*
+        -----------------------------------------------------
+        PRIMERA EJECUCIÓN
+        -----------------------------------------------------
+        */
         updateCountdown();
+
+        /*
+        -----------------------------------------------------
+        INTERVALO
+        -----------------------------------------------------
+        */
         let countdownInterval = null;
+
         const startCountdown = () => {
             if (countdownInterval !== null) {
                 return;
@@ -137,9 +216,13 @@ document.addEventListener("DOMContentLoaded", () => {
             clearInterval(countdownInterval);
             countdownInterval = null;
         };
-
         startCountdown();
 
+        /*
+        -----------------------------------------------------
+        OPTIMIZACIÓN PARA PESTAÑAS INACTIVAS
+        -----------------------------------------------------
+        */
         document.addEventListener("visibilitychange", () => {
             if (document.hidden) {
                 stopCountdown();
@@ -147,7 +230,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 updateCountdown();
                 startCountdown();
             }
-        });
+        }
+        );
     }
 
     const openExternalLink = (url) => {
