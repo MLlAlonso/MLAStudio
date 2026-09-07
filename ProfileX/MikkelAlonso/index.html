@@ -59,7 +59,7 @@
             <img src="../../assets/img/icons/email.png" alt="Email">
         </a>
 
-        <a class="socialBar_red" href="https://wa.me/529213029641" target="_blank">
+        <a class="socialBar_red" href="https://wa.me/529211521131" target="_blank">
             <img src="../../assets/img/icons/whatsapp.png" alt="WhatsApp">
         </a>
 
@@ -94,7 +94,7 @@
         <h2>Hago simple lo complejo. Si puedes imaginarlo, puedo programarlo.</h2>
 
         <div class="header_btn">
-            <a class="contact_small_btn" href="https://wa.me/529213029641" target="_blank">Contáctame</a>
+            <a class="contact_small_btn" href="https://wa.me/529211521131" target="_blank">Contáctame</a>
             <!-- <a class="contact_small_btn" href="services.html" target="_blank">Mis servicios</a> -->
         </div>
     </header>
@@ -349,133 +349,189 @@
             </div>
 
             <div class="portfolio_container">
-                <div class="expand_card" data-type="general full-stack web">
+                <div class="expand_card" data-type="general full-stack">
                     <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/spotify.jpg" alt="Wrapped Fusion project preview">
+                        <img src="../assets/img/Mikkel/Projects/Buska.png" alt="Buska">
                     </div>
 
                     <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-                            alt="HTML5">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                            alt="JavaScript">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                            alt="Node.js">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-                            alt="MySQL">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                            alt="React" class="card__tech-icon" title="React">
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/expo/expo-original.svg"
+                            alt="Expo" class="card__tech-icon" title="Expo">
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+                            alt="Laravel" class="card__tech-icon" title="Laravel">
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                            alt="MySQL" class="card__tech-icon" title="MySQL">
                     </div>
 
                     <div class="expand_card__info">
-                        <h3 class="expand_card__title">Wrapped Fusion</h3>
+                        <h3 class="expand_card__title">Buska</h3>
+
                         <p class="expand_card__description">
-                            Una aplicación para visualizar tus estadísticas de Spotify, analizando tus canciones y
-                            artistas más escuchados.
+                            Plataforma multiplataforma para descubrir negocios locales de comida,
+                            permitiendo consultar menú, reseñas y ubicación mediante mapas y geolocalización.
                         </p>
+
                         <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/wrappedfusion" target="_blank"
-                                aria-label="Ver en GitHub">
-                                <img src="../../assets/img/icons/github.png" alt="GitHub">
+                            <a href="https://github.com/MLlAlonso/StreetFood" target="_blank" rel="noopener noreferrer">
+                                <span class="card__icon card__icon--github" aria-label="Ver en GitHub">
+                                    <img src="../../assets/img/icons/github.png" alt="GitHub" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://buskapp.co/" target="_blank" rel="noopener noreferrer">
+                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
+                                    <img src="../../assets/img/icons/web.png" alt="Web" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://www.figma.com/design/kWp404az1WxYi6mKKzdo1C/Horacio?node-id=66-2&p=f&t=tKtefPclI1A6yN5w-0"
+                                target="_blank" rel="noopener noreferrer">
+                                <span class="card__icon card__icon--figma" aria-label="Ver en Figma">
+                                    <img src="../../assets/img/icons/figma.png" alt="Figma" class="project_icon_img">
+                                </span>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/credit_tools  (1).png" alt="credit_tools">
+                        <img src="../assets/img/Mikkel/Projects/mla.png" alt="MLA studio">
                     </div>
 
                     <div class="expand_card__techs">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon">
+                            alt="HTML5" class="card__tech-icon" title="HTML">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                            alt="JavaScript" class="card__tech-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-                            alt="Node.js" class="card__tech-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"
-                            alt="SQLite" class="card__tech-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-                            alt="Python" class="card__tech-icon">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">Credit Manager</h3>
-                        <p class="expand_card__description">
-                            Una aplicación para gestionar y visualizar tus créditos de manera eficiente.
-                        </p>
-                        <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/credit_tool" target="_blank"
-                                aria-label="Ver en GitHub">
-                                <img src="../../assets/img/icons/github.png" alt="GitHub">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="expand_card" data-type="general full-stack web">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/PrimerMision.png" alt="JS Game">
-                    </div>
-
-                    <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML5">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS3">
+                            alt="CSS3" class="card__tech-icon" title="CSS">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
                             alt="JavaScript" class="card__tech-icon" title="JavaScript">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-                            alt="Node.js" class="card__tech-icon" title="Node.js">
                     </div>
 
                     <div class="expand_card__info">
-                        <h3 class="expand_card__title">Primer Misión</h3>
+                        <h3 class="expand_card__title">MLA studio</h3>
                         <p class="expand_card__description">
-                            Un juego interactivo desarrollado con JavaScript, HTML y CSS.
+                            Estudio digital que impulsa marcas y profesionales a destacar
+                            mediante desarrollo web, branding e identidad visual.
                         </p>
+
                         <div class="expand_card__links">
-                            <a href="https://github.com/hubdeseguridad/primerMision" target="_blank"
-                                aria-label="Ver en GitHub">
-                                <img src="../../assets/img/icons/github.png" alt="GitHub">
+                            <a href="https://github.com/MLlAlonso/MLAStudio" target="_blank">
+                                <span class="card__icon card__icon--github" aria-label="Ver en GitHub">
+                                    <img src="../../assets/img/icons/github.png" alt="github" class="project_icon_img">
+                                </span>
                             </a>
 
-                            <a href="https://hubdeseguridad.github.io/primerMision/" target="_blank">
+                            <a href="https://mlastdio.com/" target="_blank">
                                 <span class="card__icon card__icon--web" aria-label="Ver en Web">
                                     <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://www.figma.com/proto/LKP3ynY5uMKL2SvXkUb6xN/Personal-Project?node-id=423-27&t=y0kTYk2swYI9c9T6-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=423%3A27"
+                                target="_blank">
+                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
+                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="expand_card" data-type="general full-stack web">
+                    <div class="expand_card__image">
+                        <img src="../assets/img/Mikkel/Projects/PageCragft.png" alt="PageCraft">
+                    </div>
+
+                    <div class="expand_card__techs">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                            alt="HTML5" class="card__tech-icon" title="HTML">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                            alt="CSS3" class="card__tech-icon" title="CSS">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
+                    </div>
+
+                    <div class="expand_card__info">
+                        <h3 class="expand_card__title">PageCraft</h3>
+
+                        <p class="expand_card__description">
+                            Plataforma de MLA Studio para crear landing pages modernas y optimizadas,
+                            enfocadas en presencia digital, conversión y experiencia de usuario.
+                        </p>
+
+                        <div class="expand_card__links">
+                            <a href="https://github.com/MLlAlonso/MLAStudio/tree/main/PageCraft" target="_blank">
+                                <span class="card__icon card__icon--github" aria-label="Ver en GitHub">
+                                    <img src="../../assets/img/icons/github.png" alt="github" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://mlastdio.com/PageCraft/" target="_blank">
+                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
+                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://www.figma.com/proto/LKP3ynY5uMKL2SvXkUb6xN/Personal-Project?node-id=423-28&t=HKjTGL5OzPVfuMAu-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=423%3A27"
+                                target="_blank">
+                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
+                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
                                 </span>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div class="expand_card" data-type="general full-stack web">
+                <div class="expand_card" data-type="general frontend web">
                     <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/Calculadora_Ventas (2).png" alt="Calculadora_Ventas">
+                        <img src="../assets/img/Mikkel/Projects/ProfileX.png" alt="ProfileX">
                     </div>
 
                     <div class="expand_card__techs">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon">
+                            alt="HTML5" class="card__tech-icon" title="HTML">
+
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon">
+                            alt="CSS3" class="card__tech-icon" title="CSS">
+
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                            alt="JavaScript" class="card__tech-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-                            alt="Node.js" class="card__tech-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
-                            alt="PostgreSQL" class="card__tech-icon">
+                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
+
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+                            alt="PHP" class="card__tech-icon" title="PHP">
                     </div>
 
                     <div class="expand_card__info">
-                        <h3 class="expand_card__title">Calculadora_Ventas</h3>
+                        <h3 class="expand_card__title">ProfileX</h3>
+
                         <p class="expand_card__description">
-                            Herramienta sencilla para vendedores que calcula descuentos y facilita tus ventas.
+                            Plataforma de presencia digital que permite crear portafolios profesionales,
+                            currículums online y perfiles personalizados en un solo lugar.
                         </p>
+
                         <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/calculadora_ventas_PWA" target="_blank"
-                                aria-label="Ver en GitHub">
-                                <img src="../../assets/img/icons/github.png" alt="GitHub">
+                            <a href="https://github.com/MLlAlonso/MLAStudio/tree/main/ProfileX" target="_blank"
+                                rel="noopener noreferrer">
+                                <span class="card__icon card__icon--github" aria-label="Ver en GitHub">
+                                    <img src="../../assets/img/icons/github.png" alt="GitHub" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://mlastdio.com/ProfileX/" target="_blank" rel="noopener noreferrer">
+                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
+                                    <img src="../../assets/img/icons/web.png" alt="Web" class="project_icon_img">
+                                </span>
+                            </a>
+
+                            <a href="https://www.figma.com/proto/LKP3ynY5uMKL2SvXkUb6xN/Personal-Project?node-id=480-344&t=HKjTGL5OzPVfuMAu-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=423%3A27"
+                                target="_blank" rel="noopener noreferrer">
+                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma">
+                                    <img src="../../assets/img/icons/figma.png" alt="Figma" class="project_icon_img">
+                                </span>
                             </a>
                         </div>
                     </div>
@@ -516,30 +572,31 @@
                 </div>
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/container_catalog.png" alt="Container Catalog_API">
+                        <img src="../assets/img/Mikkel/Projects/credit_tools  (1).png" alt="credit_tools">
                     </div>
 
                     <div class="expand_card__techs">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML5">
+                            alt="HTML5" class="card__tech-icon">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS3">
+                            alt="CSS3" class="card__tech-icon">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
+                            alt="JavaScript" class="card__tech-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+                            alt="Node.js" class="card__tech-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"
+                            alt="SQLite" class="card__tech-icon">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
-                            alt="Python" class="card__tech-icon" title="Python">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
-                            alt="MySQL" class="card__tech-icon" title="MySQL">
+                            alt="Python" class="card__tech-icon">
                     </div>
 
                     <div class="expand_card__info">
-                        <h3 class="expand_card__title">Container Catalog API</h3>
+                        <h3 class="expand_card__title">Credit Manager</h3>
                         <p class="expand_card__description">
-                            API RESTful para gestionar un catálogo de contenedores, con
-                            funcionalidades CRUD.
+                            Una aplicación para gestionar y visualizar tus créditos de manera eficiente.
                         </p>
                         <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/container_catalog_api" target="_blank"
+                            <a href="https://github.com/MLlAlonso/credit_tool" target="_blank"
                                 aria-label="Ver en GitHub">
                                 <img src="../../assets/img/icons/github.png" alt="GitHub">
                             </a>
@@ -547,71 +604,6 @@
                     </div>
                 </div>
 
-                <div class="expand_card" data-type="general frontend web">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/BLOOMSTARS.png" alt="landing-pages-BLOOMSTARS">
-                    </div>
-
-                    <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML5">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS3">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">Landing Page BLOMSTARS</h3>
-                        <p class="expand_card__description">
-                            Landing page para la agencia de streaming "BLOOMSTARS", diseñada para
-                            captar y convertir nuevos suscriptores.
-                        </p>
-                        <div class="expand_card__links">
-                            <a href="https://mlastdio.com/PageCraft/BLOMSTARS/" target="_blank">
-                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
-                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="expand_card" data-type="general full-stack web">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/mla.png" alt="MLA studio">
-                    </div>
-
-                    <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">MLA studio</h3>
-                        <p class="expand_card__description">
-                            Estudio digital que impulsa marcas y profesionales a destacar
-                            mediante desarrollo web, branding e identidad visual.
-                        </p>
-
-                        <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/MLAStudio" target="_blank">
-                                <span class="card__icon card__icon--github" aria-label="Ver en GitHub">
-                                    <img src="../../assets/img/icons/github.png" alt="github" class="project_icon_img">
-                                </span>
-                            </a>
-
-                            <a href="https://www.figma.com/proto/LKP3ynY5uMKL2SvXkUb6xN/Personal-Project?node-id=423-27&t=y0kTYk2swYI9c9T6-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=423%3A27"
-                                target="_blank">
-                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
-                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
                 <div class="expand_card" data-type="general frontend web">
                     <div class="expand_card__image">
                         <img src="../assets/img/Mikkel/Projects/LP_EHDS.png" alt="landing-pages-EHDS">
@@ -648,33 +640,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="expand_card" data-type="general frontend web">
+                <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/FLOR.png" alt="Flor_amarilla">
+                        <img src="../assets/img/Mikkel/Projects/PrimerMision.png" alt="JS Game">
                     </div>
 
                     <div class="expand_card__techs">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML">
+                            alt="HTML5" class="card__tech-icon" title="HTML5">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS">
+                            alt="CSS3" class="card__tech-icon" title="CSS3">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
                             alt="JavaScript" class="card__tech-icon" title="JavaScript">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+                            alt="Node.js" class="card__tech-icon" title="Node.js">
                     </div>
 
                     <div class="expand_card__info">
-                        <h3 class="expand_card__title">Flor Amarilla</h3>
+                        <h3 class="expand_card__title">Primer Misión</h3>
                         <p class="expand_card__description">
-                            Un proyecto interactivo en el frontend que crea una animación de
-                            una flor amarilla usando únicamente JavaScript y CSS.
+                            Un juego interactivo desarrollado con JavaScript, HTML y CSS.
                         </p>
                         <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/Flor_amarilla" target="_blank"
+                            <a href="https://github.com/hubdeseguridad/primerMision" target="_blank"
                                 aria-label="Ver en GitHub">
                                 <img src="../../assets/img/icons/github.png" alt="GitHub">
                             </a>
 
-                            <a href="https://mllalonso.github.io/Flor_amarilla/" target="_blank">
+                            <a href="https://hubdeseguridad.github.io/primerMision/" target="_blank">
                                 <span class="card__icon card__icon--web" aria-label="Ver en Web">
                                     <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
                                 </span>
@@ -682,45 +675,38 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/wplp.png"
-                            alt="WordPress Landing Page Technical Challenge preview">
+                        <img src="../assets/img/Mikkel/Projects/spotify.jpg" alt="Wrapped Fusion project preview">
                     </div>
 
                     <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
-                            alt="WordPress">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                             alt="HTML5">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                             alt="JavaScript">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                            alt="Node.js">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                            alt="MySQL">
                     </div>
 
                     <div class="expand_card__info">
-                        <h3 class="expand_card__title">WordPress Landing Page</h3>
+                        <h3 class="expand_card__title">Wrapped Fusion</h3>
                         <p class="expand_card__description">
-                            Technical challenge en WordPress, enfocado en maquetación responsive, estructura semántica
-                            y optimización SEO.
+                            Una aplicación para visualizar tus estadísticas de Spotify, analizando tus canciones y
+                            artistas más escuchados.
                         </p>
                         <div class="expand_card__links">
-                            <a href="https://techtest.mlastdio.com/" target="_blank">
-                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
-                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
-                                </span>
-                            </a>
-
-                            <a href="https://www.figma.com/design/JaGSc0Bw9CXLsBzD8twoav/Tech-test?node-id=1-2&p=f&t=dt1xACEVUEabpU2j-0"
-                                target="_blank">
-                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
-                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
-                                </span>
+                            <a href="https://github.com/MLlAlonso/wrappedfusion" target="_blank"
+                                aria-label="Ver en GitHub">
+                                <img src="../../assets/img/icons/github.png" alt="GitHub">
                             </a>
                         </div>
                     </div>
                 </div>
+
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
                         <img src="../assets/img/Mikkel/Projects/SCRAPER.png" alt="Web Scraper">
@@ -774,98 +760,32 @@
                         </div>
                     </div>
                 </div>
-                <div class="expand_card" data-type="general frontend web">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/CRP.png" alt="tarjeta de presentación">
-                    </div>
-
-                    <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">CRUANPA (Tarjeta de Presentación)</h3>
-                        <p class="expand_card__description">
-                            Una tarjeta de presentación digital interactiva, diseñada con HTML y CSS.
-                        </p>
-                        <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/MLAStudio/tree/main/PageCraft" target="_blank"
-                                aria-label="Ver en GitHub">
-                                <img src="../../assets/img/icons/github.png" alt="GitHub">
-                            </a>
-
-                            <a href="https://mllalonso.github.io/MLAStudio/PageCraft/CRUANPA/" target="_blank">
-                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
-                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="expand_card" data-type="general frontend web">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/wisconsign.png" alt="WisconSign landing page preview">
-                    </div>
-
-                    <div class="expand_card__techs">
-                        <img src="../assets/img/Mikkel/Tools/wix.png" alt="Wix">
-                        <img src="../assets/img/Mikkel/Tools/SEO.png" alt="SEO">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">WisconSign</h3>
-                        <p class="expand_card__description">
-                            Landing page profesional para una agencia de loan signing y notary services en Wisconsin.
-                            Diseñada y creada completamente en Wix, optimizada para SEO, experiencia móvil y navegación
-                            clara para clientes bilingües.
-                        </p>
-
-                        <div class="expand_card__links">
-                            <a href="https://www.figma.com/proto/kWp404az1WxYi6mKKzdo1C/Wisconsign?node-id=22-80&t=Jkve1wlmThJQts7z-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
-                                target="_blank">
-                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
-                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
-                                </span>
-                            </a>
-
-                            <a href="https://www.wisconsign.co/" target="_blank" aria-label="Ver sitio en vivo">
-                                <img src="../../assets/img/icons/web.png" alt="Live demo">
-                            </a>
-                        </div>
-                    </div>
-                </div>
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/CART.jpeg" alt="CartQuotationManager">
+                        <img src="../assets/img/Mikkel/Projects/container_catalog.png" alt="Container Catalog_API">
                     </div>
 
                     <div class="expand_card__techs">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML">
+                            alt="HTML5" class="card__tech-icon" title="HTML5">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS">
+                            alt="CSS3" class="card__tech-icon" title="CSS3">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
                             alt="JavaScript" class="card__tech-icon" title="JavaScript">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
-                            alt="Laravel" class="card__tech-icon" title="Laravel">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+                            alt="Python" class="card__tech-icon" title="Python">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
                             alt="MySQL" class="card__tech-icon" title="MySQL">
                     </div>
 
                     <div class="expand_card__info">
-                        <h3 class="expand_card__title">Cart Quotation Manager</h3>
+                        <h3 class="expand_card__title">Container Catalog API</h3>
                         <p class="expand_card__description">
-                            Gestión de carritos de compra y cotizaciones, mejorando el proceso
-                            de ventas online.
+                            API RESTful para gestionar un catálogo de contenedores, con
+                            funcionalidades CRUD.
                         </p>
                         <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/CartQuotationManager" target="_blank"
+                            <a href="https://github.com/MLlAlonso/container_catalog_api" target="_blank"
                                 aria-label="Ver en GitHub">
                                 <img src="../../assets/img/icons/github.png" alt="GitHub">
                             </a>
@@ -917,115 +837,37 @@
 
                 <div class="expand_card" data-type="general full-stack web">
                     <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/Calculadora_Ventas (1).png" alt="Calculadora_Ventas">
+                        <img src="../assets/img/Mikkel/Projects/wplp.png"
+                            alt="WordPress Landing Page Technical Challenge preview">
                     </div>
 
                     <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                            alt="JavaScript" class="card__tech-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-                            alt="Node.js" class="card__tech-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg"
-                            alt="Electron" class="card__tech-icon">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
-                            alt="MySQL" class="card__tech-icon">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg"
+                            alt="WordPress">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                            alt="HTML5">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                            alt="JavaScript">
                     </div>
 
                     <div class="expand_card__info">
-                        <h3 class="expand_card__title">Ventas (Escritorio)</h3>
+                        <h3 class="expand_card__title">WordPress Landing Page</h3>
                         <p class="expand_card__description">
-                            App de escritorio para vendedores: calcula descuentos y gestiona ventas fácilmente.
+                            Technical challenge en WordPress, enfocado en maquetación responsive, estructura semántica
+                            y optimización SEO.
                         </p>
                         <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/calculadora_ventas_desk" target="_blank"
-                                aria-label="Ver en GitHub">
-                                <img src="../../assets/img/icons/github.png" alt="GitHub">
+                            <a href="https://techtest.mlastdio.com/" target="_blank">
+                                <span class="card__icon card__icon--web" aria-label="Ver en Web">
+                                    <img src="../../assets/img/icons/web.png" alt="link" class="project_icon_img">
+                                </span>
                             </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="expand_card" data-type="general backend web">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/VENDEDORES.png" alt="Vendedores-Subordinados">
-                    </div>
 
-                    <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5" class="card__tech-icon" title="HTML">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                            alt="CSS3" class="card__tech-icon" title="CSS">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                            alt="JavaScript" class="card__tech-icon" title="JavaScript">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
-                            alt="Laravel" class="card__tech-icon" title="Laravel">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
-                            alt="MySQL" class="card__tech-icon" title="MySQL">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">Vendedores y Subordinados</h3>
-                        <p class="expand_card__description">
-                            Gestión de vendedores y subordinados, optimizando la estructura de ventas.
-                        </p>
-                        <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/Vendedores-Subordinados" target="_blank"
-                                aria-label="Ver en GitHub">
-                                <img src="../../assets/img/icons/github.png" alt="GitHub">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="expand_card" data-type="general backend">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/JAVA.png" alt="Java Projects">
-                    </div>
-
-                    <div class="expand_card__techs">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
-                            alt="Java" class="card__tech-icon" title="Java">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
-                            alt="MySQL" class="card__tech-icon" title="MySQL">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">Proyectos Java</h3>
-                        <p class="expand_card__description">
-                            Una colección de diversos proyectos backend desarrollados en Java,
-                            mostrando la implementación de lógica de negocio.
-                        </p>
-                        <div class="expand_card__links">
-                            <a href="https://github.com/MLlAlonso/Java-Projects" target="_blank"
-                                aria-label="Ver en GitHub">
-                                <img src="../../assets/img/icons/github.png" alt="GitHub">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="expand_card" data-type="general frontend">
-                    <div class="expand_card__image">
-                        <img src="../assets/img/Mikkel/Projects/PALETA.png" alt="La Paleta">
-                    </div>
-
-                    <div class="expand_card__techs">
-                        <img src="../../assets/img/icons/figma.png" alt="Figma" class="card__tech-icon" title="Figma">
-                    </div>
-
-                    <div class="expand_card__info">
-                        <h3 class="expand_card__title">La Paleta (Diseño UI/UX)</h3>
-                        <p class="expand_card__description">
-                            Diseño de interfaz de usuario y experiencia de usuario para una
-                            aplicación de heladería, creado en Figma.
-                        </p>
-                        <div class="expand_card__links">
-                            <a href="https://www.figma.com/proto/eNp32a8zeVPBHlcjrNR1Zw/El-Angelito?node-id=753-7908&starting-point-node-id=753%3A7104&scaling=scale-down&content-scaling=fixed&t=eI3Akee991wS0VmZ-1"
+                            <a href="https://www.figma.com/design/JaGSc0Bw9CXLsBzD8twoav/Tech-test?node-id=1-2&p=f&t=dt1xACEVUEabpU2j-0"
                                 target="_blank">
-                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma">
-                                    <img src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
+                                <span class="card__icon card__icon--jira" aria-label="Ver en Figma"> <img
+                                        src="../../assets/img/icons/figma.png" alt="figma" class="project_icon_img">
                                 </span>
                             </a>
                         </div>
@@ -1143,7 +985,7 @@
             <div class="footer_contact_item">
                 <img src="../../assets/img/icons/whatsapp.png" alt="WhatsApp">
                 <h3>WhatsApp</h3>
-                <a href="https://wa.me/529213029641" target="_blank">Enviar Mensaje</a>
+                <a href="https://wa.me/529211521131" target="_blank">Enviar Mensaje</a>
             </div>
 
             <div class="footer_contact_item">
@@ -1155,7 +997,7 @@
             <div class="footer_contact_item">
                 <img src="../../assets/img/icons/contact.png" alt="Contact Number">
                 <h3>Mi contacto</h3>
-                <a href="tel:+5219213029641" target="_blank">+52 921 302 9641</a>
+                <a href="tel:+529211521131" target="_blank">921 152 1131</a>
             </div>
         </div>
 

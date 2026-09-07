@@ -49,8 +49,10 @@
             </div>
 
             <ul class="nav_links">
-                <li><a href="PageCraft/" target="_blank">PageCraft</a></li>
-                <li><a href="ProfileX/" target="_blank">ProfileX</a></li>
+                <li><a href="index.html"><img src="assets/img/icons/home.png" alt="home"></a></li>
+                <li><a href="PageCraft/">PageCraft</a></li>
+                <li><a href="ProfileX/">ProfileX</a></li>
+                <li><a href="">Servicios</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
@@ -59,7 +61,7 @@
             <img src="assets/img/MLA.png" alt="MLA">
             <h1>Transformamos conceptos <br> en presencia online profesional</h1>
             <div class="head_btn">
-                <a href="https://wa.me/529213029641" class="contact_btn" id="contact_btn" target="_blank">Contactar</a>
+                <a href="https://wa.me/529211521131" class="contact_btn" id="contact_btn" target="_blank">Contactar</a>
                 <!-- <a href="" class="contact_btn" id="free_btn" target="_blank">Inicia sin costo</a> -->
             </div>
         </header>
@@ -70,13 +72,13 @@
             <div>
                 <h3>ProfileX</h3>
                 <p>Páginas web modernas, rápidas y optimizadas para impulsar tu marca en línea</p>
-                <a href="ProfileX/index.php" target="_blank">Saber más →</a>
+                <a href="ProfileX/index.html" target="_blank">Saber más →</a>
             </div>
 
             <div>
                 <h3>PageCraft</h3>
                 <p>Portafolio profesional único que muestre tu talento y proyectos con estilo e impacto.</p>
-                <a href="PageCraft/index.php" target="_blank">Saber más →</a>
+                <a href="PageCraft/index.html" target="_blank">Saber más →</a>
             </div>
         </section>
 
@@ -153,7 +155,7 @@
                         destacar online.</p>
                     <p>Con ProfileX, tu portafolio se convierte en una herramienta estratégica para atraer
                         oportunidades laborales y reforzar tu marca personal.</p>
-                    <a href="https://wa.me/529213029641" id="ProfileX" target="_blank">Conoce más →</a>
+                    <a href="https://wa.me/529211521131" id="ProfileX" target="_blank">Conoce más →</a>
                 </div>
                 <div class="image">
                     <img src="assets/img/ProfileX.png" alt="ProfileX">
@@ -171,7 +173,7 @@
                     <p>Con PageCraft, tu sitio web se convierte en una herramienta activa de marketing que guía al
                         usuario, genera registros, ventas o contactos y potencia tus campañas digitales desde el
                         primer día.</p>
-                    <a href="https://wa.me/529213029641" id="PageCraft" target="_blank">Conoce más →</a>
+                    <a href="https://wa.me/529211521131" id="PageCraft" target="_blank">Conoce más →</a>
                 </div>
                 <div class="image">
                     <img src="assets/img/PageCraft.png" alt="PageCraft">
@@ -180,7 +182,7 @@
         </section>
 
         <section class="packages">
-            <a href="https://wa.me/529213029641?text=Saludos%20vengo%20de%20MLA%20Studios,%20quisiera%20conocer%20sus%20planes%20disponibles"
+            <a href="https://wa.me/529211521131?text=Saludos%20vengo%20de%20MLA%20Studios,%20quisiera%20conocer%20sus%20planes%20disponibles"
                 target="_blank">
                 <button class="btn_packages">Nuestros planes</button>
             </a>
@@ -203,9 +205,19 @@
                 </div>
 
                 <div class="carrousel_3d_item">
-                    <img src="ProfileX/assets/img/Mikkel/Mikkel/Mikkel 1.png" alt="Mikkel Llaven">
-                    <a href="ProfileX/MikkelAlonso/index.php" target="_blank">Mikkel Llaven <br> Ing.
-                        Software</a>
+                    <img src="PageCraft/assets/img/Valant/icon.png" alt="Valant">
+                    <a href="PageCraft/BLOMSTARS/index.php" target="_blank">Valant Bordados Electronicos</a>
+                </div>
+
+                <div class="carrousel_3d_item">
+                    <img src="PageCraft/assets/img/BLOMSTARS/flor.png" alt="Valant">
+                    <a href="PageCraft/Valant/index.php" target="_blank">BLOMSTARS</a>
+                </div>
+
+                <div class="carrousel_3d_item">
+                    <img src="ProfileX/assets/img/EstrellaRamos/photo.svg" alt="Estrella Ramos">
+                    <a href="ProfileX/EstrellaRamos/index.php" target="_blank">Estrella Ramos <br> Ing.
+                        Biotecnologia</a>
                 </div>
 
                 <div class="carrousel_3d_item">
@@ -214,20 +226,11 @@
                 </div>
 
                 <div class="carrousel_3d_item">
-                    <img src="PageCraft/assets/img/Valant/icon.png" alt="Valant">
-                    <a href="PageCraft/BLOMSTARS/index.php" target="_blank">Valant Bordados Electronicos</a>
+                    <img src="ProfileX/assets/img/Mikkel/Mikkel/Mikkel 1.png" alt="Mikkel Llaven">
+                    <a href="ProfileX/MikkelAlonso/index.php" target="_blank">Mikkel Llaven <br> Ing.
+                        Software</a>
                 </div>
 
-                <div class="carrousel_3d_item">
-                    <img src="PageCraft/assets/img/Valant/icon.png" alt="Valant">
-                    <a href="PageCraft/Valant/index.php" target="_blank">Valant Bordados Electronicos</a>
-                </div>
-
-                <div class="carrousel_3d_item">
-                    <img src="ProfileX/assets/img/EstrellaRamos/photo.svg" alt="Estrella Ramos">
-                    <a href="ProfileX/EstrellaRamos/index.php" target="_blank">Estrella Ramos <br> Ing.
-                        Biotecnologia</a>
-                </div>
             </div>
         </section>
 
@@ -264,13 +267,13 @@
         </section>
     </main>
 
-    <footer class="MLA_footer" id="contact">
+    <footer class="MLA_footer">
         <h2>Ponte en contacto conmigo</h2>
         <div class="footer_contact">
             <div class="footer_contact_item">
                 <img src="assets/img/icons/whatsapp.png" alt="WhatsApp">
                 <h3>WhatsApp</h3>
-                <a href="https://wa.me/529213029641" target="_blank">Enviar Mensaje</a>
+                <a href="https://wa.me/529211521131" target="_blank">Enviar Mensaje</a>
             </div>
 
             <div class="footer_contact_item">
@@ -282,7 +285,7 @@
             <div class="footer_contact_item">
                 <img src="assets/img/icons/contact.png" alt="Contact Number">
                 <h3>Mi contacto</h3>
-                <a href="tel:+5219213029641" target="_blank">+52 921 302 9641</a>
+                <a href="tel:+529211521131" target="_blank">921 152 1131</a>
             </div>
         </div>
 

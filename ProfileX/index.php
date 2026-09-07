@@ -52,7 +52,7 @@
         <!-- NavBar -->
         <nav>
             <div class="nav_brand">
-                <a href="../index.php">
+                <a href="index.html">
                     <img src="../assets/img/MLA.png" alt="MLA logo">
                 </a>
             </div>
@@ -64,8 +64,8 @@
             </div>
 
             <ul class="nav_links">
-                <li><a href="../index.php"><img src="../assets/img/icons/home.png" alt="home" target="_blank"></a></li>
-                <li><a href="../PageCraft/index.php" target="_blank">PageCraft</a></li>
+                <li><a href="../index.html"><img src="../assets/img/icons/home.png" alt="home"></a></li>
+                <li><a href="../PageCraft/index.html">PageCraft</a></li>
                 <li><a href="#services">Servicios</a></li>
                 <li><a href="#contact">Contacto</a></li>
             </ul>
@@ -78,7 +78,7 @@
                 y lo que haces, a tu manera.</h2>
             <div class="head_btn">
                 <a href="#services" class="contact_btn" id="plans_btn">Nuestros planes</a>
-                <a href="https://wa.me/529213029641" class="contact_btn" id="contact_btn" target="_blank">Contactar</a>
+                <a href="https://wa.me/529211521131" class="contact_btn" id="contact_btn" target="_blank">Contactar</a>
             </div>
         </header>
     </div>
@@ -151,7 +151,7 @@
                         </li>
                     </ul>
 
-                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                    <button class="card_cta" onclick="window.open('https://wa.me/529211521131','_blank')">
                         Hablemos de tu idea
                     </button>
                 </div>
@@ -181,7 +181,7 @@
                         </li>
                     </ul>
 
-                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                    <button class="card_cta" onclick="window.open('https://wa.me/529211521131','_blank')">
                         Hablemos de tu idea
                     </button>
                 </div>
@@ -211,7 +211,7 @@
                         </li>
                     </ul>
 
-                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                    <button class="card_cta" onclick="window.open('https://wa.me/529211521131','_blank')">
                         Hablemos de tu idea
                     </button>
                 </div>
@@ -241,7 +241,7 @@
                         </li>
                     </ul>
 
-                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                    <button class="card_cta" onclick="window.open('https://wa.me/529211521131','_blank')">
                         Hablemos de tu idea
                     </button>
                 </div>
@@ -271,7 +271,7 @@
                         </li>
                     </ul>
 
-                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                    <button class="card_cta" onclick="window.open('https://wa.me/529211521131','_blank')">
                         Hablemos de tu idea
                     </button>
                 </div>
@@ -301,7 +301,7 @@
                         </li>
                     </ul>
 
-                    <button class="card_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                    <button class="card_cta" onclick="window.open('https://wa.me/529211521131','_blank')">
                         Hablemos de tu idea
                     </button>
                 </div>
@@ -324,12 +324,12 @@
                     </div>
 
                     <div class="card_user">
-                        <a href="MikkelAlonso/index.php" target="_blank">
+                        <a href="MikkelAlonso/index.html" target="_blank">
                             <img class="avatar" src="assets/img/Mikkel/Mikkel/Mikkel 1.png" alt="Software Engineer">
                         </a>
 
                         <div class="user_info">
-                            <a href="MikkelAlonso/index.php" target="_blank">
+                            <a href="MikkelAlonso/index.html" target="_blank">
                                 <span class="name">Mikkel Llaven Alonso</span>
                             </a>
                             <span class="career">Ing. de Software</span>
@@ -346,10 +346,9 @@
                         <img class="avatar" src="assets/img/EstrellaRamos/photo.svg">
 
                         <div class="user_info">
-                            <a href="EstrellaRamos/index.php" target="_blank">
+                            <a href="EstrellaRamos/index.html" target="_blank">
                                 <span class="name">Estrella Ramos</span>
                             </a>
-
                             <span class="career">Ing. en Biotecnología</span>
                         </div>
                     </div>
@@ -389,7 +388,7 @@
                         Entrega: 3 días hábiles
                     </div>
 
-                    <button class="plan_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                    <button class="plan_cta" onclick="window.open('https://wa.me/529211521131','_blank')">
                         Contáctanos
                     </button>
                 </div>
@@ -423,7 +422,7 @@
                         Entrega: 6 días hábiles
                     </div>
 
-                    <button class="plan_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                    <button class="plan_cta" onclick="window.open('https://wa.me/529211521131','_blank')">
                         Contáctanos
                     </button>
                 </div>
@@ -457,7 +456,7 @@
                         Entrega: 9 días hábiles
                     </div>
 
-                    <button class="plan_cta" onclick="window.open('https://wa.me/529213029641','_blank')">
+                    <button class="plan_cta" onclick="window.open('https://wa.me/529211521131','_blank')">
                         Contáctanos
                     </button>
                 </div>
@@ -500,13 +499,13 @@
         </section>
     </main>
 
-    <footer class="MLA_footer" id="contact">
+    <footer class="MLA_footer">
         <h2>Ponte en contacto conmigo</h2>
         <div class="footer_contact">
             <div class="footer_contact_item">
                 <img src="../assets/img/icons/whatsapp.png" alt="WhatsApp">
                 <h3>WhatsApp</h3>
-                <a href="https://wa.me/529213029641" target="_blank">Enviar Mensaje</a>
+                <a href="https://wa.me/529211521131" target="_blank">Enviar Mensaje</a>
             </div>
 
             <div class="footer_contact_item">
@@ -518,7 +517,7 @@
             <div class="footer_contact_item">
                 <img src="../assets/img/icons/contact.png" alt="Contact Number">
                 <h3>Mi contacto</h3>
-                <a href="tel:+5219213029641" target="_blank">+52 921 302 9641</a>
+                <a href="tel:+529211521131" target="_blank">921 152 1131</a>
             </div>
         </div>
 
