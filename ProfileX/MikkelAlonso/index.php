@@ -5,46 +5,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO BÁSICO -->
-    <title>Mikkel Llaven | Full Stack Web Developer</title>
+    <title>
+        Mikkel Llaven Alonso | Software Engineer & Full Stack Web Developer
+    </title>
 
     <meta name="description"
-        content="Portafolio de Mikkel Llaven, ingeniero de software y desarrollador web full stack. Especializado en Laravel, PHP y tecnologías modernas, enfocado en crear soluciones escalables y eficientes.">
+        content="Portafolio de Mikkel Llaven Alonso, ingeniero de software y desarrollador full stack especializado en Laravel, PHP, JavaScript, React, Next.js, MySQL y arquitectura de soluciones digitales.">
 
     <meta name="keywords"
-        content="desarrollador web, web developer, full stack, ingeniero de software, Laravel, PHP, JavaScript, HTML, CSS, MySQL, backend, frontend, software engineer">
+        content="Mikkel Llaven Alonso, Mikkel Alonso, Mikkel, software engineer, software developer, full stack developer, developer, web developer, ingeniero de software, desarrollador web, Laravel, PHP, JavaScript, React, Next.js, MySQL, REST API, frontend, backend, software architecture">
 
     <meta name="author" content="Mikkel Llaven Alonso">
+    <meta name="creator" content="Mikkel Llaven Alonso">
+    <meta name="publisher" content="Mikkel Llaven Alonso">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="googlebot" content="index, follow, max-image-preview:large">
     <meta name="theme-color" content="#009E66">
+    <meta name="color-scheme" content="light">
 
-    <!-- OPEN GRAPH (WhatsApp, Facebook, LinkedIn) -->
-    <meta property="og:title" content="Mikkel Llaven | Full Stack Web Developer">
+    <link rel="canonical" href="https://mlastdio.com/ProfileX/MikkelAlonso/">
+
+    <link rel="alternate" hreflang="es-MX" href="https://mlastdio.com/ProfileX/MikkelAlonso/">
+    <link rel="alternate" hreflang="x-default" href="https://mlastdio.com/ProfileX/MikkelAlonso/">
+
+
+    <!-- =========================================================
+         OPEN GRAPH
+    ========================================================== -->
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="Mikkel Llaven Alonso">
+    <meta property="og:title" content="Mikkel Llaven Alonso | Software Engineer & Full Stack Web Developer">
     <meta property="og:description"
-        content="Portafolio de Mikkel Llaven, desarrollador full stack enfocado en soluciones escalables y eficientes.">
+        content="Portafolio profesional de Mikkel Llaven Alonso, ingeniero de software y desarrollador web full stack especializado en tecnologías modernas y soluciones digitales.">
+    <meta property="og:url" content="https://mlastdio.com/ProfileX/MikkelAlonso/">
     <meta property="og:image" content="https://mlastdio.com/ProfileX/assets/img/Mikkel/Mikkel/head.png">
-    <meta property="og:url" content="https://mlastdio.com/ProfileX">
-    <meta property="og:type" content="website">
+    <meta property="og:image:alt" content="Mikkel Llaven Alonso - Software Engineer & Full Stack Web Developer">
     <meta property="og:locale" content="es_MX">
+    <meta property="profile:first_name" content="Mikkel">
+    <meta property="profile:last_name" content="Llaven Alonso">
 
-    <!-- TWITTER -->
+    <!-- =========================================================
+         TWITTER / X
+    ========================================================== -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Mikkel Llaven | Full Stack Web Developer">
+    <meta name="twitter:title" content="Mikkel Llaven Alonso | Software Engineer & Full Stack Developer">
     <meta name="twitter:description"
-        content="Ingeniero de software especializado en desarrollo web full stack con Laravel y tecnologías modernas.">
+        content="Portafolio profesional de Mikkel Llaven Alonso, ingeniero de software y desarrollador full stack.">
     <meta name="twitter:image" content="https://mlastdio.com/ProfileX/assets/img/Mikkel/Mikkel/head.png">
+    <meta name="twitter:image:alt" content="Mikkel Llaven Alonso - Software Engineer & Full Stack Web Developer">
 
-    <!-- FAVICON -->
-    <link rel="icon" href="/ProfileX/assets/img/Mikkel/Ml.png">
+    <!-- =========================================================
+         FAVICON
+    ========================================================== -->
+    <link rel="icon" type="image/png" href="/ProfileX/assets/img/Mikkel/Ml.png">
+    <link rel="apple-touch-icon" href="/ProfileX/assets/img/Mikkel/Ml.png">
 
-    <!-- STYLES -->
-    <link rel="stylesheet" href="../assets/styles/Mikkel/index.css" />
+    <!-- =========================================================
+         GOOGLE TAG MANAGER
+    ========================================================== -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MHCHCR9D');
+    </script>
+    <!-- End Google Tag Manager -->
 
-    <!-- GOOGLE TRANSLATE -->
-    <script type="text/javascript"
-        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <!-- =========================================================
+         STYLES
+    ========================================================== -->
+    <link rel="stylesheet" href="../assets/styles/Mikkel/index.css">
+
+
+    <!-- =========================================================
+         GOOGLE TRANSLATE
+    ========================================================== -->
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- =========================================================
+         STRUCTURED DATA
+         Google / Search / AI understanding
+    ========================================================== -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "@id": "https://mlastdio.com/ProfileX/MikkelAlonso/#profile",
+        "url": "https://mlastdio.com/ProfileX/MikkelAlonso/",
+        "name": "Mikkel Llaven Alonso | Software Engineer & Full Stack Web Developer",
+        "description": "Portafolio profesional de Mikkel Llaven Alonso, ingeniero de software y desarrollador web full stack.",
+        "mainEntity": {
+            "@type": "Person",
+            "@id": "https://mlastdio.com/ProfileX/MikkelAlonso/#person",
+            "name": "Mikkel Llaven Alonso",
+            "givenName": "Mikkel",
+            "familyName": "Llaven Alonso",
+            "alternateName": [
+                "Mikkel Alonso",
+                "Mikkel Llaven"
+            ],
+            "url": "https://mlastdio.com/ProfileX/MikkelAlonso/",
+            "image": "https://mlastdio.com/ProfileX/assets/img/Mikkel/Mikkel/head.png",
+            "jobTitle": "Software Engineer & Full Stack Web Developer",
+            "description": "Ingeniero de software y desarrollador web full stack especializado en Laravel, PHP, JavaScript, React, Next.js, MySQL y desarrollo de soluciones digitales.",
+            "knowsAbout": [
+                "Software Engineering",
+                "Web Development",
+                "Full Stack Development",
+                "Software Architecture",
+                "Laravel",
+                "PHP",
+                "JavaScript",
+                "React",
+                "Next.js",
+                "MySQL",
+                "REST API",
+                "Frontend Development",
+                "Backend Development",
+                "Database Design"
+            ],
+            "sameAs": [
+                "https://mlastdio.com/"
+            ]
+        }
+    }
+    </script>
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHCHCR9D" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
     <!-- Social Bar -->
     <div class="socialBar">
         <a class="socialBar_red" href="https://github.com/MLlAlonso" target="_blank">
