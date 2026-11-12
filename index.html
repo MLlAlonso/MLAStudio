@@ -200,18 +200,29 @@
                 </div>
 
                 <div class="carrousel_3d_item">
+                    <img src="https://res.cloudinary.com/bcyzogrf/image/upload/v1792562052/buska-icono-app.svg"
+                        alt="Mudanza Fácil">
+                    <a href="https://buskapp.co/" target="_blank">BUSKA <br> Web & Mobile App</a>
+                </div>
+
+                <div class="carrousel_3d_item">
+                    <img src="assets/img/HFERR.ico" alt="HFERR">
+                    <a href="https://www.hferr.com/" target="_blank">HFERR Consulting</a>
+                </div>
+
+                <div class="carrousel_3d_item">
                     <img src="PageCraft/assets/img/Cruanpa/BlancoC.png" alt="Cruanpa">
                     <a href="PageCraft/CRUANPA/index.php" target="_blank">CRUANPA Comercializadora</a>
                 </div>
 
                 <div class="carrousel_3d_item">
-                    <img src="PageCraft/assets/img/Valant/icon.png" alt="Valant">
-                    <a href="PageCraft/BLOMSTARS/index.php" target="_blank">Valant Bordados Electronicos</a>
+                    <img src="PageCraft/assets/img/BLOMSTARS/flor.png" alt="Valant">
+                    <a href="PageCraft/Valant/index.php" target="_blank">BLOMSTARS</a>
                 </div>
 
                 <div class="carrousel_3d_item">
-                    <img src="PageCraft/assets/img/BLOMSTARS/flor.png" alt="Valant">
-                    <a href="PageCraft/Valant/index.php" target="_blank">BLOMSTARS</a>
+                    <img src="PageCraft/assets/img/Valant/icon.png" alt="Valant">
+                    <a href="PageCraft/BLOMSTARS/index.php" target="_blank">Valant Bordados Electronicos</a>
                 </div>
 
                 <div class="carrousel_3d_item">
@@ -230,7 +241,6 @@
                     <a href="ProfileX/MikkelAlonso/index.php" target="_blank">Mikkel Llaven <br> Ing.
                         Software</a>
                 </div>
-
             </div>
         </section>
 

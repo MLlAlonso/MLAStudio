@@ -1746,70 +1746,56 @@ main {
   #Featured Project
   \*------------------------------------*/
 }
-main .featured_project {
+main .projects {
   max-width: 1300px;
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  align-items: center;
-  gap: 1rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+main .projects_container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
   margin-top: 2rem;
   margin-bottom: 6rem;
-  /* Imagen */
+}
+main .featured_project {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  align-items: center;
+  gap: 1rem;
 }
 main .featured_project__media {
   grid-column: 1/8;
+  grid-row: 1;
   position: relative;
   border-radius: 15px;
   overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
 main .featured_project__media img {
+  display: block;
   width: 100%;
-  height: 90%;
+  height: auto;
+  min-height: 340px;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   filter: brightness(0.85);
+  cursor: zoom-in;
   transition: transform 0.5s ease, filter 0.5s ease;
 }
 main .featured_project__media:hover img {
   filter: brightness(1);
-  transform: scale(1.03);
-}
-main .featured_project .lightbox {
-  position: fixed;
-  inset: 0;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  backdrop-filter: blur(8px);
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 9999;
-}
-main .featured_project .lightbox__img {
-  max-width: 90%;
-  max-height: 90%;
-  border-radius: 12px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
-}
-main .featured_project .lightbox__close {
-  position: absolute;
-  top: 30px;
-  right: 40px;
-  font-size: 40px;
-  color: white;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-main .featured_project .lightbox.active {
-  display: flex;
-}
-main .featured_project {
-  /* Contenido */
+  transform: scale(1.035);
 }
 main .featured_project__content {
   grid-column: 7/-1;
+  grid-row: 1;
   text-align: right;
   z-index: 2;
 }
@@ -1817,11 +1803,12 @@ main .featured_project__label {
   display: block;
   font-size: 0.85rem;
   color: #64ffda;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
   font-family: monospace;
+  letter-spacing: 0.5px;
 }
 main .featured_project__title {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 1rem;
   color: #ccd6f6;
@@ -1832,9 +1819,12 @@ main .featured_project__description {
   border-radius: 10px;
   color: #F9F9F9;
   text-align: justify;
-  line-height: 1.6;
+  line-height: 1.7;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   margin-bottom: 1rem;
+}
+main .featured_project__description p + p {
+  margin-top: 0.8rem;
 }
 main .featured_project__description span {
   color: #37BF32;
@@ -1868,12 +1858,234 @@ main .featured_project__links a {
 main .featured_project__links a img {
   width: 30px;
   height: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
   filter: grayscale(100%) brightness(200%);
   transition: filter 0.2s ease, transform 0.2s ease;
 }
 main .featured_project__links a:hover img {
   filter: none;
   transform: translateY(-3px);
+}
+main .featured_project--primary {
+  margin-bottom: 0;
+}
+main .featured_project--primary .featured_project__media {
+  grid-column: 1/8;
+}
+main .featured_project--primary .featured_project__media img {
+  min-height: 420px;
+}
+main .featured_project--primary .featured_project__content {
+  grid-column: 7/-1;
+}
+main .featured_project--primary .featured_project__title {
+  font-size: 2.5rem;
+}
+main .featured_project--primary .featured_project__description {
+  padding: 1.7rem;
+}
+main .featured_project--secondary {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+main .featured_project--secondary .featured_project__media {
+  grid-column: 6/-1;
+  grid-row: 1;
+}
+main .featured_project--secondary .featured_project__media img {
+  min-height: 340px;
+}
+main .featured_project--secondary .featured_project__content {
+  grid-column: 1/7;
+  grid-row: 1;
+  text-align: left;
+}
+main .featured_project--secondary .featured_project__title {
+  font-size: 2rem;
+}
+main .featured_project--secondary .featured_project__techs {
+  justify-content: flex-start;
+}
+main .featured_project--secondary .featured_project__links {
+  justify-content: flex-start;
+}
+main .lightbox {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 9999;
+}
+main .lightbox.active {
+  display: flex;
+}
+main .lightbox__img {
+  display: block;
+  max-width: 90%;
+  max-height: 85vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  animation: lightboxAppear 0.25s ease;
+}
+main .lightbox__close {
+  position: absolute;
+  top: 25px;
+  right: 35px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  background: transparent;
+  font-size: 40px;
+  line-height: 1;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+main .lightbox__close:hover {
+  transform: rotate(90deg);
+}
+@keyframes lightboxAppear {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media (max-width: 1024px) {
+  main .projects_container {
+    gap: 5rem;
+  }
+  main .featured_project__media {
+    grid-column: 1/8;
+  }
+  main .featured_project__media img {
+    min-height: 300px;
+  }
+  main .featured_project__content {
+    grid-column: 6/-1;
+  }
+  main .featured_project--primary .featured_project__media {
+    grid-column: 1/8;
+  }
+  main .featured_project--primary .featured_project__media img {
+    min-height: 350px;
+  }
+  main .featured_project--primary .featured_project__content {
+    grid-column: 6/-1;
+  }
+  main .featured_project--secondary .featured_project__media {
+    grid-column: 6/-1;
+  }
+  main .featured_project--secondary .featured_project__media img {
+    min-height: 270px;
+  }
+  main .featured_project--secondary .featured_project__content {
+    grid-column: 1/7;
+  }
+}
+@media (max-width: 768px) {
+  main .projects {
+    padding: 0 1.2rem;
+  }
+  main .projects_container {
+    gap: 4rem;
+  }
+  main .featured_project {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.5rem;
+  }
+  main .featured_project__media {
+    width: 100%;
+    order: 1;
+  }
+  main .featured_project__media img {
+    min-height: 0;
+    aspect-ratio: 16/10;
+  }
+  main .featured_project__content {
+    width: 100%;
+    order: 2;
+    text-align: left;
+  }
+  main .featured_project__label {
+    font-size: 0.8rem;
+  }
+  main .featured_project__title {
+    font-size: 1.9rem;
+  }
+  main .featured_project__description {
+    padding: 1.2rem;
+    text-align: left;
+    font-size: 0.9rem;
+  }
+  main .featured_project__techs {
+    justify-content: flex-start;
+    gap: 0.7rem;
+  }
+  main .featured_project__links {
+    justify-content: flex-start;
+  }
+  main .featured_project--primary, main .featured_project--secondary {
+    max-width: 100%;
+    margin: 0;
+  }
+  main .featured_project--primary .featured_project__media, main .featured_project--secondary .featured_project__media {
+    width: 100%;
+  }
+  main .featured_project--primary .featured_project__media img, main .featured_project--secondary .featured_project__media img {
+    min-height: 0;
+  }
+  main .featured_project--primary .featured_project__content, main .featured_project--secondary .featured_project__content {
+    width: 100%;
+    text-align: left;
+  }
+  main .featured_project--primary .featured_project__title, main .featured_project--secondary .featured_project__title {
+    font-size: 1.9rem;
+  }
+  main .featured_project--primary .featured_project__description, main .featured_project--secondary .featured_project__description {
+    padding: 1.2rem;
+  }
+  main .featured_project--primary .featured_project__techs,
+  main .featured_project--primary .featured_project__links, main .featured_project--secondary .featured_project__techs,
+  main .featured_project--secondary .featured_project__links {
+    justify-content: flex-start;
+  }
+  main .lightbox {
+    padding: 1rem;
+  }
+  main .lightbox__img {
+    max-width: 100%;
+    max-height: 80vh;
+  }
+  main .lightbox__close {
+    top: 15px;
+    right: 15px;
+  }
+}
+@media (max-width: 480px) {
+  main .featured_project__title {
+    font-size: 1.7rem;
+  }
+  main .featured_project__description {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+  main .featured_project__techs li {
+    font-size: 0.75rem;
+  }
 }
 main .portfolio_links {
   display: flex;
