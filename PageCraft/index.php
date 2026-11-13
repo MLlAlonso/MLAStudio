@@ -306,6 +306,23 @@
 
                 <div class="carrousel_3d_item">
                     <div class="card_preview">
+                        <img src="../ProfileX/assets/img/Mikkel/Projects/hferr.png">
+                    </div>
+
+                    <div class="card_user">
+                        <img class="avatar" id="avatar_pagecraft" src="../assets/img/HFERR.ico">
+
+                        <div class="user_info">
+                            <a href="https://www.hferr.com/" target="_blank">
+                                <span class="name">HFERR CONSULTING</span>
+                            </a>
+                            <span class="career">Interpretation & Translation Services</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carrousel_3d_item">
+                    <div class="card_preview">
                         <img src="../ProfileX/assets/img/Mikkel/Projects/valant.png">
                     </div>
 

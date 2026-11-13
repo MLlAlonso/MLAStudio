@@ -1,42 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>
-        Mikkel Llaven Alonso | Software Engineer & Full Stack Web Developer
+    <!-- =========================================================
+         SEO PRINCIPAL
+    ========================================================== -->
+    <title data-i18n="seo.title">
+        Mikkel Llaven Alonso | Software Engineer & Developer
     </title>
 
-    <meta name="description"
-        content="Portafolio de Mikkel Llaven Alonso, ingeniero de software y desarrollador full stack especializado en Laravel, PHP, JavaScript, React, Next.js, MySQL y arquitectura de soluciones digitales.">
+    <meta name="description" data-i18n-content="seo.description"
+        content="Mikkel Llaven Alonso, ingeniero de software y desarrollador full stack especializado en Laravel, PHP, JavaScript, React, Next.js, MySQL y arquitectura de soluciones digitales.">
 
     <meta name="keywords"
-        content="Mikkel Llaven Alonso, Mikkel Alonso, Mikkel, software engineer, software developer, full stack developer, developer, web developer, ingeniero de software, desarrollador web, Laravel, PHP, JavaScript, React, Next.js, MySQL, REST API, frontend, backend, software architecture">
+        content="Mikkel Llaven Alonso, Mikkel Alonso, Mikkel, Mikkel Llaven, software engineer, software developer, full stack developer, developer, web developer, ingeniero de software, desarrollador web, Laravel, PHP, JavaScript, React, Next.js, MySQL, REST API, frontend, backend, software architecture">
 
     <meta name="author" content="Mikkel Llaven Alonso">
     <meta name="creator" content="Mikkel Llaven Alonso">
     <meta name="publisher" content="Mikkel Llaven Alonso">
+
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="googlebot" content="index, follow, max-image-preview:large">
+
     <meta name="theme-color" content="#009E66">
     <meta name="color-scheme" content="light">
 
+    <!-- =========================================================
+         CANONICAL / HREFLANG
+    ========================================================== -->
     <link rel="canonical" href="https://mlastdio.com/ProfileX/MikkelAlonso/">
-
     <link rel="alternate" hreflang="es-MX" href="https://mlastdio.com/ProfileX/MikkelAlonso/">
     <link rel="alternate" hreflang="x-default" href="https://mlastdio.com/ProfileX/MikkelAlonso/">
-
 
     <!-- =========================================================
          OPEN GRAPH
     ========================================================== -->
     <meta property="og:type" content="profile">
     <meta property="og:site_name" content="Mikkel Llaven Alonso">
-    <meta property="og:title" content="Mikkel Llaven Alonso | Software Engineer & Full Stack Web Developer">
-    <meta property="og:description"
+    <meta property="og:title" data-i18n-content="seo.ogTitle"
+        content="Mikkel Llaven Alonso | Ingeniero de Software & Desarrollador Full Stack">
+    <meta property="og:description" data-i18n-content="seo.ogDescription"
         content="Portafolio profesional de Mikkel Llaven Alonso, ingeniero de software y desarrollador web full stack especializado en tecnologías modernas y soluciones digitales.">
+
     <meta property="og:url" content="https://mlastdio.com/ProfileX/MikkelAlonso/">
     <meta property="og:image" content="https://mlastdio.com/ProfileX/assets/img/Mikkel/Mikkel/head.png">
     <meta property="og:image:alt" content="Mikkel Llaven Alonso - Software Engineer & Full Stack Web Developer">
@@ -48,8 +56,9 @@
          TWITTER / X
     ========================================================== -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Mikkel Llaven Alonso | Software Engineer & Full Stack Developer">
-    <meta name="twitter:description"
+    <meta name="twitter:title" data-i18n-content="seo.twitterTitle"
+        content="Mikkel Llaven Alonso | Ingeniero de Software & Desarrollador Full Stack">
+    <meta name="twitter:description" data-i18n-content="seo.twitterDescription"
         content="Portafolio profesional de Mikkel Llaven Alonso, ingeniero de software y desarrollador full stack.">
     <meta name="twitter:image" content="https://mlastdio.com/ProfileX/assets/img/Mikkel/Mikkel/head.png">
     <meta name="twitter:image:alt" content="Mikkel Llaven Alonso - Software Engineer & Full Stack Web Developer">
@@ -63,34 +72,25 @@
     <!-- =========================================================
          GOOGLE TAG MANAGER
     ========================================================== -->
-    <!-- Google Tag Manager -->
     <script>
         (function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l !== 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-MHCHCR9D');
     </script>
-    <!-- End Google Tag Manager -->
 
     <!-- =========================================================
          STYLES
     ========================================================== -->
     <link rel="stylesheet" href="../assets/styles/Mikkel/index.css">
 
-
-    <!-- =========================================================
-         GOOGLE TRANSLATE
-    ========================================================== -->
-    <script type="text/javascript"
-        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
     <!-- =========================================================
          STRUCTURED DATA
-         Google / Search / AI understanding
+         GOOGLE / SEARCH / AI UNDERSTANDING
     ========================================================== -->
     <script type="application/ld+json">
     {
@@ -100,6 +100,7 @@
         "url": "https://mlastdio.com/ProfileX/MikkelAlonso/",
         "name": "Mikkel Llaven Alonso | Software Engineer & Full Stack Web Developer",
         "description": "Portafolio profesional de Mikkel Llaven Alonso, ingeniero de software y desarrollador web full stack.",
+        "inLanguage": "es-MX",
         "mainEntity": {
             "@type": "Person",
             "@id": "https://mlastdio.com/ProfileX/MikkelAlonso/#person",
@@ -131,11 +132,20 @@
                 "Database Design"
             ],
             "sameAs": [
-                "https://mlastdio.com/"
+                "https://mlastdio.com/",
+                "https://github.com/MLlAlonso",
+                "https://www.linkedin.com/in/mikkel-llaven-alonso-5893b4280/"
             ]
         }
     }
     </script>
+
+    <!-- =========================================================
+         INTERNATIONALIZATION
+    ========================================================== -->
+    <script src="../assets/js/Mikkel/lang/es.js" defer></script>
+    <script src="../assets/js/Mikkel/lang/en.js" defer></script>
+    <script src="../assets/js/Mikkel/i18n.js" defer></script>
 </head>
 
 <body>
@@ -177,67 +187,93 @@
         </div>
 
         <ul class="nav_links">
-            <li><a href="#aboutme">Quien soy</a></li>
-            <li><a href="#portfolio">Proyectos</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#tools">Herramientas</a></li>
-            <li><a href="#contact">Contacto</a></li>
-            <li><a href="#my_resume">Mi experiencia</a></li>
-            <!-- <li><a href="services.html">Mis servicios</a></li> -->
+            <li><a href="#aboutme" data-i18n="nav.about">Quién soy</a></li>
+            <li><a href="#portfolio" data-i18n="nav.projects">Proyectos</a></li>
+            <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+            <li><a href="#tools" data-i18n="nav.tools">Herramientas</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+            <li><a href="#my_resume" data-i18n="nav.experience">Mi experiencia</a></li>
+
+            <li class="nav_language">
+                <button type="button" class="language_toggle" data-language-toggle aria-label="Cambiar idioma"
+                    aria-pressed="false">
+                    <span data-language-label>EN</span>
+                </button>
+            </li>
         </ul>
     </nav>
 
     <!-- Header -->
     <header>
-        <h2>Hola</h2>
-        <h1 id="animated-text">Soy <span id="dynamic-text"></span></h1>
-        <h2>Hago simple lo complejo. Si puedes imaginarlo, puedo programarlo.</h2>
+        <h2 data-i18n="hero.greeting">Hola</h2>
+
+        <h1 id="animated-text">
+            <span data-i18n="hero.intro">Soy</span>
+            <span id="dynamic-text"></span>
+        </h1>
+
+        <h2 data-i18n="hero.slogan">
+            Hago simple lo complejo. Si puedes imaginarlo, puedo programarlo.
+        </h2>
 
         <div class="header_btn">
-            <a class="contact_small_btn" href="https://wa.me/529211521131" target="_blank">Contáctame</a>
-            <!-- <a class="contact_small_btn" href="services.html" target="_blank">Mis servicios</a> -->
+            <a class="contact_small_btn" href="https://wa.me/529211521131" target="_blank" rel="noopener noreferrer"
+                data-i18n="hero.contact">
+                Contáctame
+            </a>
         </div>
     </header>
 
     <main>
-        <div id="google_translate_element" style="position: fixed; bottom: 1rem; right: 1rem; z-index: 9999;">
-        </div>
-
         <!-- Who I´m -->
         <section class="aboutme" id="aboutme">
-            <!-- Contenedor del editor de código -->
             <div class="code_editor">
                 <div class="code_header">
                     <span class="dot red"></span>
                     <span class="dot yellow"></span>
                     <span class="dot green"></span>
                 </div>
+
                 <pre><code id="code-container" class="language-php"></code></pre>
             </div>
 
-            <!-- Información -->
             <div class="aboutme_text">
                 <div>
-                    <h2> Mikkel Llaven Alonso </h2>
-                    <h3>Ingeniero de Software | Desarrollador Full Stack</h3>
-                    <p>
-                        Especializado en el diseño y desarrollo de productos digitales y aplicaciones web, con enfoque
-                        en rendimiento, escalabilidad y experiencia de usuario.
-                        <br><br>
-                        Trabajo con tecnologías como <span>Laravel</span>, <span>React</span>, <span>Next.js</span>,
-                        <span>MySQL</span>, <span>APIs REST</span>, <span>Stripe</span> y <span>Google Services</span>,
-                        además de automatización con Python. Cuento con conocimientos en arquitectura modular,
-                        seguridad web, optimización de bases de datos, <span>SEO técnico</span> y diseño UI/UX.
-                        <br>
-                        He participado en proyectos abarcando todo el ciclo de desarrollo:
-                        análisis, arquitectura, desarrollo, integraciones, despliegue y mejora continua,
-                        creando soluciones mantenibles y alineadas con objetivos de negocio.
-                        <br><br>
+                    <h2>Mikkel Llaven Alonso</h2>
+
+                    <h3 data-i18n="about.role">
+                        Ingeniero de Software | Desarrollador Full Stack
+                    </h3>
+
+                    <p data-i18n="about.paragraph1">
+                        Especializado en el diseño y desarrollo de productos digitales
+                        y aplicaciones web, con enfoque en rendimiento, escalabilidad
+                        y experiencia de usuario.
+                    </p>
+
+                    <p data-i18n="about.paragraph2">
+                        Trabajo con tecnologías como Laravel, React, Next.js, MySQL,
+                        APIs REST, Stripe y Google Services.
+                        Cuento con conocimientos en arquitectura modular,
+                        seguridad web, optimización de bases de datos, SEO técnico y
+                        diseño UI/UX.
+                    </p>
+
+                    <p data-i18n="about.paragraph3">
+                        He participado en proyectos abarcando todo el ciclo de
+                        desarrollo: análisis, arquitectura, desarrollo, integraciones,
+                        despliegue y mejora continua, creando soluciones mantenibles
+                        y alineadas con objetivos de negocio.
+                    </p>
+
+                    <p data-i18n="about.languages">
                         Idiomas: Inglés (B2) · Francés (A2) · Japonés (A1).
                     </p>
 
                     <a href="../assets/docs/Mikkel/Mikkel Llaven Alonso_CV.pdf" download="CV_Mikkel_Llaven.pdf">
-                        <button class="contact_small_btn">Descargar CV</button>
+                        <button class="contact_small_btn" data-i18n="about.downloadCV">
+                            Descargar CV
+                        </button>
                     </a>
                 </div>
             </div>
@@ -246,59 +282,87 @@
         <!-- Skills -->
         <section class="skills" id="skills">
             <h2 class="title_shadow">
-                Conocimientos
                 <span>Skills</span>
             </h2>
 
             <div class="skills_container">
+                <!-- LARAVEL -->
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/php.png" alt="PHP">
                     <h3>Laravel (PHP)</h3>
-                    <p>Desarrollo de aplicaciones web seguras y escalables con Laravel, diseño de arquitectura backend,
-                        APIs robustas y optimización de rendimiento.</p>
+                    <p data-i18n="skills.laravel">
+                        Desarrollo de aplicaciones web seguras y escalables con Laravel,
+                        diseño de arquitectura backend, APIs robustas y optimización
+                        de rendimiento.
+                    </p>
                 </div>
+
+                <!-- REACT -->
                 <div class="hover-card">
                     <img src="../assets/img/Mikkel/skills/react.png" alt="React">
                     <h3>React</h3>
-                    <p>Desarrollo de interfaces modernas con React, componentes reutilizables, manejo de estado y
-                        consumo eficiente de APIs.</p>
-                </div>
-                <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/database.png" alt="database">
-                    <h3>Database Design & Optimization</h3>
-                    <p>Modelado y optimización de bases de datos relacionales, diseño eficiente de esquemas y mejora del
-                        rendimiento de consultas.</p>
-                </div>
-
-                <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/api.png" alt="Rest API">
-                    <h3>Software Architecture & APIs</h3>
-                    <p>Diseño de arquitecturas modulares y escalables, desarrollo de APIs RESTful e integración de
-                        servicios, aplicando patrones de diseño.</p>
-                </div>
-                <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/web_design.png" alt="UI/UX design">
-                    <h3>UI/UX Design</h3>
-                    <p>Diseño de experiencias digitales centradas en el usuario, creación de prototipos y validación de
-                        interfaces orientadas a usabilidad y conversión.</p>
-                </div>
-                <div class="hover-card">
-                    <img src="../assets/img/Mikkel/skills/management.png" alt="Project Management">
-                    <h3>Product Development & Delivery</h3>
-                    <p>Gestión integral de proyectos y productos digitales, desde la planificación y desarrollo hasta el
-                        despliegue y mejora continua.
+                    <p data-i18n="skills.react">
+                        Desarrollo de interfaces modernas con React, componentes
+                        reutilizables, manejo de estado y consumo eficiente de APIs.
                     </p>
                 </div>
+
+                <!-- DATABASE -->
+                <div class="hover-card">
+                    <img src="../assets/img/Mikkel/skills/database.png" alt="Database">
+                    <h3>Database Design & Optimization</h3>
+                    <p data-i18n="skills.database">
+                        Modelado y optimización de bases de datos relacionales,
+                        diseño eficiente de esquemas y mejora del rendimiento
+                        de consultas.
+                    </p>
+                </div>
+
+                <!-- SOFTWARE ARCHITECTURE & APIs -->
+                <div class="hover-card">
+                    <img src="../assets/img/Mikkel/skills/api.png" alt="REST API">
+                    <h3>Software Architecture & APIs</h3>
+                    <p data-i18n="skills.architecture">
+                        Diseño de arquitecturas modulares y escalables, desarrollo
+                        de APIs RESTful e integración de servicios, aplicando
+                        patrones de diseño.
+                    </p>
+                </div>
+
+                <!-- UI/UX -->
+                <div class="hover-card">
+                    <img src="../assets/img/Mikkel/skills/web_design.png" alt="UI/UX Design">
+                    <h3>UI/UX Design</h3>
+                    <p data-i18n="skills.uiux">
+                        Diseño de experiencias digitales centradas en el usuario,
+                        creación de prototipos y validación de interfaces orientadas
+                        a usabilidad y conversión.
+                    </p>
+                </div>
+
+                <!-- PRODUCT DEVELOPMENT -->
+                <div class="hover-card">
+                    <img src="../assets/img/Mikkel/skills/management.png" alt="Product Development">
+                    <h3>Product Development & Delivery</h3>
+                    <p data-i18n="skills.product">
+                        Gestión integral de proyectos y productos digitales,
+                        desde la planificación y desarrollo hasta el despliegue
+                        y mejora continua.
+                    </p>
+                </div>
+
             </div>
         </section>
 
         <!-- Projects -->
         <section class="portfolio" id="portfolio">
-            <h2 class="title_shadow">
+
+            <h2 class="title_shadow" data-i18n="portfolio.title">
                 Proyectos y soluciones desarrolladas
             </h2>
 
             <div class="projects_container">
+
                 <!-- MUDANZA FÁCIL -->
                 <article class="featured_project featured_project--primary">
                     <div class="featured_project__media">
@@ -308,7 +372,7 @@
                     </div>
 
                     <div class="featured_project__content">
-                        <span class="featured_project__label">
+                        <span class="featured_project__label" data-i18n="portfolio.featured.mudanza.label">
                             Proyecto principal · SaaS
                         </span>
 
@@ -317,14 +381,14 @@
                         </h3>
 
                         <div class="featured_project__description">
-                            <p>
+                            <p data-i18n-html="portfolio.featured.mudanza.description1">
                                 Plataforma <span>SaaS</span> que conecta empresas de
                                 mudanzas con clientes y oportunidades comerciales,
                                 digitalizando la gestión de servicios dentro del sector
                                 logístico.
                             </p>
 
-                            <p>
+                            <p data-i18n-html="portfolio.featured.mudanza.description2">
                                 Desarrollada con arquitectura desacoplada basada en
                                 <span>Next.js</span> y <span>Laravel API REST</span>.
                                 Integra marketplace de servicios, generación de leads,
@@ -332,7 +396,7 @@
                                 expedientes de seguros y notificaciones.
                             </p>
 
-                            <p>
+                            <p data-i18n="portfolio.featured.mudanza.description3">
                                 Participé en el desarrollo integral del producto:
                                 arquitectura, backend, frontend, integraciones y
                                 despliegue en producción.
@@ -372,7 +436,7 @@
                     </div>
 
                     <div class="featured_project__content">
-                        <span class="featured_project__label">
+                        <span class="featured_project__label" data-i18n="portfolio.featured.buska.label">
                             Proyecto destacado · Web & Mobile
                         </span>
 
@@ -381,20 +445,20 @@
                         </h3>
 
                         <div class="featured_project__description">
-                            <p>
+                            <p data-i18n-html="portfolio.featured.buska.description1">
                                 Plataforma <span>multiplataforma</span> para descubrir
                                 negocios locales de comida, conectando usuarios con
                                 establecimientos gastronómicos cercanos.
                             </p>
 
-                            <p>
+                            <p data-i18n-html="portfolio.featured.buska.description2">
                                 Permite explorar establecimientos, consultar menús,
                                 reseñas y ubicaciones mediante <span>mapas y
                                     geolocalización</span>, facilitando el descubrimiento
                                 de nuevas opciones gastronómicas.
                             </p>
 
-                            <p>
+                            <p data-i18n="portfolio.featured.buska.description3">
                                 Participé en el desarrollo del producto, integrando
                                 interfaces, servicios backend y funcionalidades
                                 orientadas a la experiencia del usuario.
@@ -427,61 +491,97 @@
                         </div>
                     </div>
                 </article>
+
             </div>
 
+            <!-- LIGHTBOX -->
             <div class="lightbox" id="lightbox">
-                <button class="lightbox__close" type="button" aria-label="Cerrar imagen">
+                <button class="lightbox__close" type="button" aria-label="Cerrar imagen"
+                    data-i18n-aria-label="portfolio.lightbox.close">
                     &times;
                 </button>
 
-                <img class="lightbox__img" id="lightbox-img" alt="Vista ampliada del proyecto">
+                <img class="lightbox__img" id="lightbox-img" alt="Vista ampliada del proyecto"
+                    data-i18n-alt="portfolio.lightbox.alt">
             </div>
 
+            <!-- FILTROS -->
             <div class="portfolio_links">
                 <div class="link_container">
 
+                    <!-- WEB -->
                     <div class="link_wrapper">
                         <input type="radio" id="value-1" name="btn" value="web">
+
                         <div class="btn_glitch">
-                            <span aria-hidden="true">_</span>Web_Apps
-                            <span aria-hidden="true" class="btn_glitch_span">Web_🌐</span>
+                            <span aria-hidden="true">_</span>
+                            <span data-i18n="portfolio.filters.web">Web Apps</span>
+
+                            <span aria-hidden="true" class="btn_glitch_span">
+                                Web_🌐
+                            </span>
+
                             <label class="number" for="value-1">r1</label>
                         </div>
                     </div>
 
+                    <!-- FULL STACK -->
                     <div class="link_wrapper">
                         <input type="radio" id="value-2" name="btn" value="full-stack">
+
                         <div class="btn_glitch">
-                            Full-Stack<span aria-hidden="true">_</span>
-                            <span aria-hidden="true" class="btn_glitch_span">F_ul_l D_E_v</span>
+                            <span data-i18n="portfolio.filters.fullstack">Full-Stack</span>
+                            <span aria-hidden="true">_</span>
+
+                            <span aria-hidden="true" class="btn_glitch_span">
+                                F_ul_l D_E_v
+                            </span>
+
                             <label class="number" for="value-2">r2</label>
                         </div>
                     </div>
 
+                    <!-- BACKEND -->
                     <div class="link_wrapper">
                         <input type="radio" id="value-3" name="btn" value="backend">
+
                         <div class="btn_glitch">
-                            Back-End<span aria-hidden="true"></span>
-                            <span aria-hidden="true" class="btn_glitch_span">Back-End_</span>
+                            <span data-i18n="portfolio.filters.backend">Back-End</span>
+                            <span aria-hidden="true">\</span>
+
+                            <span aria-hidden="true" class="btn_glitch_span">
+                                Back-End__
+                            </span>
+
                             <label class="number" for="value-3">r3</label>
                         </div>
                     </div>
 
+                    <!-- FRONTEND -->
                     <div class="link_wrapper">
                         <input type="radio" id="value-4" name="btn" value="frontend">
+
                         <div class="btn_glitch">
-                            Front-End<span aria-hidden="true"></span>
-                            <span aria-hidden="true" class="btn_glitch_span">_Front-End</span>
+                            <span data-i18n="portfolio.filters.frontend">Front-End</span>
+                            <span aria-hidden="true">\</span>
+
+                            <span aria-hidden="true" class="btn_glitch_span">
+                                _Front-End
+                            </span>
+
                             <label class="number" for="value-4">r4</label>
                         </div>
                     </div>
 
                 </div>
 
-                <p>Selecciona una categoría y explora mis proyectos</p>
+                <p data-i18n="portfolio.filters.description">
+                    Selecciona una categoría y explora mis proyectos
+                </p>
             </div>
 
             <div class="portfolio_container">
+
                 <!-- MÓDULO DE SEGUROS -->
                 <article class="expand_card" data-type="full-stack web insurance">
                     <div class="expand_card__image">
@@ -492,29 +592,24 @@
                     <div class="expand_card__techs">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
                             alt="Laravel" title="Laravel 12">
-
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
                             alt="PHP" title="PHP">
-
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
                             alt="MySQL" title="MySQL">
-
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
                             alt="React" title="React">
-
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
                             alt="Next.js" title="Next.js">
-
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
                             alt="SASS" title="SASS">
                     </div>
 
                     <div class="expand_card__info">
-                        <h3 class="expand_card__title">
+                        <h3 class="expand_card__title" data-i18n="portfolio.projects.insurance.title">
                             Gestión de Seguros
                         </h3>
 
-                        <p class="expand_card__description">
+                        <p class="expand_card__description" data-i18n="portfolio.projects.insurance.description">
                             Módulo para gestionar seguros de mudanza mediante expedientes digitales, formularios por
                             etapas y herramientas administrativas de seguimiento y comunicación.
                         </p>
@@ -548,9 +643,9 @@
                     <div class="expand_card__info">
                         <h3 class="expand_card__title">MLA Studio</h3>
 
-                        <p class="expand_card__description">
-                            Estudio digital que impulsa marcas y profesionales a destacar
-                            mediante desarrollo web, branding e identidad visual.
+                        <p class="expand_card__description" data-i18n="portfolio.projects.mla.description">
+                            Estudio digital que impulsa marcas y profesionales a destacar mediante desarrollo web,
+                            branding e identidad visual.
                         </p>
 
                         <div class="expand_card__links">
@@ -592,9 +687,9 @@
                     <div class="expand_card__info">
                         <h3 class="expand_card__title">Landing Page Campus EHDS</h3>
 
-                        <p class="expand_card__description">
-                            Página de aterrizaje para el campus de El Hub de Seguridad,
-                            enfocada en la experiencia del usuario.
+                        <p class="expand_card__description" data-i18n="portfolio.projects.campus.description">
+                            Página de aterrizaje para el campus de El Hub de Seguridad, enfocada en la experiencia del
+                            usuario.
                         </p>
 
                         <div class="expand_card__links">
@@ -635,10 +730,9 @@
                     <div class="expand_card__info">
                         <h3 class="expand_card__title">ProfileX</h3>
 
-                        <p class="expand_card__description">
-                            Plataforma de presencia digital que permite crear portafolios
-                            profesionales, currículums online y perfiles personalizados
-                            en un solo lugar.
+                        <p class="expand_card__description" data-i18n="portfolio.projects.profilex.description">
+                            Plataforma de presencia digital que permite crear portafolios profesionales, currículums
+                            online y perfiles personalizados en un solo lugar.
                         </p>
 
                         <div class="expand_card__links">
@@ -689,7 +783,7 @@
                     <div class="expand_card__info">
                         <h3 class="expand_card__title">Credit Manager</h3>
 
-                        <p class="expand_card__description">
+                        <p class="expand_card__description" data-i18n="portfolio.projects.credit.description">
                             Aplicación para gestionar y visualizar créditos de manera eficiente.
                         </p>
 
@@ -722,10 +816,9 @@
                     <div class="expand_card__info">
                         <h3 class="expand_card__title">HFERR</h3>
 
-                        <p class="expand_card__description">
-                            Rediseño y desarrollo del sitio web, incluyendo
-                            mejoras de UX/UI, despliegue, migración de hosting y optimización
-                            SEO, rendimiento y visibilidad en buscadores.
+                        <p class="expand_card__description" data-i18n="portfolio.projects.hferr.description">
+                            Rediseño y desarrollo del sitio web, incluyendo mejoras de UX/UI, despliegue, migración de
+                            hosting y optimización SEO, rendimiento y visibilidad en buscadores.
                         </p>
 
                         <div class="expand_card__links">
@@ -756,10 +849,9 @@
                     <div class="expand_card__info">
                         <h3 class="expand_card__title">PageCraft</h3>
 
-                        <p class="expand_card__description">
-                            Plataforma de MLA Studio para crear landing pages modernas
-                            y optimizadas, enfocadas en presencia digital, conversión
-                            y experiencia de usuario.
+                        <p class="expand_card__description" data-i18n="portfolio.projects.pagecraft.description">
+                            Plataforma de MLA Studio para crear landing pages modernas y optimizadas, enfocadas en
+                            presencia digital, conversión y experiencia de usuario.
                         </p>
 
                         <div class="expand_card__links">
@@ -806,7 +898,7 @@
                     <div class="expand_card__info">
                         <h3 class="expand_card__title">Primer Misión</h3>
 
-                        <p class="expand_card__description">
+                        <p class="expand_card__description" data-i18n="portfolio.projects.firstMission.description">
                             Juego interactivo desarrollado con JavaScript, HTML y CSS.
                         </p>
 
@@ -849,9 +941,9 @@
                     <div class="expand_card__info">
                         <h3 class="expand_card__title">Wrapped Fusion</h3>
 
-                        <p class="expand_card__description">
-                            Aplicación para visualizar estadísticas de Spotify,
-                            analizando canciones y artistas más escuchados.
+                        <p class="expand_card__description" data-i18n="portfolio.projects.wrapped.description">
+                            Aplicación para visualizar estadísticas de Spotify, analizando canciones y artistas más
+                            escuchados.
                         </p>
 
                         <div class="expand_card__links">
@@ -893,9 +985,9 @@
                     <div class="expand_card__info">
                         <h3 class="expand_card__title">Form Scraper</h3>
 
-                        <p class="expand_card__description">
-                            Herramienta de extracción de datos de formularios web,
-                            diseñada para automatizar la recolección de información.
+                        <p class="expand_card__description" data-i18n="portfolio.projects.scraper.description">
+                            Herramienta de extracción de datos de formularios web, diseñada para automatizar la
+                            recolección de información.
                         </p>
 
                         <div class="expand_card__links">
@@ -931,7 +1023,7 @@
 
                     <div class="expand_card__techs">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                            alt="HTML5">
+                            alt="HTML">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
                             alt="CSS3">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
@@ -945,7 +1037,7 @@
                     <div class="expand_card__info">
                         <h3 class="expand_card__title">Container Catalog API</h3>
 
-                        <p class="expand_card__description">
+                        <p class="expand_card__description" data-i18n="portfolio.projects.containerApi.description">
                             API RESTful para gestionar un catálogo de contenedores, con funcionalidades CRUD.
                         </p>
 
@@ -979,7 +1071,7 @@
                     <div class="expand_card__info">
                         <h3 class="expand_card__title">WordPress Landing Page</h3>
 
-                        <p class="expand_card__description">
+                        <p class="expand_card__description" data-i18n="portfolio.projects.wordpress.description">
                             Technical challenge en WordPress, enfocado en maquetación responsive, estructura semántica y
                             optimización SEO.
                         </p>
@@ -1000,20 +1092,21 @@
                         </div>
                     </div>
                 </article>
+
             </div>
 
             <div class="portfolio_actions">
-                <button id="toggleProjects" class="btn_primary" type="button">
+                <button id="toggleProjects" class="btn_primary" type="button" data-i18n="portfolio.showMore">
                     Ver más proyectos
                 </button>
             </div>
+
         </section>
 
         <!-- My Resume -->
         <section class="resume" id="my_resume">
             <h2 class="title_shadow">
-                Mi Experiencia
-                <span>Resume</span>
+                <span data-i18n="resume.title">Mi Experiencia</span>
             </h2>
 
             <div class="resume__container">
@@ -1021,29 +1114,46 @@
                     <div class="resume__right-content">
                         <div class="resume__timeline-container" id="time-line">
 
+                            <!-- MLA STUDIO -->
                             <ul class="resume__timeline">
                                 <li class="resume__timeline-item">
                                     <div class="resume__timeline-circle"></div>
-                                    <div class="resume__timeline-date"> Project Manager / Freelance - MLA Studio</div>
-                                    <div class="resume__timeline-title">Junio 2025 - Actualidad</div>
-                                    <div class="resume__timeline-descr">
-                                        Lidero el desarrollo y gestión de productos digitales bajo mi marca
-                                        profesional,
+
+                                    <div class="resume__timeline-date" data-i18n="resume.experience.mla.role">
+                                        Project Manager / Freelance - MLA Studio
+                                    </div>
+
+                                    <div class="resume__timeline-title" data-i18n="resume.experience.mla.period">
+                                        Junio 2025 - Actualidad
+                                    </div>
+
+                                    <div class="resume__timeline-descr"
+                                        data-i18n-html="resume.experience.mla.description">
+                                        Lidero el desarrollo y gestión de productos digitales bajo mi marca profesional,
                                         participando en todo el <span>ciclo de vida del proyecto</span>: análisis de
                                         requisitos,
                                         planificación, arquitectura, desarrollo, despliegue y evolución continua.
                                         Además, coordino <span>colaboradores externos</span>, gestiono la
-                                        <span>comunicación con clientes</span> y
-                                        superviso la documentación técnica y comercial para garantizar entregas
-                                        alineadas con los <span>objetivos del negocio</span>.
+                                        <span>comunicación con clientes</span> y superviso la documentación técnica y
+                                        comercial
+                                        para garantizar entregas alineadas con los <span>objetivos del negocio</span>.
                                     </div>
                                 </li>
 
+                                <!-- EL HUB DE SEGURIDAD -->
                                 <li class="resume__timeline-item">
                                     <div class="resume__timeline-circle"></div>
-                                    <div class="resume__timeline-date">Desarrollador web - El Hub de Seguridad</div>
-                                    <div class="resume__timeline-title">Diciembre 2024 - Agosto 2025</div>
-                                    <div class="resume__timeline-descr">
+
+                                    <div class="resume__timeline-date" data-i18n="resume.experience.ehds.role">
+                                        Desarrollador web - El Hub de Seguridad
+                                    </div>
+
+                                    <div class="resume__timeline-title" data-i18n="resume.experience.ehds.period">
+                                        Diciembre 2024 - Agosto 2025
+                                    </div>
+
+                                    <div class="resume__timeline-descr"
+                                        data-i18n-html="resume.experience.ehds.description">
                                         Participé en el desarrollo y evolución de una plataforma e-learning,
                                         contribuyendo a la <span>migración de componentes</span> hacia una arquitectura
                                         basada en <span>APIs REST</span> y automatizando procesos internos mediante
@@ -1053,37 +1163,68 @@
                                     </div>
                                 </li>
 
+                                <!-- FREELANCE -->
                                 <li class="resume__timeline-item">
-                                    <div class="resume__timeline-date">Web Developer- Freelance</div>
-                                    <div class="resume__timeline-title">Octubre 2022 - Diciembre 2024</div>
-                                    <div class="resume__timeline-descr">
+                                    <div class="resume__timeline-circle"></div>
+
+                                    <div class="resume__timeline-date" data-i18n="resume.experience.freelance.role">
+                                        Web Developer - Freelance
+                                    </div>
+
+                                    <div class="resume__timeline-title" data-i18n="resume.experience.freelance.period">
+                                        Octubre 2022 - Diciembre 2024
+                                    </div>
+
+                                    <div class="resume__timeline-descr"
+                                        data-i18n-html="resume.experience.freelance.description">
                                         Desarrollé sitios web, landing pages y aplicaciones para clientes
-                                        independientes, participando desde el <span>levantamiento de requisitos</span>
-                                        hasta la entrega final. Durante esta etapa fortalecí mis habilidades en
-                                        <span>desarrollo full stack</span>, integración de APIs, comunicación con
-                                        clientes y construcción de soluciones adaptadas a <span>necesidades reales de
-                                            negocio</span>.
+                                        independientes,
+                                        participando desde el <span>levantamiento de requisitos</span> hasta la entrega
+                                        final.
+                                        Durante esta etapa fortalecí mis habilidades en <span>desarrollo full
+                                            stack</span>,
+                                        integración de APIs, comunicación con clientes y construcción de soluciones
+                                        adaptadas a <span>necesidades reales de negocio</span>.
                                     </div>
                                 </li>
 
+                                <!-- CRUANPA -->
                                 <li class="resume__timeline-item">
-                                    <div class="resume__timeline-date">Desarrollador Jr. - CRUANPA COMERCIALIZADORA
+                                    <div class="resume__timeline-circle"></div>
+
+                                    <div class="resume__timeline-date" data-i18n="resume.experience.cruanpa.role">
+                                        Desarrollador Jr. - CRUANPA COMERCIALIZADORA
                                     </div>
-                                    <div class="resume__timeline-title">Enero 2024 - Diciembre 2024</div>
-                                    <div class="resume__timeline-descr">
-                                        Desarrollo de un sistema de inventario en <span>Java</span> con <span>lógica
-                                            financiera</span> y manejo de datos en <span>JSON</span>. Automatización de
-                                        <span>reportes financieros</span> mediante tablas dinámicas en Excel y gestión
-                                        documental en Google Workspace. Coordinación y seguimiento de tareas, asegurando
-                                        la <span>comunicación entre equipos</span> técnicos y administrativos.
+
+                                    <div class="resume__timeline-title" data-i18n="resume.experience.cruanpa.period">
+                                        Enero 2024 - Diciembre 2024
+                                    </div>
+
+                                    <div class="resume__timeline-descr"
+                                        data-i18n-html="resume.experience.cruanpa.description">
+                                        Desarrollo de un sistema de inventario en <span>Java</span> con
+                                        <span>lógica financiera</span> y manejo de datos en <span>JSON</span>.
+                                        Automatización de <span>reportes financieros</span> mediante tablas dinámicas
+                                        en Excel y gestión documental en Google Workspace. Coordinación y seguimiento
+                                        de tareas, asegurando la <span>comunicación entre equipos</span> técnicos
+                                        y administrativos.
                                     </div>
                                 </li>
 
+                                <!-- INTEKEL -->
                                 <li class="resume__timeline-item">
-                                    <div class="resume__timeline-date"> Ing. de Software (Trainee)- INTEKEL
-                                        Automatización</div>
-                                    <div class="resume__timeline-title">Julio 2023 - Diciembre 2023</div>
-                                    <div class="resume__timeline-descr">
+                                    <div class="resume__timeline-circle"></div>
+
+                                    <div class="resume__timeline-date" data-i18n="resume.experience.intekel.role">
+                                        Ing. de Software (Trainee) - INTEKEL Automatización
+                                    </div>
+
+                                    <div class="resume__timeline-title" data-i18n="resume.experience.intekel.period">
+                                        Julio 2023 - Diciembre 2023
+                                    </div>
+
+                                    <div class="resume__timeline-descr"
+                                        data-i18n-html="resume.experience.intekel.description">
                                         <span>Análisis de requisitos</span>, diseño de interfaces en Figma
                                         y validación de flujos mediante <span>pruebas funcionales</span>.
                                         Desarrollo de <span>casos de uso</span>, diagramas de procedimiento y
@@ -1101,34 +1242,63 @@
     </main>
 
     <footer class="MLA_footer" id="contact">
-        <h2>Ponte en contacto conmigo</h2>
+        <h2 data-i18n="footer.title">
+            Ponte en contacto conmigo
+        </h2>
+
         <div class="footer_contact">
+
+            <!-- GOOGLE MEET -->
             <div class="footer_contact_item">
                 <img src="../../assets/img/icons/calendar.png" alt="Calendar">
+
                 <h3>Google Meet</h3>
-                <a href="https://calendar.app.google/YZeeH5ReoDHfHJka8" target="_blank">Agenda una reunión</a>
+
+                <a href="https://calendar.app.google/YZeeH5ReoDHfHJka8" target="_blank" rel="noopener noreferrer"
+                    data-i18n="footer.meeting">
+                    Agenda una reunión
+                </a>
             </div>
 
+            <!-- WHATSAPP -->
             <div class="footer_contact_item">
                 <img src="../../assets/img/icons/whatsapp.png" alt="WhatsApp">
+
                 <h3>WhatsApp</h3>
-                <a href="https://wa.me/529211521131" target="_blank">Enviar Mensaje</a>
+
+                <a href="https://wa.me/529211521131" target="_blank" rel="noopener noreferrer"
+                    data-i18n="footer.whatsapp">
+                    Enviar mensaje
+                </a>
             </div>
 
+            <!-- EMAIL -->
             <div class="footer_contact_item">
                 <img src="../../assets/img/icons/email.png" alt="Email">
+
                 <h3>Email</h3>
-                <a href="mailto:mikkel_03@outlook.com" target="_blank">mikkel_03@outlook.com</a>
+
+                <a href="mailto:mikkel_03@outlook.com">
+                    mikkel_03@outlook.com
+                </a>
             </div>
 
+            <!-- PHONE -->
             <div class="footer_contact_item">
                 <img src="../../assets/img/icons/contact.png" alt="Contact Number">
-                <h3>Mi contacto</h3>
-                <a href="tel:+529211521131" target="_blank">921 152 1131</a>
+
+                <h3 data-i18n="footer.phoneTitle">Mi contacto</h3>
+
+                <a href="tel:+529211521131">
+                    921 152 1131
+                </a>
             </div>
+
         </div>
 
-        <p class="copyright">© 2026 Mikkel Llaven Alonso. Todos los derechos reservados.</p>
+        <p class="copyright" data-i18n="footer.copyright">
+            © 2026 Mikkel Llaven Alonso. Todos los derechos reservados.
+        </p>
     </footer>
 
     <!-- Header -->
@@ -1140,10 +1310,12 @@
     <!-- Projects -->
     <script src="../assets/js/Mikkel/images.js"></script>
     <script src="../assets/js/Mikkel/projects.js"></script>
-    <!-- Translate -->
-    <script src="../assets/js/Mikkel/translate.js"></script>
-    <!-- Translate -->
+    <!-- Navbar -->
     <script src="../../assets/js/navBar.js"></script>
+    <!-- Sistema de idiomas -->
+    <script src="../assets/js/Mikkel/lang/es.js" defer></script>
+    <script src="../assets/js/Mikkel/lang/en.js" defer></script>
+    <script src="../assets/js/Mikkel/i18n.js" defer></script>
 </body>
 
 </html>
