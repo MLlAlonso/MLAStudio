@@ -1,319 +1,533 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MLA: Marketing, Landing, Automation</title>
 
-    <title>MLA: Marketing, Landing, Automation</title>
-
-    <!-- SEO BÁSICO -->
-    <title>Título único y descriptivo de la página</title>
-    <meta name="description" content="MLA Studio es una agencia creativa digital que impulsa marcas y negocios desde la idea hasta el liderazgo. 
+  <meta name="description" content="MLA Studio es una agencia creativa digital que impulsa marcas y negocios desde la idea hasta el liderazgo. 
         Ofrecemos desarrollo web, branding, diseño publicitario y estrategias digitales personalizadas para asegurar 
         tu presencia y crecimiento en el mundo digital">
-    <meta name="keywords" content="marketing, automation, landing page">
-    <meta name="author" content="Nombre del autor o dueña del sitio">
-    <meta property="og:title"
-        content="Marketing, Landing & Automation: Transformamos conceptos en presencia online profesional">
-    <meta property="og:description" content="Mientras otros solo te dan un link, nosotros te damos presencia">
-    <meta name="twitter:title"
-        content="Marketing, Landing & Automation: Transformamos conceptos en presencia online profesional">
-    <meta name="twitter:description" content="Mientras otros solo te dan un link, nosotros te damos presencia">
-    <meta name="theme-color" content="#388E3C">
+  <meta name="keywords" content="marketing, automation, landing page">
+  <meta name="author" content="Nombre del autor o dueña del sitio">
+  <meta property="og:title"
+    content="Marketing, Landing & Automation: Transformamos conceptos en presencia online profesional">
+  <meta property="og:description" content="Mientras otros solo te dan un link, nosotros te damos presencia">
+  <meta name="twitter:title"
+    content="Marketing, Landing & Automation: Transformamos conceptos en presencia online profesional">
+  <meta name="twitter:description" content="Mientras otros solo te dan un link, nosotros te damos presencia">
+  <meta name="theme-color" content="#388E3C">
 
 
-    <link rel="stylesheet" href="assets/styles/index.css">
-    <link rel="icon" href="assets/img/Ml.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700;800&family=DM+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
 
-    <script type="text/javascript"
-        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-    <!-- Google tag (gtag.js) -->
+  <link rel="icon" href="assets/img/Ml.png">
+  <link rel="stylesheet" href="assets/styles/main.css">
 </head>
 
 <body>
-    <div class="container">
-        <!-- NavBar -->
-        <nav>
-            <div class="nav_brand">
-                <a href="index.html">
-                    <img src="assets/img/MLA.png" alt="MLA logo">
-                </a>
-            </div>
+  <header class="site-header">
+    <div class="wrap">
+      <nav class="nav" aria-label="Principal">
+        <a class="logo" href="#top" aria-label="MLA Studio, inicio">
+          <img src="assets/img/MLA.png" alt="MLA" height="30">
+          <span class="logo__text"></span>
+        </a>
 
-            <div class="menu-toggle">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
+        <ul class="nav__links">
+          <li><a href="#top">Inicio</a></li>
+          <li><a href="#hacemos">Servicios</a></li>
+          <li><a href="#web">Productos</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
 
-            <ul class="nav_links">
-                <li><a href="index.html"><img src="assets/img/icons/home.png" alt="home"></a></li>
-                <li><a href="PageCraft/">PageCraft</a></li>
-                <li><a href="ProfileX/">ProfileX</a></li>
-                <li><a href="">Servicios</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
+        <a class="btn btn--outline btn--sm"
+          href="https://wa.me/529211251131?text=Hola,%20 me%20gustar%C3%ADa%20platicarles%20sobre%20un%20proyecto%20que%20tengo%20en%20mente.%20%C2%BFPodr%C3%ADan%20orientarme%3F"
+          target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 20l1.2-4A8.5 8.5 0 1 1 8.2 18.9z" />
+            <path d="M9 9.5c.5 2 2 3.5 4.5 4.5l1.2-1.2" />
+          </svg>
+          Cuéntanos tu idea
+        </a>
 
-        <header>
-            <img src="assets/img/MLA.png" alt="MLA">
-            <h1>Transformamos conceptos <br> en presencia online profesional</h1>
-            <div class="head_btn">
-                <a href="https://wa.me/529211521131" class="contact_btn" id="contact_btn" target="_blank">Contactar</a>
-                <!-- <a href="" class="contact_btn" id="free_btn" target="_blank">Inicia sin costo</a> -->
-            </div>
-        </header>
+      </nav>
     </div>
+  </header>
 
-    <main>
-        <section class="information_cards">
-            <div>
-                <h3>ProfileX</h3>
-                <p>Páginas web modernas, rápidas y optimizadas para impulsar tu marca en línea</p>
-                <a href="ProfileX/index.html" target="_blank">Saber más →</a>
-            </div>
+  <main id="top">
+    <!-- HERO -->
+    <div class="hero">
+      <div class="wrap hero__grid">
+        <div>
+          <div class="eyebrow">Soluciones digitales a medida</div>
 
-            <div>
-                <h3>PageCraft</h3>
-                <p>Portafolio profesional único que muestre tu talento y proyectos con estilo e impacto.</p>
-                <a href="PageCraft/index.html" target="_blank">Saber más →</a>
-            </div>
-        </section>
+          <h1>Convertimos ideas en <span class="grad swap" id="swap"></span></h1>
 
-        <section class="carousel">
-            <div class="carousel-wrapper">
+          <p class="lead">
+            Diseñamos y desarrollamos software a medida, plataformas y herramientas que optimizan
+            procesos, impulsan negocios y hacen realidad nuevas ideas.
+          </p>
 
-                <div class="carousel-slide active">
-                    <div class="carousel-text">
-                        <h2>Identidad corporativa</h2>
-                        <p>Diseñamos una imagen coherente y memorable: logo, variaciones, paleta de colores, tipografía
-                            y aplicaciones visuales que refuercen la presencia profesional de tu marca.</p>
-                    </div>
-                    <div class="carousel-media">
-                        <img src="assets/img/identidad_corporativa.jpg" alt="identidad Corporativa">
-                    </div>
-                </div>
-
-                <div class="carousel-slide">
-                    <div class="carousel-text">
-                        <h2>Branding</h2>
-                        <p>Construimos la esencia de tu marca: estrategia, misión, valores, personalidad y tono de
-                            comunicación enfocados en conectar con tu público ideal y posicionarte en el mercado.</p>
-                    </div>
-                    <div class="carousel-media">
-                        <img src="assets/img/branding.jpg" alt="Branding">
-                    </div>
-                </div>
-
-                <div class="carousel-slide">
-                    <div class="carousel-text">
-                        <h2>Contenido para redes sociales</h2>
-                        <p>Potenciamos tu presencia digital con contenido atractivo: historias, posts, reels,
-                            carruseles, diseños para fechas especiales y copywriting que conecta y convierte.</p>
-                    </div>
-                    <div class="carousel-media">
-                        <img src="assets/img/social_media.jpg" alt="Redes sociales">
-                    </div>
-                </div>
-
-                <div class="carousel-slide">
-                    <div class="carousel-text">
-                        <h2>Diseño publicitario</h2>
-                        <p>Damos vida a tu comunicación visual con materiales de alto impacto: lonas, tarjetas de
-                            presentación, folletos y piezas diseñadas para destacar tu marca.</p>
-                    </div>
-                    <div class="carousel-media">
-                        <img src="assets/img/publicidad 02.jpg" alt="Publicicidad">
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="carousel-nav">
-                <span class="nav-dot active" data-index="0"></span>
-                <span class="nav-dot" data-index="1"></span>
-                <span class="nav-dot" data-index="2"></span>
-                <span class="nav-dot" data-index="3"></span>
-            </div>
-        </section>
-
-        <section class="caption_text">
-            <h3>Convierte tus ideas en experiencias digitales</h3>
-            <h3>Mientras otros solo te dan un link, nosotros te damos presencia</h3>
-            <h3>Tu marca no nació para vivir dentro de una plantilla.</h3>
-        </section>
-
-        <section class="scroll-showcase">
-            <div class="showcase-item">
-                <div class="text">
-                    <h2>ProfileX</h2>
-                    <p>Portafolios digitales profesionales diseñados para mostrar tu talento y proyectos de manera
-                        moderna, elegante y totalmente responsiva.</p>
-                    <p>Ideal para freelancers, creativos, desarrolladores, diseñadores o profesionales que desean
-                        destacar online.</p>
-                    <p>Con ProfileX, tu portafolio se convierte en una herramienta estratégica para atraer
-                        oportunidades laborales y reforzar tu marca personal.</p>
-                    <a href="https://wa.me/529211521131" id="ProfileX" target="_blank">Conoce más →</a>
-                </div>
-                <div class="image">
-                    <img src="assets/img/ProfileX.png" alt="ProfileX">
-                </div>
-            </div>
-
-            <div class="showcase-item">
-                <div class="text">
-                    <h2>PageCraft</h2>
-                    <p>Landing pages y sitios web estratégicos diseñados para comunicar, captar atención y convertir
-                        visitantes en clientes de forma clara y efectiva.
-                    </p>
-                    <p>Ideal para emprendedores, negocios, eventos y marcas que necesitan presencia digital
-                        inmediata y enfocada en resultados.</p>
-                    <p>Con PageCraft, tu sitio web se convierte en una herramienta activa de marketing que guía al
-                        usuario, genera registros, ventas o contactos y potencia tus campañas digitales desde el
-                        primer día.</p>
-                    <a href="https://wa.me/529211521131" id="PageCraft" target="_blank">Conoce más →</a>
-                </div>
-                <div class="image">
-                    <img src="assets/img/PageCraft.png" alt="PageCraft">
-                </div>
-            </div>
-        </section>
-
-        <section class="packages">
-            <a href="https://wa.me/529211521131?text=Saludos%20vengo%20de%20MLA%20Studios,%20quisiera%20conocer%20sus%20planes%20disponibles"
-                target="_blank">
-                <button class="btn_packages">Nuestros planes</button>
+          <div class="cta">
+            <a class="btn btn--main"
+              href="https://wa.me/529211251131?text=%C2%A1Hola%2C%20quisiera%20compartirles%20mi%20idea%20y%20conocer%20c%C3%B3mo%20podemos%20llevarla%20a%20cabo."
+              target="_blank" rel="noopener noreferrer">
+              Iniciar un proyecto
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 12h16M14 6l6 6-6 6" />
+              </svg>
             </a>
 
-            <!-- queda pendiente añadir los paquetes que ya tengo en el pdf -->
-        </section>
-
-        <section class="experiences">
-            <h2>Experiencias impulsadas</h2>
-
-            <div class="carrousel_3d">
-                <div class="carrousel_3d_item">
-                    <img src="assets/img/MudanzaFacil.png" alt="Mudanza Fácil">
-                    <a href="https://app.mudanzafacil.com.mx/empresa/login" target="_blank">Mudanza Fácil</a>
-                </div>
-
-                <div class="carrousel_3d_item">
-                    <img src="https://res.cloudinary.com/bcyzogrf/image/upload/v1792562052/buska-icono-app.svg"
-                        alt="Mudanza Fácil">
-                    <a href="https://buskapp.co/" target="_blank">BUSKA <br> Web & Mobile App</a>
-                </div>
-
-                <div class="carrousel_3d_item">
-                    <img src="assets/img/HFERR.ico" alt="HFERR">
-                    <a href="https://www.hferr.com/" target="_blank">HFERR Consulting</a>
-                </div>
-
-                <div class="carrousel_3d_item">
-                    <img src="PageCraft/assets/img/Cruanpa/BlancoC.png" alt="Cruanpa">
-                    <a href="PageCraft/CRUANPA/index.php" target="_blank">CRUANPA Comercializadora</a>
-                </div>
-
-                <div class="carrousel_3d_item">
-                    <img src="PageCraft/assets/img/BLOMSTARS/flor.png" alt="Valant">
-                    <a href="PageCraft/Valant/index.php" target="_blank">BLOMSTARS</a>
-                </div>
-
-                <div class="carrousel_3d_item">
-                    <img src="PageCraft/assets/img/Valant/icon.png" alt="Valant">
-                    <a href="PageCraft/BLOMSTARS/index.php" target="_blank">Valant Bordados Electronicos</a>
-                </div>
-
-                <div class="carrousel_3d_item">
-                    <img src="ProfileX/assets/img/EstrellaRamos/photo.svg" alt="Estrella Ramos">
-                    <a href="ProfileX/EstrellaRamos/index.php" target="_blank">Estrella Ramos <br> Ing.
-                        Biotecnologia</a>
-                </div>
-
-                <div class="carrousel_3d_item">
-                    <img src="assets/img/WISCONSIGN.avif" alt="WISCONSIGN">
-                    <a href="https://www.wisconsign.co/" target="_blank">WISCONSIGN</a>
-                </div>
-
-                <div class="carrousel_3d_item">
-                    <img src="ProfileX/assets/img/Mikkel/Mikkel/Mikkel 1.png" alt="Mikkel Llaven">
-                    <a href="ProfileX/MikkelAlonso/index.php" target="_blank">Mikkel Llaven <br> Ing.
-                        Software</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="MAIN_FAQ">
-            <h2>¿Tienes <br> alguna duda?</h2>
-
-            <div class="FAQ_LIST">
-                <div class="FAQ_LIST_ITEM">
-                    <h3>¿Puedo solicitar solo el diseño sin desarrollo web?</h3>
-                    <p>
-                        Sí. Ofrecemos <span>servicios modulares</span>:
-                        puedes contratar únicamente el diseño, el desarrollo o ambos.
-                        Adaptamos cada proyecto a tus necesidades y presupuesto.
-                    </p>
-                </div>
-
-                <div class="FAQ_LIST_ITEM">
-                    <h3>¿Qué necesito para comenzar un proyecto con ustedes?</h3>
-                    <p>
-                        Solo necesitamos una breve descripción de tu <span>idea o negocio</span>.
-                        A partir de eso, te ayudamos a definir objetivos, estilo visual, estructura del sitio
-                        y funcionalidad necesaria para iniciar el desarrollo.</p>
-                </div>
-
-                <div class="FAQ_LIST_ITEM">
-                    <h3>¿Cada sitio o marca se diseña desde una plantilla o es totalmente personalizado?</h3>
-                    <p>
-                        Cada proyecto es único. En MLA Studio diseñamos y desarrollamos desde cero,
-                        <span>basándonos en la identidad, objetivos y público</span> de cada cliente.
-                    </p>
-                </div>
-            </div>
-
-        </section>
-    </main>
-
-    <footer class="MLA_footer">
-        <h2>Ponte en contacto conmigo</h2>
-        <div class="footer_contact">
-            <div class="footer_contact_item">
-                <img src="assets/img/icons/whatsapp.png" alt="WhatsApp">
-                <h3>WhatsApp</h3>
-                <a href="https://wa.me/529211521131" target="_blank">Enviar Mensaje</a>
-            </div>
-
-            <div class="footer_contact_item">
-                <img src="assets/img/icons/email.png" alt="Email">
-                <h3>Email</h3>
-                <a href="mailto:mikkel_03@outlook.com" target="_blank">mikkel_03@outlook.com</a>
-            </div>
-
-            <div class="footer_contact_item">
-                <img src="assets/img/icons/contact.png" alt="Contact Number">
-                <h3>Mi contacto</h3>
-                <a href="tel:+529211521131" target="_blank">921 152 1131</a>
-            </div>
+            <a class="btn btn--ghost" href="#hacemos">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                <path d="M3 1.5v13l11-6.5z" />
+              </svg>
+              Conocer MLA Studio
+            </a>
+          </div>
         </div>
 
-        <p class="copyright">Copyright © 2026 Mikkel Llaven Alonso | Todos los derechos reservados | Designed & built by
-            <a href="../../ProfileX/MikkelAlonso/index.php" target="_blank">Mikkel Llaven Alonso</a>
-        </p>
-    </footer>
+        <div class="demo" aria-label="Ejemplo: una idea convertida en sistema">
+          <div class="demo__top"><b></b><b></b><b></b><span>De una necesidad a una solución.</span></div>
+          <div class="demo__idea" id="idea"></div>
+          <div class="demo__arrow">Nosotros lo convertimos en:</div>
+          <ul class="demo__mods" id="mods"></ul>
+        </div>
 
-    <!-- NavBar script -->
-    <script src="assets/js/navBar.js" defer></script>
-    <!-- Carrousel items script -->
-    <script src="assets/js/carrousel_items.js" defer></script>
-    <!-- Scroll Reveal script -->
-    <script src="assets/js/scroll_reveal.js" defer></script>
-    <!-- Caption Text script -->
-    <script src="assets/js/carrousel_text.js" defer></script>
-    <!-- Experiencies Carrousel script -->
-    <script src="assets/js/carrousel_3D.js" defer></script>
+        <div class="caps">
+          <div><svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16" />
+            </svg>Software a medida</div>
+          <div><svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3l9 5-9 5-9-5zM3 13l9 5 9-5M3 17.5l9 5 9-5" />
+            </svg>Desarrollo web</div>
+          <div><svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13 2L4 14h7l-1 8 9-12h-7z" />
+            </svg>Automatización de procesos</div>
+          <div><svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 20l1-4L16.5 4.5a2.1 2.1 0 013 3L8 19z" />
+            </svg>Diseño y presencia digital</div>
+        </div>
+        <div class="scroll"><span class="scroll__mouse"></span>Desliza para explorar</div>
+      </div>
+    </div>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Automatización</span>
+        <span>Software a medida</span>
+        <span>Páginas web</span>
+        <span>Aplicaciones móviles</span>
+        <span>Landing pages</span>
+        <span>Portafolios</span>
+        <span>Branding</span>
+        <span>Diseño digital</span>
+
+        <span>Automatización</span>
+        <span>Software a medida</span>
+        <span>Páginas web</span>
+        <span>Aplicaciones móviles</span>
+        <span>Portafolios</span>
+        <span>Landing pages</span>
+        <span>Branding</span>
+        <span>Diseño digital</span>
+      </div>
+    </div>
+
+    <!-- SERVICIOS -->
+    <section id="hacemos" class="section">
+      <div class="wrap">
+        <div class="head rv">
+          <h2>Creamos las herramientas que tu negocio necesita.</h2>
+          <p class="lead">
+            Puedes contratar una sola cosa o el proceso completo. Cada proyecto se hace desde cero, no con plantillas.
+          </p>
+        </div>
+
+        <div class="three">
+          <article class="card card--hl rv">
+            <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16" />
+              </svg></div>
+
+            <h3>Aplicaciones a medida</h3>
+
+            <p>Sistemas y apps hechos para tu forma de trabajar. Eliminamos tareas manuales y repetitivas.</p>
+
+            <ul>
+              <li>Sistemas y plataformas web</li>
+              <li>Apps web y móviles</li>
+              <li>Automatización de procesos</li>
+            </ul>
+          </article>
+
+          <article class="card rv d1">
+            <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="4" width="18" height="16" rx="2" />
+                <path d="M3 9h18M7 14h5" />
+              </svg></div>
+
+            <h3>Páginas web</h3>
+
+            <p>
+              Sitios rápidos, modernos y adaptables a cualquier dispositivo,
+              diseñados para presentar tu negocio, atraer clientes y generar oportunidades.
+            </p>
+
+            <ul>
+              <li>Landing pages</li>
+              <li>Sitios para negocios</li>
+              <li>Portafolios profesionales</li>
+            </ul>
+          </article>
+
+          <article class="card rv d2">
+            <div class="ico">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.5 6.7 19.4l1.2-6L3.4 9.3l6-.7z" />
+              </svg>
+            </div>
+
+            <h3>Identidad y presencia digital</h3>
+
+            <p>Construimos una imagen profesional y coherente para que tu marca tenga personalidad, se diferencie y
+              conecte con su público.</p>
+
+            <ul>
+              <li>Identidad visual y diseño de marca</li>
+              <li>Material digital y promocional</li>
+              <li>Tarjetas de presentación digitales</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="web" class="section section--deep">
+      <div class="wrap">
+        <div class="head rv">
+          <h2>Todo listo para estar en línea.</h2>
+
+          <p class="lead">
+            Desde portafolios profesionales hasta páginas diseñadas para atraer clientes. Con nuestros propios dominios
+            y alojamiento, publicar tu proyecto es mucho más sencillo.
+          </p>
+        </div>
+
+        <div class="prod">
+          <article class="pc rv">
+            <h3>PageCraft</h3>
+
+            <p>
+              Landing pages y sitios web pensados para que un visitante se convierta en cliente: informan, captan datos
+              y guían a la acción.
+            </p>
+
+            <span class="pc__for">Para emprendedores, negocios, eventos y marcas.</span>
+
+            <div class="product-preview product-preview--pagecraft">
+              <img src="/assets/img/PageCraft - copia.png" alt="Vista previa de PageCraft" loading="lazy" />
+            </div>
+
+            <a class="btn btn--ghost btn--sm pc__link" href="https://mlastdio.com/PageCraft/" target="_blank"
+              rel="noopener">Conocer PageCraft</a>
+          </article>
+
+          <article class="pc rv d1">
+            <h3>ProfileX</h3>
+
+            <p>
+              Portafolios digitales profesionales para mostrar tu talento, tus proyectos y tu experiencia, y atraer
+              nuevas oportunidades.
+            </p>
+
+            <span class="pc__for">Para freelancers, artistas, fotógrafos, creadores de contenido y profesionales.</span>
+
+            <div class="product-preview product-preview--profilex">
+              <img src="/assets/img/ProfileX - copia.png" alt="Vista previa de ProfileX" loading="lazy" />
+            </div>
+
+            <a class="btn btn--ghost btn--sm pc__link" href="https://mlastdio.com/ProfileX/" target="_blank"
+              rel="noopener">Conocer ProfileX</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section id="proceso" class="section">
+      <div class="wrap">
+        <div class="head rv">
+          <h2>Cómo trabajamos contigo.</h2>
+          <p class="lead">Solo necesitas una breve descripción de tu idea o negocio. Nosotros nos encargamos del resto.
+          </p>
+        </div>
+        <ol class="steps" id="steps">
+          <li>
+            <h3>Escuchamos</h3>
+            <p>Entendemos tu negocio y lo que quieres lograr.</p>
+          </li>
+          <li>
+            <h3>Analizamos</h3>
+            <p>Definimos objetivos, estilo y funciones necesarias.</p>
+          </li>
+          <li>
+            <h3>Proponemos</h3>
+            <p>Te presentamos una solución clara y a tu presupuesto.</p>
+          </li>
+          <li>
+            <h3>Desarrollamos</h3>
+            <p>Lo construimos, lo publicamos y te acompañamos.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section section--deep section--compact">
+      <div class="wrap">
+        <div class="head head--tight rv">
+          <h2>Experiencias impulsadas</h2>
+          <p class="lead">
+            Desde plataformas y sistemas personalizados hasta sitios web y portafolios. Así convertimos
+            necesidades en experiencias digitales.
+          </p>
+        </div>
+      </div>
+
+      <div class="proj rv" aria-label="Proyectos y clientes">
+        <div class="proj__track">
+          <a class="pj" href="https://app.mudanzafacil.com.mx/bienvenida" target="_blank" rel="noopener">
+            <span class="pj__logo"><img src="assets/img/MudanzaFacil.png" alt=""><b>MF</b></span>
+            <span class="pj__name">Mudanza Fácil</span>
+          </a>
+
+          <a class="pj" href="https://buskapp.co/" target="_blank" rel="noopener">
+            <span class="pj__logo"><img
+                src="https://res.cloudinary.com/bcyzogrf/image/upload/v1792562052/buska-isotipo-color.svg"
+                alt=""><b>B</b></span>
+            <span class="pj__name">BUSKA</span>
+          </a>
+
+          <a class="pj" href="https://www.hferr.com/" target="_blank" rel="noopener">
+            <span class="pj__logo"><img src="assets/img/HFERR.ico" alt=""><b>H</b></span>
+            <span class="pj__name">HFERR Consulting</span>
+          </a>
+
+          <a class="pj" href="https://www.wisconsign.co/" target="_blank" rel="noopener">
+            <span class="pj__logo"><img src="assets/img/WISCONSIGN.avif" alt=""><b>W</b></span>
+            <span class="pj__name">WISCONSIGN</span>
+          </a>
+
+          <a class="pj" href="https://mlastdio.com/PageCraft/CRUANPA/" target="_blank" rel="noopener">
+            <span class="pj__logo"><img src="assets/img/cruanpaLogo.png" alt=""><b>C</b></span>
+            <span class="pj__name">CRUANPA</span>
+          </a>
+
+          <a class="pj" href="https://mlastdio.com/PageCraft/BLOMSTARS/" target="_blank" rel="noopener">
+            <span class="pj__logo"><img src="PageCraft/assets/img/BLOMSTARS/flor.png" alt=""><b>BL</b></span>
+            <span class="pj__name">BLOMSTARS</span>
+          </a>
+
+          <a class="pj" href="https://mlastdio.com/PageCraft/Valant/" target="_blank" rel="noopener">
+            <span class="pj__logo"><img src="PageCraft/assets/img/Valant/icon.png" alt=""><b>V</b></span>
+            <span class="pj__name">Valant</span>
+          </a>
+
+          <a class="pj" href="https://mlastdio.com/karlademariamisxv/" target="_blank" rel="noopener">
+            <span class="pj__logo"><img src="karlademariamisxv/assets/img/flor.png" alt=""><b>XVs</b></span>
+            <span class="pj__name">Mis XVs</span>
+          </a>
+
+          <a class="pj" href="https://mlastdio.com/ProfileX/EstrellaRamos/" target="_blank" rel="noopener">
+            <span class="pj__logo"><img src="ProfileX/assets/img/EstrellaRamos/photo.svg" alt=""><b>ER</b></span>
+            <span class="pj__name">Estrella Ramos</span>
+          </a>
+
+          <a class="pj" href="https://mlastdio.com/ProfileX/MikkelAlonso/" target="_blank" rel="noopener">
+            <span class="pj__logo"><img src="ProfileX/assets/img/Mikkel/Mikkel/Mikkel 1.png" alt=""><b>ML</b></span>
+            <span class="pj__name">Mikkel Llaven</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+      <div class="wrap faq-grid">
+        <div class="faq-intro rv">
+          <h2>Preguntas frecuentes.</h2>
+
+          <p class="lead">Lo que más nos preguntan antes de empezar. Si no ves tu duda aquí, escríbenos.</p>
+
+          <a class="btn btn--outline" href="https://wa.me/5219211251131?text=Saludos%20tengo%20una%20duda"
+            target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 20l1.2-4A8.5 8.5 0 1 1 8.2 18.9z" />
+              <path d="M9 9.5c.5 2 2 3.5 4.5 4.5l1.2-1.2" />
+            </svg>
+            Preguntar por WhatsApp
+          </a>
+        </div>
+
+        <div class="faq rv d1">
+          <details open>
+            <summary>¿Puedo contratar solo el diseño o solo el desarrollo?</summary>
+            <p>Sí. Los servicios son modulares: puedes contratar solo el diseño, solo el desarrollo o ambos. Adaptamos
+              cada proyecto a tus necesidades y presupuesto.</p>
+          </details>
+
+          <details>
+            <summary>¿Qué necesito para empezar?</summary>
+            <p>Solo una breve descripción de tu idea o negocio. Con eso te ayudamos a definir objetivos, estilo visual,
+              estructura y funciones.</p>
+          </details>
+
+          <details>
+            <summary>¿Usan plantillas?</summary>
+            <p>No. Cada proyecto se diseña y desarrolla desde cero, según la identidad, los objetivos y el público de
+              cada cliente.</p>
+          </details>
+
+          <details>
+            <summary>¿Cuánto tarda un proyecto?</summary>
+            <p>Depende del alcance. Una landing o un portafolio requiere menos tiempo que un sistema a medida. Después
+              de escucharte, te damos un tiempo estimado junto con la propuesta.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section contact">
+      <div class="wrap contact__grid">
+        <div class="rv">
+          <h2>Tu idea merece algo <span class="grad">hecho a su medida.</span></h2>
+          <p class="lead">Escríbenos y cuéntanos qué quieres construir o qué proceso quieres mejorar. También puedes
+            agendar una reunión.</p>
+        </div>
+
+        <div class="ways rv d1">
+          <a class="way way--main" href="https://wa.me/5219211251131?text=Saludos%20vengo%20de%20MLA%20Studio"
+            target="_blank" rel="noopener">
+            <span class="way__ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 20l1.2-4A8.5 8.5 0 1 1 8.2 18.9z" />
+                <path d="M9 9.5c.5 2 2 3.5 4.5 4.5l1.2-1.2" />
+              </svg></span>
+            <span class="way__txt"><span class="way__label">WhatsApp</span><b class="way__value">921 125 1131</b></span>
+            <span class="way__go"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg></span>
+          </a>
+
+          <a class="way" href="https://calendar.app.google/Cm6Y2HLMX4Tkx2qu8" target="_blank" rel="noopener">
+            <span class="way__ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="16" rx="2" />
+                <path d="M3 10h18M8 3v4M16 3v4" />
+              </svg></span>
+            <span class="way__txt"><span class="way__label">Agendar una reunión</span><b class="way__value">Elige día y
+                hora</b></span>
+            <span class="way__go"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg></span>
+          </a>
+
+          <a class="way" href="mailto:mikkel_03@outlook.com">
+            <span class="way__ico"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="M3 7l9 6 9-6" />
+              </svg></span>
+            <span class="way__txt"><span class="way__label">Correo</span><b
+                class="way__value">mikkel_03@outlook.com</b></span>
+            <span class="way__go"><svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" />
+              </svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="site-footer__grid">
+        <div class="site-footer__brand">
+          <a class="logo" href="#top" aria-label="MLA Studio, inicio">
+            <img src="assets/img/MLA.png" alt="MLA" height="30">
+          </a>
+
+          <p>Software, diseño y experiencias digitales. De una idea a una solución digital.</p>
+        </div>
+
+        <nav aria-label="Navegación del pie">
+          </ul>
+        </nav>
+
+        <div>
+          <h4>Conecta con nosotros</h4>
+          <ul class="site-footer__links">
+            <li>
+              <a href="https://calendar.app.google/Cm6Y2HLMX4Tkx2qu8" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="16" rx="2" />
+                  <path d="M3 10h18M8 3v4M16 3v4" />
+                </svg>
+                Agendar una reunión
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/mla_stud10/" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+                </svg>
+                Instagram @mla_stud10
+              </a>
+            </li>
+
+            <li>
+              <a href="https://g.page/r/CeEK-UOA8X3KEBM/review" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3l2.6 5.6 6 .7-4.5 4.1 1.2 6L12 16.5 6.7 19.4l1.2-6L3.4 9.3l6-.7z" />
+                </svg>
+                Déjanos una reseña en Google
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="site-footer__bottom">
+        <span>© 2026 MLA Studio. Todos los derechos reservados.</span>
+        <a href="#top">Volver arriba ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="wa" href="https://wa.me/529211251131" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        d="M12 2a10 10 0 00-8.5 15.3L2 22l4.8-1.4A10 10 0 1012 2zm5.2 14c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.2-.7-2.7-1.1-4.4-3.8-4.6-4-.1-.2-1.1-1.4-1.1-2.7s.7-1.9.9-2.2c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.6-.3.3c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.1 1 2.1 1.3 2.4 1.5.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.1.1.6-.1 1.2z" />
+    </svg>
+  </a>
+
+  <script src="assets/js/main.js" defer></script>
 </body>
 
 </html>
